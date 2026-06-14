@@ -6,6 +6,7 @@ import {
   getHeaderNavigationItems,
 } from "../../lib/docs";
 import { Close, Email, Menu, Moon, Sun } from "./elements/Elements";
+import { getSectionLabel } from "../../lib/section-labels";
 
 type ThemeMode = "light" | "dark";
 
@@ -107,7 +108,8 @@ export default function Header({
           <div className="flex items-center gap-2">
             {currentPage?.sectionName ? (
               <span className="hidden rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-emerald-700 dark:border-emerald-500/30 dark:bg-emerald-500/10 dark:text-emerald-300 xl:inline-flex">
-                {currentPage.sectionName}
+                {/* {currentPage.sectionName} */}
+                {getSectionLabel(currentPage.sectionName)}
               </span>
             ) : null}
 

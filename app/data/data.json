@@ -41,170 +41,121 @@
       "sidebar": false,
       "header": true
     },
-      {
-      "type": "multipage",
-      "name": "Welcome to Rico",
-      "href": "/welcome-to-rico",
+{
+  "type": "multipage",
+  "name": "About Rico",
+  "href": "/about-rico",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Welcome to Rico"
+    },
+    {
+      "type": "subheading",
+      "content": "Thank you for choosing Rico. This documentation will help you set up, customize, and manage your store using the theme."
+    },
+    {
+      "type": "paragraph",
+      "content": "Rico is built on Shopify Online Store 2.0 and is designed to provide a flexible and customizable foundation for a wide range of businesses. Whether you are launching a new store or updating an existing one, Rico provides the tools needed to create a professional shopping experience."
+    },
+    {
+      "type": "section",
       "contents": [
         {
           "type": "heading",
-          "level": 1,
-          "content": "Where Simplicity Meets Precision"
-        },
-        {
-          "type": "subheading",
-          "content": "Welcome to Rico — a currency converter built not just for functionality, but for a seamless global shopping experience that builds trust and drives conversions."
+          "level": 2,
+          "content": "Getting Started"
         },
         {
           "type": "paragraph",
-          "content": "Rico is more than just a currency switcher — it's the foundation of your international eCommerce strategy. It embodies precision, flexibility, and intelligent design tailored to meet the dynamic needs of modern Shopify merchants. In a digital world where every detail matters, Rico ensures your store speaks every customer's language, including their currency."
+          "content": "Before customizing your storefront, we recommend completing the basic store setup within Shopify."
         },
         {
-          "type": "section",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 2,
-              "content": "What Sets Rico Apart?"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Real-Time Exchange Rates:</strong> Rico syncs exchange rates automatically so your prices are always accurate, protecting your margins without any manual work.",
-                "<strong>Smart Geolocation:</strong> Visitors are automatically shown prices in their local currency based on their IP location — no extra steps required.",
-                "<strong>Lightweight & Fast:</strong> Rico loads via an asynchronous Theme Embed script, meaning zero impact on your store's page speed or SEO.",
-                "<strong>Next-Level Customization:</strong> With Rico's widget wizard, you aren't confined to a single look. Control position, colors, flag styles, and display modes to match your brand perfectly.",
-                "<strong>User-Centric Experience:</strong> Designed with your customers in mind, Rico ensures every price interaction is smooth, intuitive, and optimized for conversion.",
-                "<strong>Seamless Shopify Integration:</strong> Rico integrates directly into your Shopify theme without touching your store's core code."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "section",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 2,
-              "content": "Requirements"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Shopify Plan:</strong> Basic Shopify or higher.",
-                "<strong>Supported Browsers:</strong> Chrome, Firefox, Safari, Edge (latest 2 versions).",
-                "<strong>Theme Compatibility:</strong> Works with all Shopify Online Store 2.0 themes."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "content": "Start now, and let Rico power your store's global reach — one currency at a time."
-        }
-      ],
-      "pages": [
-        {
-          "name": "Analytics & Support",
-          "href": "/welcome-to-rico/analytics-support",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 1,
-              "content": "Analytics & Support"
-            },
-            {
-              "type": "paragraph",
-              "content": "Monitor your global performance directly from the dashboard and get help whenever you need it."
-            },
-            {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Real-Time Analytics"
-                },
-                {
-                  "type": "paragraph",
-                  "content": "Track how visitors interact with the app from your dashboard."
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Metrics",
-                  "items": [
-                    "Sessions this week: See how many unique visitors triggered the app.",
-                    "Currency Switches: Track how many times customers used the wizard to change prices."
-                  ]
-                },
-                {
-                  "type": "image",
-                  "url": "/img5.png"
-                }
-              ]
-            },
-            {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Common Questions & Support"
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Support options",
-                  "items": [
-                    "FAQ: View frequently asked questions and answers directly on the dashboard.",
-                    "Live Support: Click the Live Support Chat Icon or the Contact Us button located at the bottom of the dashboard."
-                  ]
-                }
-              ]
-            }
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Add products and collections.",
+            "Upload your logo and brand assets.",
+            "Configure store navigation and menus.",
+            "Review theme settings and customize sections.",
+            "Preview your store on desktop and mobile devices.",
+            "Test the customer journey before publishing."
           ]
         }
-      ],
-      "sidebar": true,
-      "header": false
+      ]
     },
     {
-      "type": "multipage",
-      "name": "Install Theme",
-      "href": "/installation/install-theme",
+      "type": "section",
       "contents": [
         {
-          "type": "heading",  
+          "type": "heading",
+          "level": 2,
+          "content": "Customization"
+        },
+        {
+          "type": "paragraph",
+          "content": "Rico supports Shopify's Theme Editor, allowing you to customize layouts, content, colors, typography, and sections without editing code."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Theme Compatibility"
+        },
+        {
+          "type": "paragraph",
+          "content": "Rico is built for Shopify Online Store 2.0 and supports Shopify's modern theme architecture, including sections, app blocks, and dynamic content."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Use the navigation menu to explore additional guides and resources available throughout the documentation."
+    }
+  ],
+  "pages": [
+    {
+      "name": "Install Theme",
+      "href": "/about-rico/install-theme",
+      "contents": [
+        {
+          "type": "heading",
           "level": 1,
           "content": "Install Theme"
         },
         {
           "type": "subheading",
-          "content": "Configure supported currencies, location-based switching, and how storefront prices are displayed."
+          "content": "Add Rico to your store and preview before publishing."
         },
-
+        {
+          "type": "paragraph",
+          "content": "You can run multiple themes in your library but only one is live at a time. Duplicating or previewing lets you test without touching the published storefront."
+        },
         {
           "type": "section",
           "contents": [
             {
               "type": "heading",
               "level": 2,
-              "content": "General Settings"
+              "content": "Try Rico free"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "In Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+                "Click <strong>Add theme</strong> &rarr; <strong>Visit Theme Store</strong>.",
+                "Find Rico and click <strong>Try theme</strong>."
+              ]
             },
             {
               "type": "paragraph",
-              "content": "Use the currency page to control which currencies are available to your visitors."
-            },
-            {
-              "type": "paragraph",
-              "content": "<strong>Active currencies:</strong> Pick the currencies your store supports. Your base currency is automatically included."
-            },
-            {
-              "type": "image",
-              "url": "/img4.png"
+              "content": "Trial themes show a <strong>Theme trial</strong> label. Customizations you make during the trial carry over if you purchase."
             }
           ]
         },
@@ -214,161 +165,84 @@
             {
               "type": "heading",
               "level": 2,
-              "content": "Location-Based Switching"
+              "content": "Buy and publish"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "In <strong>Theme library</strong>, open your Rico trial.",
+                "Click <strong>Buy</strong> and complete checkout.",
+                "When ready, click <strong>Publish</strong> to make it live."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Paid themes are licensed to the store where they were purchased. You need <strong>Themes</strong> and <strong>billing</strong> permissions to buy."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Work safely with copies"
             },
             {
               "type": "list",
               "ordered": false,
-              "label": "Available controls",
               "items": [
-                "Auto-detect visitor location: Automatically shows local currency based on IP. Note: This will not work if the customer is using a VPN.",
-                "Exclude Specific Regions: Prevent auto-switching for specific countries if desired.",
-                "Fallback Currency: Displays your store's default currency if the visitor's location is not in your active list."
+                "Duplicate your live theme before major edits.",
+                "Use preview share links to gather feedback before publishing.",
+                "Most stores can hold up to 20 themes — remove old copies if you hit the limit."
               ]
-            },
-            {
-              "type": "image",
-              "url": "/img6.png"
             }
           ]
         },
         {
-          "type": "section",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 2,
-              "content": "Price Display Format"
-            },
-            {
-              "type": "paragraph",
-              "content": "Choose how your prices appear throughout the storefront."
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "Display options",
-              "items": [
-                "Without Currency Code: e.g., $9.99",
-                "With Currency Code: e.g., $9.99 USD",
-                "Currency Code Only: e.g., 9.99 USD"
-              ]
-            },
-            {
-              "type": "image",
-              "url": "/img7.png"
-            }
-          ]
+          "type": "paragraph",
+          "content": "After install, start with <a href=\"/about-rico/editing-your-theme\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Editing your theme</a>. Help and docs links are under Theme actions in the editor — see <a href=\"/about-rico/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
-      ],
-      "pages": [
-        {
-          "name": "Install Apps",
-          "href": "/installation/install-apps",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 1,
-              "content": "Design"
-            },
-            {
-              "type": "paragraph",
-              "content": "Fine-tune the widget's appearance and behavior to match your storefront."
-            },
-            {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Visual Customization"
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Style options",
-                  "items": [
-                    "Display Mode: Choose to show the Currency Code (US Dollar) or the Country Name (United States).",
-                    "Flag Style: Select between 2D flags, 3D flags, or No Flag."
-                  ]
-                },
-                {
-                  "type": "image",
-                  "url": "/img8.png"
-                }
-              ]
-            },
-            {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Behavior & User Experience"
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Behavior controls",
-                  "items": [
-                    "Wizard Theme: Switch between Light and Dark modes to match your store design.",
-                    "Original Price on Hover: Allow customers to see the original store price when they hover their mouse or touch the price."
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "sidebar": true,
-      "header": false
+      ]
     },
     {
-      "type": "multipage",
-      "name": "Logo and Favicon",
-      "href": "/theme-settings/logo-favicon",
+      "name": "Editing Your Theme",
+      "href": "/about-rico/editing-your-theme",
       "contents": [
         {
           "type": "heading",
           "level": 1,
-          "content": "Logo and Favicon"
+          "content": "Editing Your Theme"
         },
         {
           "type": "subheading",
-          "content": "Customize the appearance and behavior of the currency widget to match your brand."
+          "content": "Customize layout, content, and style in the theme editor — no code required."
         },
-
+        {
+          "type": "paragraph",
+          "content": "The theme editor is a visual workspace for your templates. Changes apply to the theme you're customizing; publish when you're ready for customers to see them."
+        },
         {
           "type": "section",
           "contents": [
             {
               "type": "heading",
               "level": 2,
-              "content": "General Tab"
+              "content": "Open the editor"
             },
             {
               "type": "list",
-              "ordered": false,
-              "label": "General settings",
+              "ordered": true,
               "items": [
-                "Base Currency: Set the core currency used for all conversions.",
-                "App Behavior: Control the storefront wizard visibility.",
-                "Enable Currency Conversion: Unchecking this option will immediately stop all currency conversions on your storefront.",
-                "Remember Visitor Preference: Uses browser local storage to save the customer's preferred currency until they clear their cookies.",
-                "Exchange Rate Update: Rates sync every 6, 12, 24, or 48 hours based on your settings."
+                "Go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+                "Click <strong>Customize</strong> on the theme you want to edit."
               ]
             },
             {
               "type": "paragraph",
-              "content": "<strong>Important Note:</strong> To restore Shopify's default currency behavior, you must revert the changes made to your Shopify Currency Formatting settings."
-            },
-            {
-              "type": "paragraph",
-              "content": "<strong>Restoring Defaults:</strong> If you choose to uninstall the app or want to return to your original store look, go to your Shopify Admin settings and clear all the input fields where you previously added the Qorix code. Once these fields are empty and saved, Shopify will automatically revert to its native price formatting."
-            },
-            {
-              "type": "image",
-              "url": "/img9.png"
+              "content": "The left sidebar lists sections and blocks for the current template. Theme settings (gear icon) holds storewide defaults — colors, fonts, cards, and cart behavior."
             }
           ]
         },
@@ -378,153 +252,744 @@
             {
               "type": "heading",
               "level": 2,
-              "content": "Danger Zone"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "High impact actions",
-              "items": [
-                "Reset All Settings: Restores all currency and widget settings to defaults. Clears active selections.",
-                "Clear Visitor Cookies: Removes saved preferences from all visitor browsers on their next page load."
-              ]
-            },
-            {
-              "type": "image",
-              "url": "/img10.png"
-            }
-          ]
-        }
-      ],
-      "pages": [
-        {
-          "name": "Settings General",
-          "href": "/settings-page/settings-general",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 1,
-              "content": "Settings Page"
+              "content": "Navigate templates and pages"
             },
             {
               "type": "paragraph",
-              "content": "Use this tab to preview placement, control visibility, and match the widget to your brand."
+              "content": "Use the top template menu to switch pages — home, product, collection, cart, blog, and others. Click <strong>Change</strong> in the preview bar to preview with a specific product, collection, or blog post loaded."
             },
             {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Widget Placement"
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Placement options",
-                  "items": [
-                    "Positioning: Set the wizard position exactly where you want it.",
-                    "Custom Injection: Use a specific CSS Class or ID to inject the widget into a custom part of your theme.",
-                    "Edge Offsets: Adjust the distance from the screen edges for both mobile and desktop."
-                  ]
-                },
-                {
-                  "type": "image",
-                  "url": "/img11.png"
-                }
-              ]
-            },
-            {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Branding & Visibility"
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Branding controls",
-                  "items": [
-                    "Full Branding: Change the background and text colors to match your store's exact branding.",
-                    "Device Visibility: Choose to hide the wizard on specific devices (for example, hide on mobile but show on desktop) while keeping currency conversion active."
-                  ]
-                },
-                {
-                  "type": "image",
-                  "url": "/img12.png"
-                }
-              ]
+              "type": "paragraph",
+              "content": "The <strong>Header</strong> and <strong>Footer</strong> groups are global: edits there appear on every page."
             }
           ]
         },
         {
-          "name": "Widget Preview",
-          "href": "/settings-page/widget-preview-tab",
+          "type": "section",
           "contents": [
             {
               "type": "heading",
-              "level": 1,
-              "content": "Widget Preview Tab"
+              "level": 2,
+              "content": "Add, move, and hide content"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Add section</strong> — use + above or below a section, or the <strong>Add section</strong> button in the sidebar.",
+                "<strong>Add block</strong> — open a section and click <strong>Add block</strong>.",
+                "<strong>Reorder</strong> — drag the handle on a section or block.",
+                "<strong>Hide</strong> — click the eye icon to hide without deleting settings.",
+                "<strong>Remove</strong> — select the item and click <strong>Remove section</strong> or <strong>Remove block</strong>."
+              ]
             },
             {
               "type": "paragraph",
-              "content": "Use this tab to preview placement, control visibility, and match the widget to your brand."
-            },
-            {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Widget Placement"
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Placement options",
-                  "items": [
-                    "Positioning: Set the wizard position exactly where you want it.",
-                    "Custom Injection: Use a specific CSS Class or ID to inject the widget into a custom part of your theme.",
-                    "Edge Offsets: Adjust the distance from the screen edges for both mobile and desktop."
-                  ]
-                },
-                {
-                  "type": "image",
-                  "url": "/img11.png"
-                }
-              ]
-            },
-            {
-              "type": "section",
-              "contents": [
-                {
-                  "type": "heading",
-                  "level": 2,
-                  "content": "Branding & Visibility"
-                },
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "label": "Branding controls",
-                  "items": [
-                    "Full Branding: Change the background and text colors to match your store's exact branding.",
-                    "Device Visibility: Choose to hide the wizard on specific devices (for example, hide on mobile but show on desktop) while keeping currency conversion active."
-                  ]
-                },
-                {
-                  "type": "image",
-                  "url": "/img12.png"
-                }
-              ]
+              "content": "Click <strong>Save</strong> to apply. Undo/redo works until you save."
             }
           ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Use the preview inspector"
+            },
+            {
+              "type": "paragraph",
+              "content": "Toggle the preview inspector in the top bar, then click any outlined area on the live preview to jump straight to that section or block's settings. Switch desktop, mobile, and full-screen preview icons to check responsive layouts."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Duplicate before big changes"
+            },
+            {
+              "type": "paragraph",
+              "content": "In <strong>Online Store</strong> &rarr; <strong>Themes</strong>, click <strong>&hellip;</strong> &rarr; <strong>Duplicate</strong> on your live theme. Customize the copy, then publish when satisfied."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "Storewide options live under <strong>Theme settings</strong> — start with <strong>Colors</strong>, <strong>Fonts</strong>, and <strong>Layout</strong>. For help, see <a href=\"/about-rico/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
-      ],
-      "sidebar": true,
-      "header": false
+      ]
     },
+    {
+      "name": "Theme Support",
+      "href": "/about-rico/theme-support",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Theme Support"
+        },
+        {
+          "type": "subheading",
+          "content": "Documentation, contact options, and what support covers."
+        },
+        {
+          "type": "paragraph",
+          "content": "Rico is a paid theme — support comes from the theme developer, not Shopify's free-theme design team."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Open docs or contact support"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+                "Click <strong>Customize</strong> on Rico.",
+                "Open <strong>Theme actions</strong> (top bar).",
+                "Choose <strong>View documentation</strong> or <strong>Get support</strong>."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Documentation covers theme settings, sections, and common tasks. Support handles bugs, setup questions, and guidance on built-in settings."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "What support covers"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Questions about Rico settings and sections.",
+                "Troubleshooting theme behavior.",
+                "Guidance on using the theme editor."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Support does not include custom code, third-party app integration, checkout edits, image retouching, or changes to themes with heavy code modifications."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Supported browsers"
+            },
+            {
+              "type": "paragraph",
+              "content": "Rico targets current versions of Safari, Chrome, Firefox, and Edge on desktop, and Mobile Safari, Chrome Mobile, and Samsung Internet on mobile. Test major changes in your target browsers before publishing."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "Shopify's general theme guides are available at <a href=\"https://help.shopify.com/en/manual/online-store/themes\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">help.shopify.com/manual/online-store/themes</a>. For app-related issues, contact the app developer via <strong>Settings</strong> &rarr; <strong>Apps and sales channels</strong> &rarr; <strong>Get support</strong>."
+        }
+      ]
+    }
+  ],
+  "sidebar": true,
+  "header": false
+},
+  {
+  "type": "multipage",
+  "name": "Logo and Favicon",
+  "href": "/theme-settings/logo-favicon",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Logo and Favicon"
+    },
+    {
+      "type": "subheading",
+      "content": "Configure your store's logo and favicon displayed across the storefront."
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Logo"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Default logo:</strong> Select the image used as your store logo in the header and other logo locations throughout the theme.",
+            "<strong>Max Width:</strong> Controls the maximum width of the logo in pixels. Increasing the value makes the logo appear larger; decreasing it makes the logo appear smaller. (Default: 72px)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Favicon"
+        },
+        {
+          "type": "paragraph",
+          "content": "Select the favicon displayed in browser tabs and bookmarks. For best results, use a square image sized 32 &times; 32 pixels."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "Colors",
+      "href": "/theme-settings/colors",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Colors"
+        },
+        {
+          "type": "subheading",
+          "content": "Customize the colors used throughout your store to match your brand identity."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Color Schemes"
+            },
+            {
+              "type": "paragraph",
+              "content": "Color schemes control the colors used throughout your store. By creating multiple color schemes, you can assign different color combinations to sections and create visual contrast while maintaining a consistent brand identity."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "How to manage color schemes",
+              "items": [
+                "<strong>View or edit:</strong> Go to <strong>Theme Settings</strong> &rarr; <strong>Colors</strong> in the customizer to view, edit, or create color schemes.",
+                "<strong>Add a new scheme:</strong> Click <strong>Add Scheme</strong> to create a new color scheme. Once created, you can customize the colors and assign the scheme to supported sections.",
+                "<strong>Edit a scheme:</strong> Select an existing color scheme to modify its colors. Changes are automatically reflected in any sections using that scheme.",
+                "<strong>Apply a scheme:</strong> Color schemes can be applied to supported sections across your store — for example, a light scheme for content sections and a dark scheme for promotional banners."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Editing a Color Scheme"
+            },
+            {
+              "type": "paragraph",
+              "content": "To edit a color scheme, go to <strong>Theme Settings</strong> &rarr; <strong>Colors</strong> and click on the scheme you want to modify. Any changes you make are automatically applied to all sections that use that color scheme."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Background",
+              "items": [
+                "<strong>Background:</strong> The primary background color for sections using this scheme.",
+                "<strong>Background Gradient:</strong> Optional gradient that replaces the solid background color when configured."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Text",
+              "items": [
+                "<strong>Text:</strong> The primary text color.",
+                "<strong>Secondary Text:</strong> Used for supporting or less prominent text.",
+                "<strong>Link:</strong> Color used for text links.",
+                "<strong>Icons:</strong> Color used for icons within the scheme."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Primary Button",
+              "items": [
+                "<strong>Background:</strong> Button background color.",
+                "<strong>Text:</strong> Button text color.",
+                "<strong>Border:</strong> Button border color.",
+                "<strong>Hover Text:</strong> Button text color when hovered.",
+                "<strong>Hover Background:</strong> Button background color when hovered."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Secondary Button",
+              "items": [
+                "<strong>Background:</strong> Button background color.",
+                "<strong>Text:</strong> Button text color.",
+                "<strong>Border:</strong> Button border color.",
+                "<strong>Hover Text:</strong> Button text color when hovered.",
+                "<strong>Hover Background:</strong> Button background color when hovered."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Tips for using color schemes",
+              "items": [
+                "Create multiple schemes to give different sections their own visual style while maintaining brand consistency.",
+                "Use high contrast between text and background colors to improve readability.",
+                "Preview changes across different sections to ensure colors remain accessible and visually balanced."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Removing a Color Scheme"
+            },
+            {
+              "type": "paragraph",
+              "content": "To delete a color scheme, open the scheme and click <strong>Remove color scheme</strong> at the bottom of the editor. Any sections currently using that scheme should be reassigned to another color scheme before removal."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Loading Colors"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Loading Background:</strong> Sets the background color shown during the loading state.",
+                "<strong>Loading Color:</strong> Sets the color of the loading indicator displayed while content is loading."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Other Colors"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Modal Overlay:</strong> Controls the color of the overlay displayed behind modal windows, popups, quick views, and other overlay-based components."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Typography",
+      "href": "/theme-settings/typography",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Typography"
+        },
+        {
+          "type": "subheading",
+          "content": "Customize the fonts used throughout your store to create a consistent brand experience."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Fonts"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Body:</strong> Select the font used for general content such as product descriptions, collection descriptions, paragraphs, buttons, and other standard text across the store.",
+                "<strong>Heading:</strong> Select the font used for headings and titles, including page titles, section headings, product titles, and collection titles.",
+                "<strong>Subheading:</strong> Select the font used for subheadings and secondary titles that appear between headings and body text."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Layout",
+      "href": "/theme-settings/layout",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Layout"
+        },
+        {
+          "type": "subheading",
+          "content": "Control the overall spacing and width of your store's content across different screen sizes."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Spacing"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Mobile horizontal padding:</strong> Sets the total horizontal spacing on mobile devices. The value is divided evenly between the left and right sides of the page. (Default: 40px)",
+                "<strong>Desktop horizontal padding:</strong> Sets the total horizontal spacing on desktop devices. The value is divided evenly between the left and right sides of the page. (Default: 60px)",
+                "<strong>Global maximum layout width:</strong> Defines the maximum width of the store's content area. Once the browser window exceeds this width, the content remains centered and will not continue expanding. (Default: 1920px)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Product Card",
+      "href": "/theme-settings/product-card",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Product Card"
+        },
+        {
+          "type": "subheading",
+          "content": "Configure how product cards look and behave in your store."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Card Settings"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Background color:</strong> Sets the background color of the product card. (Default: #F2F2F2)",
+                "<strong>Hover style:</strong> Controls the animation when customers hover over a product card. Options: <strong>Slide</strong> — content shifts with a sliding effect; <strong>Flip</strong> — the card flips to reveal more information.",
+                "<strong>Flip effect:</strong> Controls the animation style when Hover style is set to Flip. Options: <strong>Fade</strong> — smooth fade between front and back card content; <strong>Flip</strong> — card-flipping animation between front and back. This setting only applies when Hover style is set to Flip.",
+                "<strong>Reverse price order:</strong> Reverses the display order of product prices (for example, shows compare-at price before sale price, or vice versa)."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Badge Settings"
+            },
+            {
+              "type": "paragraph",
+              "content": "Badges are displayed based on specific conditions. If a product has a compare-at price, a discount badge will be shown. If the product is new, a <strong>New</strong> badge will appear. If the product is out of stock, an <strong>Out of Stock</strong> badge will be displayed. For custom badges, use a metafield to define your own custom text."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Show badge:</strong> Show or hide the badge on product cards.",
+                "<strong>Background color:</strong> Badge background color. (Default: #1C1C1C)",
+                "<strong>Text color:</strong> Badge text color. (Default: #FFFFFF)",
+                "<strong>Text size:</strong> Badge text size in pixels. (Default: 14px)",
+                "<strong>Font weight:</strong> Thickness of badge text. Options: Regular, Medium, Semi bold, Bold.",
+                "<strong>Text transform:</strong> Controls the capitalization of badge text. Options: Lowercase, Uppercase, Capitalize.",
+                "<strong>Top padding:</strong> Space above the badge text. (Default: 4px)",
+                "<strong>Bottom padding:</strong> Space below the badge text. (Default: 4px)",
+                "<strong>Left padding:</strong> Space to the left of the badge text. (Default: 10px)",
+                "<strong>Right padding:</strong> Space to the right of the badge text. (Default: 10px)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Card Button Settings"
+            },
+            {
+              "type": "paragraph",
+              "content": "Control the product card's Quick view and Add to cart buttons."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Show Quick view:</strong> Show or hide the Quick view button on product cards.",
+                "<strong>Show Add to cart button:</strong> Show or hide the Add to cart button on product cards.",
+                "<strong>Reverse button order:</strong> Swap the positions of the Quick view and Add to cart buttons."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Card Marquee Settings"
+            },
+            {
+              "type": "paragraph",
+              "content": "Enable this to show product cards in a scrolling marquee. The text comes from the product's Marquee metafield. If the metafield is empty, the marquee won't display any content."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Show product marquee:</strong> Enable or disable the scrolling product marquee.",
+                "<strong>Vertical padding:</strong> Vertical spacing inside the marquee. (Default: 4rem)",
+                "<strong>Direction:</strong> Sets the scrolling direction of the marquee. Options: Auto, Right to left, Left to right.",
+                "<strong>Marquee speed:</strong> Controls how fast the marquee scrolls. A lower value is faster; a higher value is slower. (Default: 170s)",
+                "<strong>Item gap:</strong> Space between product cards in the marquee. (Default: 4rem)",
+                "<strong>Marquee background color:</strong> Background color behind the scrolling product cards. (Default: #000000)",
+                "<strong>Marquee text color:</strong> Text color for any text displayed inside the marquee. (Default: #FFFFFF)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cart",
+      "href": "/theme-settings/cart",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Cart"
+        },
+        {
+          "type": "subheading",
+          "content": "Control how the shopping cart behaves when customers add products to their cart."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Cart Drawer"
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Open cart drawer after add to cart:</strong> Enable this option to automatically open the cart drawer whenever a customer adds a product to their cart. This provides immediate feedback that the item has been added and allows customers to quickly review their cart contents without leaving the current page."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Enabled:</strong> The cart drawer opens automatically after each product is added to the cart.",
+                "<strong>Disabled:</strong> Products are added to the cart without opening the cart drawer. Customers can access their cart manually using the cart icon or cart page."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Default: <strong>Disabled</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Price",
+      "href": "/theme-settings/price",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Price"
+        },
+        {
+          "type": "subheading",
+          "content": "Control how product prices are displayed throughout your store."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Show Currency Codes"
+            },
+            {
+              "type": "paragraph",
+              "content": "<strong>Show currency codes:</strong> Display the currency code alongside product prices across the storefront. Enabling this option helps customers clearly identify the currency being used, which is especially useful for stores selling to international audiences."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Enabled:</strong> Prices are displayed with the currency code (for example, $1.00 USD).",
+                "<strong>Disabled:</strong> Prices are displayed without the currency code (for example, $1.00)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Default: <strong>Disabled</strong>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Social Links",
+      "href": "/theme-settings/social-links",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Social Links"
+        },
+        {
+          "type": "subheading",
+          "content": "Add links to your social media profiles to display social icons and help customers connect with your brand across different platforms."
+        },
+        {
+          "type": "paragraph",
+          "content": "Enter the URL for each social media profile you want to display. Leave a field blank to hide the corresponding social media icon from the storefront."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Social Accounts"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Facebook:</strong> Add the URL of your Facebook page. When provided, a Facebook icon linking to your page will be displayed in supported areas of the storefront.",
+                "<strong>Instagram:</strong> Add the URL of your Instagram profile. When provided, an Instagram icon linking to your profile will be displayed in supported areas of the storefront.",
+                "<strong>Twitter / X:</strong> Add the URL of your Twitter (X) profile. When provided, a Twitter / X icon linking to your profile will be displayed in supported areas of the storefront.",
+                "<strong>YouTube:</strong> Add the URL of your YouTube channel. When provided, a YouTube icon linking to your channel will be displayed in supported areas of the storefront."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "More Platforms"
+            },
+            {
+              "type": "paragraph",
+              "content": "Add URLs for additional social media platforms. Icons are only displayed for platforms that have a valid URL entered."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>TikTok:</strong> Add the URL of your TikTok profile.",
+                "<strong>LinkedIn:</strong> Add the URL of your LinkedIn profile or company page.",
+                "<strong>Pinterest:</strong> Add the URL of your Pinterest profile.",
+                "<strong>WhatsApp:</strong> Add the URL for your WhatsApp contact or chat link.",
+                "<strong>Telegram:</strong> Add the URL of your Telegram profile, channel, or group."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Colors Palette",
+      "href": "/theme-settings/colors-palette",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Colors Palette"
+        },
+        {
+          "type": "subheading",
+          "content": "Define a reusable set of brand colors available throughout the theme."
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Color Palette"
+            },
+            {
+              "type": "paragraph",
+              "content": "Define your store's color palette by entering color names and their corresponding color codes. Each color should be entered in the following format: <strong>Color Name:#HEXCODE</strong> — separate multiple colors with a comma."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Guidelines",
+              "items": [
+                "Use a descriptive color name followed by a colon (:) and the color's HEX code.",
+                "Separate each color entry with a comma (,).",
+                "HEX color codes should begin with # and contain 6 hexadecimal characters.",
+                "<strong>Valid example:</strong> Primary Blue:#478AFF, Secondary Gold:#D1A372, Accent Red:#FF0000",
+                "<strong>Invalid example:</strong> Primary Blue - #478AFF | Secondary Gold - #D1A372"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sidebar": true,
+  "header": false
+},
     {
       "type": "multipage",
       "name": "Settings General",
@@ -566,7 +1031,7 @@
             },
             {
               "type": "paragraph",
-              "content": "<strong>Restoring Defaults:</strong> If you choose to uninstall the app or want to return to your original store look, go to your Shopify Admin settings and clear all the input fields where you previously added the Qorix code. Once these fields are empty and saved, Shopify will automatically revert to its native price formatting."
+              "content": "<strong>Restoring Defaults:</strong> If you choose to uninstall the app or want to return to your original store look, go to your Shopify Admin settings and clear all the input fields where you previously added the Rico code. Once these fields are empty and saved, Shopify will automatically revert to its native price formatting."
             },
             {
               "type": "image",

@@ -2,16 +2,16 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router";
 import { getDocumentationTitle, getSidebarNavigationSections } from "../../lib/docs";
 import { Close } from "./elements/Elements";
+import { getSectionLabel } from "../../lib/section-labels";
 
 const navigationSections = getSidebarNavigationSections();
 const siteTitle = getDocumentationTitle();
-const noDropdownSections = new Set(["Welcome to Rico"]);
+const noDropdownSections = new Set([""]);
 
 const sectionLabels: Record<string, string> = {
-  "Currency General": "Currency Page",
-  "Settings General": "Settings Page",
   "Install Theme": "Installation",
   "Logo and Favicon": "Theme Settings",
+  "About Rico": "Geetting Started",
 };
 
 function NavigationLink({ href, label, isActive, onClick }: {
@@ -73,7 +73,8 @@ function NavigationSection({ name, items, currentPath, onLinkClick, isOpen, onTo
             ? "text-emerald-600 dark:text-emerald-400"
             : "text-stone-500 dark:text-stone-400 group-hover:text-stone-800 dark:group-hover:text-stone-200"
         }`}>
-          {sectionLabels[name] ?? name}
+          {/* {sectionLabels[name] ?? name} */}
+          {getSectionLabel(name)}
         </span>
         {isDropdown && (
           <svg
