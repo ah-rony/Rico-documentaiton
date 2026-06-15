@@ -83,7 +83,7 @@
 {
   "type": "multipage",
   "name": "Install Theme",
-  "href": "/Installation/install-theme",
+  "href": "/installation/install-theme",
   "contents": [
         {
           "type": "heading",
@@ -165,13 +165,13 @@
         },
         {
           "type": "paragraph",
-          "content": "After install, start with <a href=\"/Installation/editing-your-theme\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Editing your theme</a>. Help and docs links are under Theme actions in the editor — see <a href=\"/Installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
+          "content": "After install, start with <a href=\"/installation/editing-your-theme\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Editing your theme</a>. Help and docs links are under Theme actions in the editor — see <a href=\"/installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
       ],
   "pages": [
     {
       "name": "Editing Your Theme",
-      "href": "/Installation/editing-your-theme",
+      "href": "/installation/editing-your-theme",
       "contents": [
         {
           "type": "heading",
@@ -281,13 +281,13 @@
         },
         {
           "type": "paragraph",
-          "content": "Storewide options live under <strong>Theme settings</strong> — start with <strong>Colors</strong>, <strong>Fonts</strong>, and <strong>Layout</strong>. For help, see <a href=\"/Installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
+          "content": "Storewide options live under <strong>Theme settings</strong> — start with <strong>Colors</strong>, <strong>Fonts</strong>, and <strong>Layout</strong>. For help, see <a href=\"/installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
       ]
     },
     {
       "name": "Theme Support",
-      "href": "/Installation/theme-support",
+      "href": "/installation/theme-support",
       "contents": [
         {
           "type": "heading",
@@ -373,7 +373,7 @@
   "sidebar": true,
   "header": false
 },
-  {
+{
   "type": "multipage",
   "name": "Logo and Favicon",
   "href": "/theme-settings/logo-favicon",
@@ -388,34 +388,41 @@
       "content": "Configure your store's logo and favicon displayed across the storefront."
     },
     {
-      "type": "section",
+      "type": "image-text",
+      "url": "/logo-favicon.png",
+      "orientation": "portrait",
       "contents": [
         {
-          "type": "heading",
-          "level": 2,
-          "content": "Logo"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "<strong>Default logo:</strong> Select the image used as your store logo in the header and other logo locations throughout the theme.",
-            "<strong>Max Width:</strong> Controls the maximum width of the logo in pixels. Increasing the value makes the logo appear larger; decreasing it makes the logo appear smaller. (Default: 72px)"
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Logo"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Default logo:</strong> Select the image used as your store logo in the header and other logo locations throughout the theme.",
+                "<strong>Max Width:</strong> Controls the maximum width of the logo in pixels. Increasing the value makes the logo appear larger; decreasing it makes the logo appear smaller. (Default: 72px)"
+              ]
+            }
           ]
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "contents": [
-        {
-          "type": "heading",
-          "level": 2,
-          "content": "Favicon"
         },
         {
-          "type": "paragraph",
-          "content": "Select the favicon displayed in browser tabs and bookmarks. For best results, use a square image sized 32 &times; 32 pixels."
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Favicon"
+            },
+            {
+              "type": "paragraph",
+              "content": "Select the favicon displayed in browser tabs and bookmarks. For best results, use a square image sized 32 &times; 32 pixels."
+            }
+          ]
         }
       ]
     }
@@ -435,26 +442,33 @@
           "content": "Customize the colors used throughout your store to match your brand identity."
         },
         {
-          "type": "section",
+          "type": "image-text",
+          "url": "/colors.png",
+          "orientation": "portrait",
           "contents": [
             {
-              "type": "heading",
-              "level": 2,
-              "content": "Color Schemes"
-            },
-            {
-              "type": "paragraph",
-              "content": "Color schemes control the colors used throughout your store. By creating multiple color schemes, you can assign different color combinations to sections and create visual contrast while maintaining a consistent brand identity."
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "How to manage color schemes",
-              "items": [
-                "<strong>View or edit:</strong> Go to <strong>Theme Settings</strong> &rarr; <strong>Colors</strong> in the customizer to view, edit, or create color schemes.",
-                "<strong>Add a new scheme:</strong> Click <strong>Add Scheme</strong> to create a new color scheme. Once created, you can customize the colors and assign the scheme to supported sections.",
-                "<strong>Edit a scheme:</strong> Select an existing color scheme to modify its colors. Changes are automatically reflected in any sections using that scheme.",
-                "<strong>Apply a scheme:</strong> Color schemes can be applied to supported sections across your store — for example, a light scheme for content sections and a dark scheme for promotional banners."
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Color Schemes"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Color schemes control the colors used throughout your store. By creating multiple color schemes, you can assign different color combinations to sections and create visual contrast while maintaining a consistent brand identity."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "How to manage color schemes",
+                  "items": [
+                    "<strong>View or edit:</strong> Go to <strong>Theme Settings</strong> &rarr; <strong>Colors</strong> in the customizer to view, edit, or create color schemes.",
+                    "<strong>Add a new scheme:</strong> Click <strong>Add Scheme</strong> to create a new color scheme. Once created, you can customize the colors and assign the scheme to supported sections.",
+                    "<strong>Edit a scheme:</strong> Select an existing color scheme to modify its colors. Changes are automatically reflected in any sections using that scheme.",
+                    "<strong>Apply a scheme:</strong> Color schemes can be applied to supported sections across your store — for example, a light scheme for content sections and a dark scheme for promotional banners."
+                  ]
+                }
               ]
             }
           ]
@@ -472,47 +486,87 @@
               "content": "To edit a color scheme, go to <strong>Theme Settings</strong> &rarr; <strong>Colors</strong> and click on the scheme you want to modify. Any changes you make are automatically applied to all sections that use that color scheme."
             },
             {
-              "type": "list",
-              "ordered": false,
-              "label": "Background",
-              "items": [
-                "<strong>Background:</strong> The primary background color for sections using this scheme.",
-                "<strong>Background Gradient:</strong> Optional gradient that replaces the solid background color when configured."
+              "type": "image-text",
+              "url": "/sp1.png",
+              "orientation": "portrait",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Background",
+                  "items": [
+                    "<strong>Background:</strong> The primary background color for sections using this scheme. (Default: #FFFFFF)",
+                    "<strong>Foreground:</strong> The foreground surface color used within the scheme. (Default: #F2F2F2)",
+                    "<strong>Background Gradient:</strong> Optional gradient that replaces the solid background color when configured."
+                  ]
+                }
               ]
             },
             {
-              "type": "list",
-              "ordered": false,
-              "label": "Text",
-              "items": [
-                "<strong>Text:</strong> The primary text color.",
-                "<strong>Secondary Text:</strong> Used for supporting or less prominent text.",
-                "<strong>Link:</strong> Color used for text links.",
-                "<strong>Icons:</strong> Color used for icons within the scheme."
+              "type": "image-text",
+              "url": "/sp2.png",
+              "orientation": "portrait",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Text",
+                  "items": [
+                    "<strong>Text:</strong> The primary text color. (Default: #1C1C1C)",
+                    "<strong>Secondary Text:</strong> Used for supporting or less prominent text. (Default: #1C1C1C)",
+                    "<strong>Link:</strong> Color used for text links. (Default: #1C1C1C)",
+                    "<strong>Hover:</strong> Color used for interactive elements on hover. (Default: #1C1C1C)"
+                  ]
+                }
               ]
             },
             {
-              "type": "list",
-              "ordered": false,
-              "label": "Primary Button",
-              "items": [
-                "<strong>Background:</strong> Button background color.",
-                "<strong>Text:</strong> Button text color.",
-                "<strong>Border:</strong> Button border color.",
-                "<strong>Hover Text:</strong> Button text color when hovered.",
-                "<strong>Hover Background:</strong> Button background color when hovered."
+              "type": "image-text",
+              "url": "/sp3.png",
+              "orientation": "portrait",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Primary Button",
+                  "items": [
+                    "<strong>Background:</strong> Button background color. (Default: #1C1C1C)",
+                    "<strong>Text:</strong> Button text color. (Default: #FFFFFF)",
+                    "<strong>Border:</strong> Button border color. (Default: #1C1C1C)",
+                    "<strong>Hover Background:</strong> Button background color when hovered. (Default: Transparent)",
+                    "<strong>Hover Text:</strong> Button text color when hovered. (Default: #1C1C1C)",
+                    "<strong>Hover Border:</strong> Button border color when hovered. (Default: #1C1C1C)"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Secondary Button",
+                  "items": [
+                    "<strong>Background:</strong> Button background color. (Default: Transparent)",
+                    "<strong>Text:</strong> Button text color. (Default: #1C1C1C)",
+                    "<strong>Border:</strong> Button border color. (Default: #1C1C1C)",
+                    "<strong>Hover Background:</strong> Button background color when hovered. (Default: #1C1C1C)",
+                    "<strong>Hover Text:</strong> Button text color when hovered. (Default: #FFFFFF)",
+                    "<strong>Hover Border:</strong> Button border color when hovered. (Default: #1C1C1C)"
+                  ]
+                }
               ]
             },
             {
-              "type": "list",
-              "ordered": false,
-              "label": "Secondary Button",
-              "items": [
-                "<strong>Background:</strong> Button background color.",
-                "<strong>Text:</strong> Button text color.",
-                "<strong>Border:</strong> Button border color.",
-                "<strong>Hover Text:</strong> Button text color when hovered.",
-                "<strong>Hover Background:</strong> Button background color when hovered."
+              "type": "image-text",
+              "url": "/sp4.png",
+              "orientation": "portrait",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Section Heading",
+                  "items": [
+                    "<strong>Text:</strong> Section heading text color. (Default: #FFFFFF)",
+                    "<strong>Background:</strong> Section heading background color. (Default: #000000)"
+                  ]
+                }
               ]
             },
             {
@@ -592,20 +646,27 @@
           "content": "Customize the fonts used throughout your store to create a consistent brand experience."
         },
         {
-          "type": "section",
+          "type": "image-text",
+          "url": "/typography.png",
+          "orientation": "portrait",
           "contents": [
             {
-              "type": "heading",
-              "level": 2,
-              "content": "Fonts"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Body:</strong> Select the font used for general content such as product descriptions, collection descriptions, paragraphs, buttons, and other standard text across the store.",
-                "<strong>Heading:</strong> Select the font used for headings and titles, including page titles, section headings, product titles, and collection titles.",
-                "<strong>Subheading:</strong> Select the font used for subheadings and secondary titles that appear between headings and body text."
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Fonts"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Body:</strong> Select the font used for general content such as product descriptions, collection descriptions, paragraphs, buttons, and other standard text across the store.",
+                    "<strong>Heading:</strong> Select the font used for headings and titles, including page titles, section headings, product titles, and collection titles.",
+                    "<strong>Subheading:</strong> Select the font used for subheadings and secondary titles that appear between headings and body text."
+                  ]
+                }
               ]
             }
           ]
@@ -626,20 +687,27 @@
           "content": "Control the overall spacing and width of your store's content across different screen sizes."
         },
         {
-          "type": "section",
+          "type": "image-text",
+          "url": "/layout.png",
+          "orientation": "portrait",
           "contents": [
             {
-              "type": "heading",
-              "level": 2,
-              "content": "Spacing"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Mobile horizontal padding:</strong> Sets the total horizontal spacing on mobile devices. The value is divided evenly between the left and right sides of the page. (Default: 40px)",
-                "<strong>Desktop horizontal padding:</strong> Sets the total horizontal spacing on desktop devices. The value is divided evenly between the left and right sides of the page. (Default: 60px)",
-                "<strong>Global maximum layout width:</strong> Defines the maximum width of the store's content area. Once the browser window exceeds this width, the content remains centered and will not continue expanding. (Default: 1920px)"
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Spacing"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Mobile horizontal padding:</strong> Sets the total horizontal spacing on mobile devices. The value is divided evenly between the left and right sides of the page. (Default: 40px)",
+                    "<strong>Desktop horizontal padding:</strong> Sets the total horizontal spacing on desktop devices. The value is divided evenly between the left and right sides of the page. (Default: 60px)",
+                    "<strong>Global maximum layout width:</strong> Defines the maximum width of the store's content area. Once the browser window exceeds this width, the content remains centered and will not continue expanding. (Default: 1920px)"
+                  ]
+                }
               ]
             }
           ]
@@ -660,21 +728,28 @@
           "content": "Configure how product cards look and behave in your store."
         },
         {
-          "type": "section",
+          "type": "image-text",
+          "url": "/product-card.png",
+          "orientation": "portrait",
           "contents": [
             {
-              "type": "heading",
-              "level": 2,
-              "content": "Card Settings"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Background color:</strong> Sets the background color of the product card. (Default: #F2F2F2)",
-                "<strong>Hover style:</strong> Controls the animation when customers hover over a product card. Options: <strong>Slide</strong> — content shifts with a sliding effect; <strong>Flip</strong> — the card flips to reveal more information.",
-                "<strong>Flip effect:</strong> Controls the animation style when Hover style is set to Flip. Options: <strong>Fade</strong> — smooth fade between front and back card content; <strong>Flip</strong> — card-flipping animation between front and back. This setting only applies when Hover style is set to Flip.",
-                "<strong>Reverse price order:</strong> Reverses the display order of product prices (for example, shows compare-at price before sale price, or vice versa)."
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Card Settings"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Background color:</strong> Sets the background color of the product card. (Default: #F2F2F2)",
+                    "<strong>Hover style:</strong> Controls the animation when customers hover over a product card. Options: <strong>Slide</strong> — content shifts with a sliding effect; <strong>Flip</strong> — the card flips to reveal more information.",
+                    "<strong>Flip effect:</strong> Controls the animation style when Hover style is set to Flip. Options: <strong>Fade</strong> — smooth fade between front and back card content; <strong>Flip</strong> — card-flipping animation between front and back. This setting only applies when Hover style is set to Flip.",
+                    "<strong>Reverse price order:</strong> Reverses the display order of product prices (for example, shows compare-at price before sale price, or vice versa)."
+                  ]
+                }
               ]
             }
           ]
@@ -775,28 +850,35 @@
           "content": "Control how the shopping cart behaves when customers add products to their cart."
         },
         {
-          "type": "section",
+          "type": "image-text",
+          "url": "/cart.png",
+          "orientation": "portrait",
           "contents": [
             {
-              "type": "heading",
-              "level": 2,
-              "content": "Cart Drawer"
-            },
-            {
-              "type": "paragraph",
-              "content": "<strong>Open cart drawer after add to cart:</strong> Enable this option to automatically open the cart drawer whenever a customer adds a product to their cart. This provides immediate feedback that the item has been added and allows customers to quickly review their cart contents without leaving the current page."
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Enabled:</strong> The cart drawer opens automatically after each product is added to the cart.",
-                "<strong>Disabled:</strong> Products are added to the cart without opening the cart drawer. Customers can access their cart manually using the cart icon or cart page."
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Cart Drawer"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "<strong>Open cart drawer after add to cart:</strong> Enable this option to automatically open the cart drawer whenever a customer adds a product to their cart. This provides immediate feedback that the item has been added and allows customers to quickly review their cart contents without leaving the current page."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Enabled:</strong> The cart drawer opens automatically after each product is added to the cart.",
+                    "<strong>Disabled:</strong> Products are added to the cart without opening the cart drawer. Customers can access their cart manually using the cart icon or cart page."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Default: <strong>Disabled</strong>"
+                }
               ]
-            },
-            {
-              "type": "paragraph",
-              "content": "Default: <strong>Disabled</strong>"
             }
           ]
         }
@@ -816,28 +898,35 @@
           "content": "Control how product prices are displayed throughout your store."
         },
         {
-          "type": "section",
+          "type": "image-text",
+          "url": "/price.png",
+          "orientation": "portrait",
           "contents": [
             {
-              "type": "heading",
-              "level": 2,
-              "content": "Show Currency Codes"
-            },
-            {
-              "type": "paragraph",
-              "content": "<strong>Show currency codes:</strong> Display the currency code alongside product prices across the storefront. Enabling this option helps customers clearly identify the currency being used, which is especially useful for stores selling to international audiences."
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Enabled:</strong> Prices are displayed with the currency code (for example, $1.00 USD).",
-                "<strong>Disabled:</strong> Prices are displayed without the currency code (for example, $1.00)."
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Show Currency Codes"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "<strong>Show currency codes:</strong> Display the currency code alongside product prices across the storefront. Enabling this option helps customers clearly identify the currency being used, which is especially useful for stores selling to international audiences."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Enabled:</strong> Prices are displayed with the currency code (for example, $1.00 USD).",
+                    "<strong>Disabled:</strong> Prices are displayed without the currency code (for example, $1.00)."
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Default: <strong>Disabled</strong>"
+                }
               ]
-            },
-            {
-              "type": "paragraph",
-              "content": "Default: <strong>Disabled</strong>"
             }
           ]
         }
@@ -857,50 +946,57 @@
           "content": "Add links to your social media profiles to display social icons and help customers connect with your brand across different platforms."
         },
         {
-          "type": "paragraph",
-          "content": "Enter the URL for each social media profile you want to display. Leave a field blank to hide the corresponding social media icon from the storefront."
-        },
-        {
-          "type": "section",
+          "type": "image-text",
+          "url": "/social-links.png",
+          "orientation": "portrait",
           "contents": [
-            {
-              "type": "heading",
-              "level": 2,
-              "content": "Social Accounts"
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>Facebook:</strong> Add the URL of your Facebook page. When provided, a Facebook icon linking to your page will be displayed in supported areas of the storefront.",
-                "<strong>Instagram:</strong> Add the URL of your Instagram profile. When provided, an Instagram icon linking to your profile will be displayed in supported areas of the storefront.",
-                "<strong>Twitter / X:</strong> Add the URL of your Twitter (X) profile. When provided, a Twitter / X icon linking to your profile will be displayed in supported areas of the storefront.",
-                "<strong>YouTube:</strong> Add the URL of your YouTube channel. When provided, a YouTube icon linking to your channel will be displayed in supported areas of the storefront."
-              ]
-            }
-          ]
-        },
-        {
-          "type": "section",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 2,
-              "content": "More Platforms"
-            },
             {
               "type": "paragraph",
-              "content": "Add URLs for additional social media platforms. Icons are only displayed for platforms that have a valid URL entered."
+              "content": "Enter the URL for each social media profile you want to display. Leave a field blank to hide the corresponding social media icon from the storefront."
             },
             {
-              "type": "list",
-              "ordered": false,
-              "items": [
-                "<strong>TikTok:</strong> Add the URL of your TikTok profile.",
-                "<strong>LinkedIn:</strong> Add the URL of your LinkedIn profile or company page.",
-                "<strong>Pinterest:</strong> Add the URL of your Pinterest profile.",
-                "<strong>WhatsApp:</strong> Add the URL for your WhatsApp contact or chat link.",
-                "<strong>Telegram:</strong> Add the URL of your Telegram profile, channel, or group."
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Social Accounts"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Facebook:</strong> Add the URL of your Facebook page. When provided, a Facebook icon linking to your page will be displayed in supported areas of the storefront.",
+                    "<strong>Instagram:</strong> Add the URL of your Instagram profile. When provided, an Instagram icon linking to your profile will be displayed in supported areas of the storefront.",
+                    "<strong>Twitter / X:</strong> Add the URL of your Twitter (X) profile. When provided, a Twitter / X icon linking to your profile will be displayed in supported areas of the storefront.",
+                    "<strong>YouTube:</strong> Add the URL of your YouTube channel. When provided, a YouTube icon linking to your channel will be displayed in supported areas of the storefront."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "More Platforms"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Add URLs for additional social media platforms. Icons are only displayed for platforms that have a valid URL entered."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>TikTok:</strong> Add the URL of your TikTok profile.",
+                    "<strong>LinkedIn:</strong> Add the URL of your LinkedIn profile or company page.",
+                    "<strong>Pinterest:</strong> Add the URL of your Pinterest profile.",
+                    "<strong>WhatsApp:</strong> Add the URL for your WhatsApp contact or chat link.",
+                    "<strong>Telegram:</strong> Add the URL of your Telegram profile, channel, or group."
+                  ]
+                }
               ]
             }
           ]
@@ -921,27 +1017,34 @@
           "content": "Define a reusable set of brand colors available throughout the theme."
         },
         {
-          "type": "section",
+          "type": "image-text",
+          "url": "/colors-palette.png",
+          "orientation": "portrait",
           "contents": [
             {
-              "type": "heading",
-              "level": 2,
-              "content": "Color Palette"
-            },
-            {
-              "type": "paragraph",
-              "content": "Define your store's color palette by entering color names and their corresponding color codes. Each color should be entered in the following format: <strong>Color Name:#HEXCODE</strong> — separate multiple colors with a comma."
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "Guidelines",
-              "items": [
-                "Use a descriptive color name followed by a colon (:) and the color's HEX code.",
-                "Separate each color entry with a comma (,).",
-                "HEX color codes should begin with # and contain 6 hexadecimal characters.",
-                "<strong>Valid example:</strong> Primary Blue:#478AFF, Secondary Gold:#D1A372, Accent Red:#FF0000",
-                "<strong>Invalid example:</strong> Primary Blue - #478AFF | Secondary Gold - #D1A372"
+              "type": "section",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 2,
+                  "content": "Color Palette"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Define your store's color palette by entering color names and their corresponding color codes. Each color should be entered in the following format: <strong>Color Name:#HEXCODE</strong> — separate multiple colors with a comma."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Guidelines",
+                  "items": [
+                    "Use a descriptive color name followed by a colon (:) and the color's HEX code.",
+                    "Separate each color entry with a comma (,).",
+                    "HEX color codes should begin with # and contain 6 hexadecimal characters.",
+                    "<strong>Valid example:</strong> Primary Blue:#478AFF, Secondary Gold:#D1A372, Accent Red:#FF0000",
+                    "<strong>Invalid example:</strong> Primary Blue - #478AFF | Secondary Gold - #D1A372"
+                  ]
+                }
               ]
             }
           ]

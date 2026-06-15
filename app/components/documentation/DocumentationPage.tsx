@@ -219,6 +219,31 @@ function ContentBlock({
       );
     }
 
+
+    case "image-text":
+  if (block.orientation === "landscape") {
+    return (
+      <div className="mb-8">
+        <div className="mb-4">
+          <DocumentationContent blocks={block.contents} />
+        </div>
+        <DocumentationImage url={block.url} variant="panel" />
+      </div>
+    );
+  }
+
+  // portrait: stacked on mobile (text top, image below), side by side on desktop (text left, image right)
+  return (
+    <div className="mb-8 flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-8">
+      <div className="flex-1 min-w-0">
+        <DocumentationContent blocks={block.contents} />
+      </div>
+      <div className="w-full sm:w-2/5 shrink-0">
+        <DocumentationImage url={block.url} variant="panel" />
+      </div>
+    </div>
+  );
+
     default:
       return null;
   }

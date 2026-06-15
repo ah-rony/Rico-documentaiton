@@ -64,12 +64,29 @@ export function Moon() {
   );
 }
 
-export function DocumentationImage({ url }: { url: string }) {
+export function DocumentationImage({
+  url,
+  variant = "default",
+}: {
+  url: string;
+  variant?: "default" | "panel";
+}) {
   if (!url.trim()) {
     return (
       <div className="flex aspect-[16/9] w-full items-center justify-center rounded-3xl border border-dashed border-stone-300 bg-stone-100/80 px-6 text-center text-sm font-medium text-stone-500 dark:border-stone-700 dark:bg-stone-900/70 dark:text-stone-400">
         Screenshot placeholder
       </div>
+    );
+  }
+
+  if (variant === "panel") {
+    return (
+      <img
+        src={url}
+        alt="Documentation screenshot"
+        className="block w-full rounded-2xl border border-stone-200 object-contain shadow-sm shadow-stone-200/40 dark:border-stone-800 dark:shadow-black/20"
+        loading="lazy"
+      />
     );
   }
 

@@ -21,6 +21,13 @@ type ImageBlock = {
   url: string;
 };
 
+type ImageTextBlock = {
+  type: "image-text";
+  url: string;
+  orientation?: "landscape" | "portrait";
+  contents: DocContentBlock[];
+};
+
 type ListBlock = {
   type: "list";
   ordered: boolean;
@@ -51,6 +58,7 @@ export type DocContentBlock =
   | SubHeadingBlock
   | ParagraphBlock
   | ImageBlock
+  | ImageTextBlock
   | ListBlock
   | SectionBlock
   | CollapsibleBlock;
@@ -300,13 +308,15 @@ export function getPageDescription(page: ResolvedDocumentationPage) {
   return `${page.name} documentation for ${docsConfig.title}.`;
 }
 
-
 export function getPrevNextPages(pathname: string) {
   const normalizedPathname = normalizePathname(pathname);
-  const index = resolvedPages.findIndex((page) => page.href === normalizedPathname);
+  const index = resolvedPages.findIndex(
+    (page) => page.href === normalizedPathname,
+  );
 
   return {
     prev: index > 0 ? resolvedPages[index - 1] : null,
-    next: index < resolvedPages.length - 1 ? resolvedPages[index + 1] : null,
+    next:
+      index < resolvedPages.length - 1 ? resolvedPages[index + 1] : null,
   };
 }
