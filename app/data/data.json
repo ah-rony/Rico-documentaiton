@@ -4,48 +4,7 @@
       "type": "singlepage",
       "name": "Documentation",
       "href": "/",
-      "contents": [
-        {
-          "type": "heading",
-          "level": 1,
-          "content": "User Documentation & Setup Guide"
-        },
-        {
-          "type": "subheading",
-          "content": "Rico empowers you to sell globally with confidence."
-        },
-        {
-          "type": "paragraph",
-          "content": "Rico automatically detects a customer's location to display prices in their local currency instantly."
-        },
-        {
-          "type": "paragraph",
-          "content": "Using our customizable storefront wizard, you can perfectly position the switcher to match your brand's look. By providing a localized experience with real-time exchange rates, you build immediate trust and significantly reduce checkout abandonment for international shoppers."
-        },
-        {
-          "type": "image",
-          "url": "/4.png"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "label": "Key Features",
-          "items": [
-            "Real-Time Exchange Rates: Maintain pricing accuracy with rates synced automatically every day.",
-            "Smart Geolocation: Auto-switch currencies based on customer location.",
-            "Lightweight Performance: Ensure a fast store experience with an instant-loading script.",
-            "Customizable Wizard: Design your widget with flexible positioning and modern 2D or 3D flags."
-          ]
-        }
-      ],
-      "sidebar": false,
-      "header": true
-    },
-{
-  "type": "multipage",
-  "name": "About Rico",
-  "href": "/about-rico",
-  "contents": [
+        "contents": [
     {
       "type": "heading",
       "level": 1,
@@ -118,11 +77,14 @@
       "content": "Use the navigation menu to explore additional guides and resources available throughout the documentation."
     }
   ],
-  "pages": [
-    {
-      "name": "Install Theme",
-      "href": "/about-rico/install-theme",
-      "contents": [
+      "sidebar": false,
+      "header": true
+    },
+{
+  "type": "multipage",
+  "name": "Install Theme",
+  "href": "/Installation/install-theme",
+  "contents": [
         {
           "type": "heading",
           "level": 1,
@@ -203,13 +165,13 @@
         },
         {
           "type": "paragraph",
-          "content": "After install, start with <a href=\"/about-rico/editing-your-theme\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Editing your theme</a>. Help and docs links are under Theme actions in the editor — see <a href=\"/about-rico/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
+          "content": "After install, start with <a href=\"/Installation/editing-your-theme\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Editing your theme</a>. Help and docs links are under Theme actions in the editor — see <a href=\"/Installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
-      ]
-    },
+      ],
+  "pages": [
     {
       "name": "Editing Your Theme",
-      "href": "/about-rico/editing-your-theme",
+      "href": "/Installation/editing-your-theme",
       "contents": [
         {
           "type": "heading",
@@ -319,13 +281,13 @@
         },
         {
           "type": "paragraph",
-          "content": "Storewide options live under <strong>Theme settings</strong> — start with <strong>Colors</strong>, <strong>Fonts</strong>, and <strong>Layout</strong>. For help, see <a href=\"/about-rico/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
+          "content": "Storewide options live under <strong>Theme settings</strong> — start with <strong>Colors</strong>, <strong>Fonts</strong>, and <strong>Layout</strong>. For help, see <a href=\"/Installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
       ]
     },
     {
       "name": "Theme Support",
-      "href": "/about-rico/theme-support",
+      "href": "/Installation/theme-support",
       "contents": [
         {
           "type": "heading",

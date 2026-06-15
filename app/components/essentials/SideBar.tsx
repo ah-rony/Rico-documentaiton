@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router";
 import { getDocumentationTitle, getSidebarNavigationSections } from "../../lib/docs";
 import { Close } from "./elements/Elements";
@@ -6,12 +6,11 @@ import { getSectionLabel } from "../../lib/section-labels";
 
 const navigationSections = getSidebarNavigationSections();
 const siteTitle = getDocumentationTitle();
-const noDropdownSections = new Set([""]);
+const noDropdownSections = new Set(["Install Theme"]);
 
 const sectionLabels: Record<string, string> = {
-  "Install Theme": "Installation",
+  "Install Theme": "Geetting Started",
   "Logo and Favicon": "Theme Settings",
-  "About Rico": "Geetting Started",
 };
 
 function NavigationLink({ href, label, isActive, onClick }: {
@@ -122,11 +121,24 @@ export default function SideBar({ isMobileOpen, onMobileClose }: {
 }) {
   const { pathname } = useLocation();
 
-  const defaultOpen = navigationSections.find((s) =>
-    s.items.some((item) => item.href === pathname)
+  // const defaultOpen = navigationSections.find((s) =>
+  //   s.items.some((item) => item.href === pathname)
+  // )?.name ?? null;
+
+  // const [openSection, setOpenSection] = useState<string | null>(defaultOpen);
+
+  const getOpenSection = (path: string) =>
+  navigationSections.find((s) =>
+    s.items.some((item) => item.href === path)
   )?.name ?? null;
 
-  const [openSection, setOpenSection] = useState<string | null>(defaultOpen);
+const [openSection, setOpenSection] = useState<string | null>(() => getOpenSection(pathname));
+
+useEffect(() => {
+  setOpenSection(getOpenSection(pathname));
+}, [pathname]);
+
+
 
   const handleToggle = (name: string) => {
     setOpenSection((prev) => (prev === name ? null : name));
