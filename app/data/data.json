@@ -373,6 +373,10 @@
   "sidebar": true,
   "header": false
 },
+
+
+
+
 {
   "type": "multipage",
   "name": "Logo and Favicon",
@@ -1055,6 +1059,595 @@
   "sidebar": true,
   "header": false
 },
+
+
+
+{
+  "type": "multipage",
+  "name": "Announcment Bar",
+  "href": "/header-footer/announcement-bar",
+  "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Announcement Bar"
+        },
+        {
+          "type": "subheading",
+          "content": "Display rotating promotional messages, contact information, and localization controls at the top of your storefront."
+        },
+        {
+          "type": "image-text",
+          "url": "/announcement-bar.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The Announcement Bar is a multifunctional header utility section designed to improve customer communication and enhance the shopping experience. It combines promotional messaging, contact information, and integrated language and currency selection using Shopify's Localization API. It is fully responsive and optimized for both desktop and mobile devices."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "How to Edit the Announcement Bar"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+                "Click <strong>Customize</strong> on the active theme.",
+                "In the Theme Editor, select the <strong>Announcement Bar</strong> section from the left sidebar.",
+                "Add announcement blocks and adjust the available settings according to your needs.",
+                "Click <strong>Save</strong> to apply your changes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Section Settings"
+            },
+            {
+              "type": "paragraph",
+              "content": "These settings control the overall appearance and functionality of the announcement bar."
+            },
+            {
+              "type": "image-text",
+              "url": "/announcement-bar-settings.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Color Scheme:</strong> Selects the color scheme applied to the announcement bar.",
+                    "<strong>Section Padding:</strong> Add padding at the top and bottom to fine-tune the spacing of the bar.",
+                    "<strong>Contact Text:</strong> Displays contact information or a custom message on desktop devices.",
+                    "<strong>Show Country Selector:</strong> Enables or disables the language and currency selector.",
+                    "<strong>Autoplay:</strong> Automatically rotates announcement messages.",
+                    "<strong>Autoplay Speed:</strong> Controls the delay between announcement transitions."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+       {
+        "type": "section",
+        "contents": [
+        {
+        "type": "image-text",
+        "url": "/announcement-bar-blocks.png",
+        "orientation": "portrait",
+        "contents": [
+        {
+        "type": "heading",
+        "level": 2,
+        "content": "Block Settings"
+        },
+        {
+        "type": "paragraph",
+        "content": "The section supports up to 5 announcement blocks."
+        },
+        {
+        "type": "list",
+        "ordered": false,
+        "items": [
+        "<strong>Message Text:</strong> The announcement message displayed within the slider.",
+        "<strong>URL:</strong> Optional destination link for the announcement message."
+        ]
+        }
+        ]
+        }
+        ]
+        },
+
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Keep announcement messages short and easy to scan.",
+                "Keep contact information up to date.",
+                "Configure language and currency options when selling internationally.",
+                "Link announcements to relevant landing pages when applicable."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Use excessively long announcement messages.",
+                "Use announcements for large amounts of content.",
+                "Enable localization selectors if Shopify Markets is not configured.",
+                "Overload customers with multiple competing announcements."
+              ]
+            }
+          ]
+        }
+      ],
+  "pages": [
+    {
+      "name": "Header",
+      "href": "/header-footer/header",
+      "contents": [
+      {
+      "type": "heading",
+      "level": 1,
+      "content": "Header"
+      },
+      {
+      "type": "subheading",
+      "content": "Configure the primary navigation area of your storefront, including menus, search, account access, and cart interactions."
+      },
+      {
+      "type": "image-text",
+      "url": "/header.png",
+      "orientation": "landscape",
+      "contents": [
+      {
+      "type": "paragraph",
+      "content": "The Header serves as the primary navigation area of the storefront, providing customers with access to navigation links, search functionality, customer accounts, and cart interactions. It is designed to improve product discovery, streamline navigation, and maintain quick access to key store features throughout the customer journey. The section supports customizable navigation menus, optional utility icons, sticky header functionality, search enhancements, and cart drawer upsell opportunities."
+      }
+      ]
+      },
+      {
+      "type": "section",
+      "contents": [
+      {
+      "type": "heading",
+      "level": 2,
+      "content": "How to Edit the Header"
+      },
+      {
+      "type": "list",
+      "ordered": true,
+      "items": [
+      "From your Shopify admin, go to <strong>Online Store</strong> → <strong>Themes</strong>.",
+      "Click <strong>Customize</strong> on the active theme.",
+      "Select the <strong>Header</strong> section from the left sidebar.",
+      "Modify the settings according to your store requirements.",
+      "Click <strong>Save</strong> to apply the changes."
+      ]
+      }
+      ]
+      },
+      {
+      "type": "section",
+      "contents": [
+      {
+      "type": "heading",
+      "level": 2,
+      "content": "Section Settings"
+      },
+      {
+      "type": "image-text",
+      "url": "/header-settings-navigation.png",
+      "orientation": "portrait",
+      "contents": [
+      {
+      "type": "list",
+      "ordered": false,
+      "items": [
+      "<strong>Color Scheme:</strong> Select the color scheme applied to the header. This setting controls the overall visual appearance of the header and helps maintain consistency with your store branding.",
+      "<strong>Main Menu:</strong> Select the navigation menu displayed in the header. The selected menu serves as the primary navigation structure for your storefront and can be used to trigger mega menu content where applicable.",
+      "<strong>Show Search Icon:</strong> Displays a search icon within the header, allowing customers to quickly access the store search experience.",
+      "<strong>Show Account Icon:</strong> Displays a customer account icon that provides access to login, registration, and account management pages.",
+      "<strong>Show Cart Icon:</strong> Displays the cart icon and allows customers to access their shopping cart from any page."
+      ]
+      }
+      ]
+      },
+      {
+      "type": "image-text",
+      "url": "/header-settings-cart-drawer.png",
+      "orientation": "portrait",
+      "contents": [
+      {
+      "type": "list",
+      "ordered": false,
+      "items": [
+      "<strong>Enable Cart Drawer Gift Box:</strong> When enabled, customers can add an optional gift product directly from the cart drawer before proceeding to checkout. This feature can be used to promote gift wrapping services, complimentary products, or special add-on items.",
+      "<strong>Cart Drawer Gift Product:</strong> Select the Signature gift box product that will be offered as the optional gift item within the cart drawer.",
+      "<strong>Enable Sticky Header:</strong> Keeps the header visible at the top of the page while customers scroll. This improves navigation accessibility and provides continuous access to search, account, and cart functionality throughout the shopping journey."
+      ]
+      }
+      ]
+      },
+      {
+      "type": "image-text",
+      "url": "/header-settings-search.png",
+      "orientation": "portrait",
+      "contents": [
+      {
+      "type": "list",
+      "ordered": false,
+      "items": [
+      "<strong>Suggested Searches:</strong> Enter popular search terms separated by commas. These suggestions help customers discover products more quickly and improve the overall search experience.",
+      "<strong>Example:</strong> Running Shoes, Sneakers, New Arrivals, Best Sellers.",
+      "<strong>Suggested Products Collection:</strong> Select a collection to display recommended products within the search interface. Products from the selected collection can be surfaced to customers during search interactions to improve product discovery and engagement."
+      ]
+      }
+      ]
+      }
+      ]
+      },
+      {
+      "type": "section",
+      "contents": [
+      {
+      "type": "heading",
+      "level": 2,
+      "content": "Best Practices"
+      },
+      {
+      "type": "list",
+      "ordered": false,
+      "label": "Do",
+      "items": [
+      "Use a clear and organized navigation structure.",
+      "Enable sticky header for improved usability.",
+      "Add relevant suggested search terms.",
+      "Use a high-converting collection for suggested products.",
+      "Enable the gift box feature when offering gift wrapping or add-on products."
+      ]
+      },
+      {
+      "type": "list",
+      "ordered": false,
+      "label": "Don't",
+      "items": [
+      "Use overly complex navigation menus.",
+      "Add unrelated search suggestions.",
+      "Offer unavailable products as gift options.",
+      "Disable essential icons that customers frequently use."
+      ]
+      }
+      ]
+      }
+      ]
+
+    },
+    {
+      "name": "Mega Menu",
+      "href": "/header-footer/mega-menu",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Mega Menu"
+        },
+        {
+          "type": "subheading",
+          "content": "Create large dropdown navigation panels that display categories, brands, featured products, and promotional imagery."
+        },
+        {
+          "type": "image-text",
+          "url": "/mega-menu.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The Mega Menu is a Header block that creates a wide dropdown navigation panel for specific menu items. Multiple Mega Menu blocks can be added within the Header section, allowing different navigation items to display their own unique content. It supports category links, brand navigation, featured product sliders, promotional banner images, and scrolling marquee messaging."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Adding a Mega Menu"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Go to <strong>Shopify Admin</strong> &rarr; <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+                "Click <strong>Customize</strong> on the active theme.",
+                "Navigate to the <strong>Header</strong> section.",
+                "Click <strong>Add block</strong> and select <strong>Mega Menu</strong>.",
+                "Configure the settings below and click <strong>Save</strong>."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Block Settings"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Trigger",
+              "items": [
+                "<strong>Nav Link Title:</strong> Enter the exact navigation menu item name that should trigger this Mega Menu. The value must match the navigation item name exactly (case-insensitive). If no matching menu item is found, the Mega Menu will not appear. Example: if your main menu contains an item named <em>Shop</em>, enter <em>Shop</em> in this field."
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/mega-menu-col1.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Column 1 – Categories",
+                  "items": [
+                    "<strong>Column Heading:</strong> Enter the heading shown above the category links. Examples: Categories, Collections, Shop by Category.",
+                    "<strong>Categories Menu:</strong> Select a Shopify menu containing category or collection links. When a link points to a collection, the product count is displayed automatically beside the collection name."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/mega-menu-col2.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Column 2 – Brands",
+                  "items": [
+                    "<strong>Column Heading:</strong> Enter the heading shown above the brand links. Examples: Brands, Shop by Brand, Featured Brands.",
+                    "<strong>Brands Menu:</strong> Select a Shopify menu containing brand links. Collection-based links automatically display the associated product count."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/mega-menu-col3.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Column 3 – Featured Products",
+                  "items": [
+                    "<strong>Column Heading:</strong> Enter the heading shown above the featured product area. Examples: Featured, Best Sellers, Trending Now, New Arrivals.",
+                    "<strong>Number of Products to Show:</strong> Choose how many products appear in the featured product slider. Range: 1–10 products.",
+                    "<strong>Product List:</strong> Select the products to feature. Up to 10 products can be assigned; the display limit is controlled by the Number of Products to Show setting. The featured area displays product image, title, pricing, compare-at price (when applicable), and a direct product link."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/mega-menu-col4.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Column 4 – Mega Banner",
+                  "items": [
+                    "<strong>Mega Banner Image:</strong> Upload an image to appear in the banner area. Recommended size: 790 &times; 499 px (approximately 3:2 landscape ratio). Portrait or square images may be cropped to fit.",
+                    "<strong>Marquee Line 1:</strong> Enter the first promotional message to scroll over the banner image. Default: <em>Check out our latest products!</em>",
+                    "<strong>Marquee Line 2:</strong> Enter the second promotional message. Default: <em>Discover what's new in store!</em> Both messages repeat in a continuous scrolling marquee."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Match the Nav Link Title with the navigation item name exactly.",
+                "Organize categories and brands into separate menus.",
+                "Feature high-performing or seasonal products.",
+                "Use high-quality landscape banner images.",
+                "Keep marquee messages short and easy to read.",
+                "Create separate Mega Menu blocks for different navigation items when needed."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Use a Nav Link Title that does not exist in the navigation menu.",
+                "Overload the featured product area with unrelated products.",
+                "Upload low-resolution banner images.",
+                "Use long promotional messages that are difficult to read while scrolling.",
+                "Leave important content areas empty if the Mega Menu is intended to drive product discovery."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Footer",
+      "href": "/header-footer/footer",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Footer"
+        },
+        {
+          "type": "subheading",
+          "content": "Configure the footer that appears on every page, providing customers with navigation links, policies, newsletter signup, and brand elements."
+        },
+        {
+          "type": "image-text",
+          "url": "/footer.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The Footer is an important part of your store layout as it appears on every page and provides customers with quick access to essential information and navigation links. It supports menus, newsletter signup, social media icons, branding elements like logos, and localization controls — helping you maintain a consistent brand identity across your store."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "How to Edit the Footer"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+                "Click <strong>Customize</strong> on the active theme.",
+                "In the Theme Editor, scroll down and select the <strong>Footer</strong> section from the left sidebar.",
+                "Adjust the settings, blocks, and layout options according to your preferences.",
+                "Click <strong>Save</strong> to apply your changes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Section Settings"
+            },
+            {
+              "type": "image-text",
+              "url": "/footer-settings.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Color Scheme:</strong> Choose a color scheme to control the background and text colors of the footer section.",
+                    "<strong>Select Background Image (Optional):</strong> Upload an image to display as the footer background for a more visually appealing design.",
+                    "<strong>Background Image Overlay:</strong> Adjust the overlay opacity to improve text visibility when a background image is applied.",
+                    "<strong>Top Menu:</strong> Select the menu that will appear at the top of the footer. Typically contains quick navigation links such as Contact, Blog, FAQs, or About pages.",
+                    "<strong>Show Social Media:</strong> Enable this option to display social media icons in the footer linking to your social platforms.",
+                    "<strong>Footer Logo Image:</strong> Upload a logo image to display in the footer.",
+                    "<strong>Logo Position:</strong> Choose where the footer logo appears — Left, Center, or Right.",
+                    "<strong>Logo Width:</strong> Adjust the size of the footer logo using the width slider.",
+                    "<strong>Marquee Text:</strong> Add scrolling text to display promotional messages, announcements, or brand highlights in the footer area.",
+                    "<strong>Apply Bottom Border:</strong> Enable this option to display a separator line between footer sections for a cleaner layout.",
+                    "<strong>Block Heading Font Weight:</strong> Adjust the font thickness of the footer block headings.",
+                    "<strong>Enable Follow on Shop:</strong> Allow customers to follow your store through the Shop app.",
+                    "<strong>Show Localization:</strong> Displays language and country selectors so customers can change their region or language.",
+                    "<strong>Show Payment Icons:</strong> Display accepted payment method icons such as Visa, Mastercard, American Express, and PayPal.",
+                    "<strong>Bottom Logo:</strong> Upload an additional logo that will appear in the bottom section of the footer.",
+                    "<strong>Section Spacing:</strong> Adjust the top and bottom spacing above and below the footer."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Available Blocks"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Menu Block",
+              "items": [
+                "<strong>Column Max Width:</strong> Adjust the width of the menu column to control how much space the block occupies in the footer.",
+                "<strong>Heading:</strong> Enter a title for the menu block. Examples: Collections, Quick Links, Policies.",
+                "<strong>Select Menu:</strong> Choose a navigation menu from your Shopify menu list to appear under this heading. Multiple Menu blocks can be added to display different groups of links."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Newsletter Block",
+              "items": [
+                "<strong>Column Max Width:</strong> Adjust the width of the newsletter column.",
+                "<strong>Heading:</strong> Enter a heading for the newsletter section. Example: Subscribe To Get 10% OFF.",
+                "<strong>Text:</strong> Add a short description encouraging visitors to subscribe, highlighting benefits such as exclusive updates or special discounts.",
+                "<strong>Apply Secondary Color Scheme:</strong> Enable this option to apply an alternative color scheme to the newsletter block for better visual emphasis.",
+                "<strong>Show Policy Info:</strong> Display additional policy information below the newsletter form, informing customers they accept the terms and privacy policy by entering their email."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Text Block",
+              "items": [
+                "<strong>Column Max Width:</strong> Adjust the width of the text block to control how much space it occupies in the footer layout.",
+                "<strong>Heading:</strong> Enter a title for the text block. Examples: About Us, Store Information, Contact Details.",
+                "<strong>Description:</strong> Add the text content that will appear under the heading — such as a short store description, contact information, or any additional message for your customers."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sidebar": true,
+  "header": false
+},
+
+
+
+
     {
       "type": "multipage",
       "name": "Settings General",

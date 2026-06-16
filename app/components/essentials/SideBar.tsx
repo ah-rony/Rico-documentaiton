@@ -8,11 +8,6 @@ const navigationSections = getSidebarNavigationSections();
 const siteTitle = getDocumentationTitle();
 const noDropdownSections = new Set(["Install Theme"]);
 
-const sectionLabels: Record<string, string> = {
-  "Install Theme": "Geetting Started",
-  "Logo and Favicon": "Theme Settings",
-};
-
 function NavigationLink({ href, label, isActive, onClick }: {
   href: string;
   label: string;
@@ -78,7 +73,7 @@ function NavigationSection({ name, items, currentPath, onLinkClick, isOpen, onTo
         {isDropdown && (
           <svg
             style={{ transform: isOpen ? "rotate(90deg)" : "rotate(0deg)", transition: "transform 0.3s ease" }}
-            className={`w-3 h-3 flex-shrink-0 ${isOpen ? "text-emerald-500" : "text-stone-400"}`}
+            className={`w-3 h-3 shrink-0 ${isOpen ? "text-emerald-500" : "text-stone-400"}`}
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
