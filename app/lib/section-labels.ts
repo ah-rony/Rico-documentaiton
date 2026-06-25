@@ -3,7 +3,8 @@
 export const sectionLabels: Record<string, string> = {
   "Install Theme": "Getting Started",
   "Logo and Favicon": "Theme Settings",
-  "Announcment Bar": "Header & Footer",
+  "Announcement Bar": "Header & Footer",
+  "Featured Collection": "Sections",
 };  
 
 export function getSectionLabel(name?: string) {

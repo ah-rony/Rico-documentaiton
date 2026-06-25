@@ -1064,28 +1064,175 @@
 
 {
   "type": "multipage",
-  "name": "Announcment Bar",
+  "name": "Announcement Bar",
   "href": "/header-footer/announcement-bar",
   "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Announcement Bar"
+    },
+    {
+      "type": "paragraph",
+      "content": "The Announcement Bar is a multifunctional header utility section designed to improve customer communication and enhance the shopping experience. It combines promotional messaging, contact information, and localization controls into a single responsive component positioned at the top of the storefront."
+    },
+    {
+      "type": "image-text",
+      "url": "/ab-1.png",
+      "orientation": "landscape",
+      "contents": []
+    },
+    {
+      "type": "paragraph",
+      "content": "The section supports rotating announcement messages, a customizable contact information area, and integrated language and currency selection using Shopify's Localization API. It is fully responsive and optimized for both desktop and mobile devices."
+    },
+    {
+      "type": "section",
+      "contents": [
         {
           "type": "heading",
-          "level": 1,
-          "content": "Announcement Bar"
+          "level": 2,
+          "content": "How to Edit the Announcement Bar"
         },
         {
-          "type": "subheading",
-          "content": "Display rotating promotional messages, contact information, and localization controls at the top of your storefront."
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "In the Theme Editor, select the <strong>Announcement Bar</strong> section from the left sidebar.",
+            "Add announcement blocks and adjust the available settings according to your needs.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "paragraph",
+          "content": "These settings control the overall appearance and functionality of the announcement bar."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Color Scheme:</strong> Selects the color scheme applied to the announcement bar.",
+            "<strong>Section Padding:</strong> Add padding at the top and bottom to fine-tune the spacing of your bar.",
+            "<strong>Contact Text:</strong> Displays contact information or a custom message on desktop devices.",
+            "<strong>Show Country Selector:</strong> Enables or disables the language and currency selector.",
+            "<strong>Autoplay:</strong> Automatically rotates announcement messages.",
+            "<strong>Autoplay Speed:</strong> Controls the delay between announcement transitions."
+          ]
         },
         {
           "type": "image-text",
-          "url": "/announcement-bar.png",
+          "url": "/ab-2.png",
+          "orientation": "landscape",
+          "contents": []
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Block Settings"
+        },
+        {
+          "type": "paragraph",
+          "content": "The section supports up to 5 announcement blocks."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Message Text:</strong> The announcement message displayed within the slider.",
+            "<strong>URL:</strong> Optional destination link for the announcement message."
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/ab-3.png",
           "orientation": "landscape",
           "contents": [
             {
+              "type": "heading",
+              "level": 3,
+              "content": "Announcement"
+            },
+            {
               "type": "paragraph",
-              "content": "The Announcement Bar is a multifunctional header utility section designed to improve customer communication and enhance the shopping experience. It combines promotional messaging, contact information, and integrated language and currency selection using Shopify's Localization API. It is fully responsive and optimized for both desktop and mobile devices."
+              "content": "The Announcement block is great for static messages like store updates or promotions."
             }
           ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Keep announcement messages short and easy to scan.",
+            "Keep contact information up to date.",
+            "Configure language and currency options when selling internationally.",
+            "Link announcements to relevant landing pages when applicable."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use excessively long announcement messages.",
+            "Use announcements for large amounts of content.",
+            "Enable localization selectors if Shopify Markets is not configured.",
+            "Overload customers with multiple competing announcements."
+          ]
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "Header",
+      "href": "/header-footer/header",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Header"
+        },
+        {
+          "type": "paragraph",
+          "content": "The Header serves as the primary navigation area of the storefront, providing customers with access to navigation links, search functionality, customer accounts, and cart interactions. It is designed to improve product discovery, streamline navigation, and maintain quick access to key store features throughout the customer journey."
+        },
+        {
+          "type": "image-text",
+          "url": "/h1.png",
+          "orientation": "landscape",
+          "contents": []
+        },
+        {
+          "type": "paragraph",
+          "content": "The section supports customizable navigation menus, optional utility icons, sticky header functionality, search enhancements, and cart drawer upsell opportunities."
         },
         {
           "type": "section",
@@ -1093,7 +1240,7 @@
             {
               "type": "heading",
               "level": 2,
-              "content": "How to Edit the Announcement Bar"
+              "content": "How to Edit the Header"
             },
             {
               "type": "list",
@@ -1101,9 +1248,9 @@
               "items": [
                 "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
                 "Click <strong>Customize</strong> on the active theme.",
-                "In the Theme Editor, select the <strong>Announcement Bar</strong> section from the left sidebar.",
-                "Add announcement blocks and adjust the available settings according to your needs.",
-                "Click <strong>Save</strong> to apply your changes."
+                "Select the <strong>Header</strong> section from the left sidebar.",
+                "Modify the settings according to your store requirements.",
+                "Click <strong>Save</strong> to apply the changes."
               ]
             }
           ]
@@ -1117,60 +1264,49 @@
               "content": "Section Settings"
             },
             {
-              "type": "paragraph",
-              "content": "These settings control the overall appearance and functionality of the announcement bar."
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Color Scheme:</strong> Select the color scheme applied to the header. This setting controls the overall visual appearance of the header and helps maintain consistency with your store branding.",
+                "<strong>Main Menu:</strong> Select the navigation menu displayed in the header. The selected menu serves as the primary navigation structure for your storefront and can be used to trigger mega menu content where applicable."
+              ]
             },
             {
               "type": "image-text",
-              "url": "/announcement-bar-settings.png",
+              "url": "/h2.png",
               "orientation": "landscape",
               "contents": [
                 {
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Color Scheme:</strong> Selects the color scheme applied to the announcement bar.",
-                    "<strong>Section Padding:</strong> Add padding at the top and bottom to fine-tune the spacing of the bar.",
-                    "<strong>Contact Text:</strong> Displays contact information or a custom message on desktop devices.",
-                    "<strong>Show Country Selector:</strong> Enables or disables the language and currency selector.",
-                    "<strong>Autoplay:</strong> Automatically rotates announcement messages.",
-                    "<strong>Autoplay Speed:</strong> Controls the delay between announcement transitions."
+                    "<strong>Show Search Icon:</strong> Displays a search icon within the header, allowing customers to quickly access the store search experience.",
+                    "<strong>Show Account Icon:</strong> Displays a customer account icon that provides access to login, registration, and account management pages.",
+                    "<strong>Show Cart Icon:</strong> Displays the cart icon and allows customers to access their shopping cart from any page.",
+                    "<strong>Enable Cart Drawer Gift Box:</strong> When enabled, customers can add an optional gift product directly from the cart drawer before proceeding to checkout. This feature can be used to promote gift wrapping services, complimentary products, or special add-on items.",
+                    "<strong>Cart Drawer Gift Product:</strong> Select the Signature gift box product that will be offered as the optional gift item within the cart drawer."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/h3.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Enable Sticky Header:</strong> Keeps the header visible at the top of the page while customers scroll. This improves navigation accessibility and provides continuous access to search, account, and cart functionality throughout the shopping journey.",
+                    "<strong>Suggested Searches:</strong> Enter popular search terms separated by commas. These suggestions help customers discover products more quickly and improve the overall search experience. Example: Running Shoes, Sneakers, New Arrivals, Best Sellers.",
+                    "<strong>Suggested Products Collection:</strong> Select a collection to display recommended products within the search interface. Products from the selected collection can be surfaced to customers during search interactions to improve product discovery and engagement."
                   ]
                 }
               ]
             }
           ]
         },
-       {
-        "type": "section",
-        "contents": [
-        {
-        "type": "image-text",
-        "url": "/announcement-bar-blocks.png",
-        "orientation": "portrait",
-        "contents": [
-        {
-        "type": "heading",
-        "level": 2,
-        "content": "Block Settings"
-        },
-        {
-        "type": "paragraph",
-        "content": "The section supports up to 5 announcement blocks."
-        },
-        {
-        "type": "list",
-        "ordered": false,
-        "items": [
-        "<strong>Message Text:</strong> The announcement message displayed within the slider.",
-        "<strong>URL:</strong> Optional destination link for the announcement message."
-        ]
-        }
-        ]
-        }
-        ]
-        },
-
         {
           "type": "section",
           "contents": [
@@ -1184,10 +1320,11 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Keep announcement messages short and easy to scan.",
-                "Keep contact information up to date.",
-                "Configure language and currency options when selling internationally.",
-                "Link announcements to relevant landing pages when applicable."
+                "Use a clear and organized navigation structure.",
+                "Enable sticky header for improved usability.",
+                "Add relevant suggested search terms.",
+                "Use a high-converting collection for suggested products.",
+                "Enable the gift box feature when offering gift wrapping or add-on products."
               ]
             },
             {
@@ -1195,158 +1332,17 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Use excessively long announcement messages.",
-                "Use announcements for large amounts of content.",
-                "Enable localization selectors if Shopify Markets is not configured.",
-                "Overload customers with multiple competing announcements."
+                "Use overly complex navigation menus.",
+                "Add unrelated search suggestions.",
+                "Offer unavailable products as gift options.",
+                "Disable essential icons that customers frequently use."
               ]
             }
           ]
         }
-      ],
-  "pages": [
-    {
-      "name": "Header",
-      "href": "/header-footer/header",
-      "contents": [
-      {
-      "type": "heading",
-      "level": 1,
-      "content": "Header"
-      },
-      {
-      "type": "subheading",
-      "content": "Configure the primary navigation area of your storefront, including menus, search, account access, and cart interactions."
-      },
-      {
-      "type": "image-text",
-      "url": "/header.png",
-      "orientation": "landscape",
-      "contents": [
-      {
-      "type": "paragraph",
-      "content": "The Header serves as the primary navigation area of the storefront, providing customers with access to navigation links, search functionality, customer accounts, and cart interactions. It is designed to improve product discovery, streamline navigation, and maintain quick access to key store features throughout the customer journey. The section supports customizable navigation menus, optional utility icons, sticky header functionality, search enhancements, and cart drawer upsell opportunities."
-      }
       ]
-      },
-      {
-      "type": "section",
-      "contents": [
-      {
-      "type": "heading",
-      "level": 2,
-      "content": "How to Edit the Header"
-      },
-      {
-      "type": "list",
-      "ordered": true,
-      "items": [
-      "From your Shopify admin, go to <strong>Online Store</strong> → <strong>Themes</strong>.",
-      "Click <strong>Customize</strong> on the active theme.",
-      "Select the <strong>Header</strong> section from the left sidebar.",
-      "Modify the settings according to your store requirements.",
-      "Click <strong>Save</strong> to apply the changes."
-      ]
-      }
-      ]
-      },
-      {
-      "type": "section",
-      "contents": [
-      {
-      "type": "heading",
-      "level": 2,
-      "content": "Section Settings"
-      },
-      {
-      "type": "image-text",
-      "url": "/header-settings-navigation.png",
-      "orientation": "portrait",
-      "contents": [
-      {
-      "type": "list",
-      "ordered": false,
-      "items": [
-      "<strong>Color Scheme:</strong> Select the color scheme applied to the header. This setting controls the overall visual appearance of the header and helps maintain consistency with your store branding.",
-      "<strong>Main Menu:</strong> Select the navigation menu displayed in the header. The selected menu serves as the primary navigation structure for your storefront and can be used to trigger mega menu content where applicable.",
-      "<strong>Show Search Icon:</strong> Displays a search icon within the header, allowing customers to quickly access the store search experience.",
-      "<strong>Show Account Icon:</strong> Displays a customer account icon that provides access to login, registration, and account management pages.",
-      "<strong>Show Cart Icon:</strong> Displays the cart icon and allows customers to access their shopping cart from any page."
-      ]
-      }
-      ]
-      },
-      {
-      "type": "image-text",
-      "url": "/header-settings-cart-drawer.png",
-      "orientation": "portrait",
-      "contents": [
-      {
-      "type": "list",
-      "ordered": false,
-      "items": [
-      "<strong>Enable Cart Drawer Gift Box:</strong> When enabled, customers can add an optional gift product directly from the cart drawer before proceeding to checkout. This feature can be used to promote gift wrapping services, complimentary products, or special add-on items.",
-      "<strong>Cart Drawer Gift Product:</strong> Select the Signature gift box product that will be offered as the optional gift item within the cart drawer.",
-      "<strong>Enable Sticky Header:</strong> Keeps the header visible at the top of the page while customers scroll. This improves navigation accessibility and provides continuous access to search, account, and cart functionality throughout the shopping journey."
-      ]
-      }
-      ]
-      },
-      {
-      "type": "image-text",
-      "url": "/header-settings-search.png",
-      "orientation": "portrait",
-      "contents": [
-      {
-      "type": "list",
-      "ordered": false,
-      "items": [
-      "<strong>Suggested Searches:</strong> Enter popular search terms separated by commas. These suggestions help customers discover products more quickly and improve the overall search experience.",
-      "<strong>Example:</strong> Running Shoes, Sneakers, New Arrivals, Best Sellers.",
-      "<strong>Suggested Products Collection:</strong> Select a collection to display recommended products within the search interface. Products from the selected collection can be surfaced to customers during search interactions to improve product discovery and engagement."
-      ]
-      }
-      ]
-      }
-      ]
-      },
-      {
-      "type": "section",
-      "contents": [
-      {
-      "type": "heading",
-      "level": 2,
-      "content": "Best Practices"
-      },
-      {
-      "type": "list",
-      "ordered": false,
-      "label": "Do",
-      "items": [
-      "Use a clear and organized navigation structure.",
-      "Enable sticky header for improved usability.",
-      "Add relevant suggested search terms.",
-      "Use a high-converting collection for suggested products.",
-      "Enable the gift box feature when offering gift wrapping or add-on products."
-      ]
-      },
-      {
-      "type": "list",
-      "ordered": false,
-      "label": "Don't",
-      "items": [
-      "Use overly complex navigation menus.",
-      "Add unrelated search suggestions.",
-      "Offer unavailable products as gift options.",
-      "Disable essential icons that customers frequently use."
-      ]
-      }
-      ]
-      }
-      ]
-
     },
-    {
+   {
       "name": "Mega Menu",
       "href": "/header-footer/mega-menu",
       "contents": [
@@ -1356,19 +1352,19 @@
           "content": "Mega Menu"
         },
         {
-          "type": "subheading",
-          "content": "Create large dropdown navigation panels that display categories, brands, featured products, and promotional imagery."
+          "type": "paragraph",
+          "content": "The Mega Menu is a Header block that creates a large dropdown navigation panel for specific menu items. It allows merchants to display categories, brands, featured products, promotional imagery, and marketing messages in a structured layout when customers hover over a navigation link."
         },
         {
           "type": "image-text",
-          "url": "/mega-menu.png",
+          "url": "/mm1.png",
           "orientation": "landscape",
-          "contents": [
-            {
-              "type": "paragraph",
-              "content": "The Mega Menu is a Header block that creates a wide dropdown navigation panel for specific menu items. Multiple Mega Menu blocks can be added within the Header section, allowing different navigation items to display their own unique content. It supports category links, brand navigation, featured product sliders, promotional banner images, and scrolling marquee messaging."
-            }
-          ]
+          "contents": []
+        },
+        {
+          "type": "paragraph",
+          "content": "Multiple Mega Menu blocks can be added within the Header section, allowing different navigation items to display their own unique Mega Menu content."
+            
         },
         {
           "type": "section",
@@ -1377,6 +1373,10 @@
               "type": "heading",
               "level": 2,
               "content": "Adding a Mega Menu"
+            },
+            {
+              "type": "paragraph",
+              "content": "To create a Mega Menu, add a Mega Menu block inside the Header section and configure the settings below."
             },
             {
               "type": "list",
@@ -1404,12 +1404,12 @@
               "ordered": false,
               "label": "Trigger",
               "items": [
-                "<strong>Nav Link Title:</strong> Enter the exact navigation menu item name that should trigger this Mega Menu. The value must match the navigation item name exactly (case-insensitive). If no matching menu item is found, the Mega Menu will not appear. Example: if your main menu contains an item named <em>Shop</em>, enter <em>Shop</em> in this field."
+                "<strong>Nav Link Title:</strong> Enter the exact navigation menu item name that should trigger this Mega Menu. Example: If your main menu contains a navigation item named <em>Shop</em>, enter <em>Shop</em> in this field. <strong>Important:</strong> The value must match the navigation item name exactly (case-insensitive). If no matching menu item is found, the Mega Menu will not appear."
               ]
             },
             {
               "type": "image-text",
-              "url": "/mega-menu-col1.png",
+              "url": "/mm2.png",
               "orientation": "landscape",
               "contents": [
                 {
@@ -1420,14 +1420,7 @@
                     "<strong>Column Heading:</strong> Enter the heading shown above the category links. Examples: Categories, Collections, Shop by Category.",
                     "<strong>Categories Menu:</strong> Select a Shopify menu containing category or collection links. When a link points to a collection, the product count is displayed automatically beside the collection name."
                   ]
-                }
-              ]
-            },
-            {
-              "type": "image-text",
-              "url": "/mega-menu-col2.png",
-              "orientation": "landscape",
-              "contents": [
+                },
                 {
                   "type": "list",
                   "ordered": false,
@@ -1436,39 +1429,25 @@
                     "<strong>Column Heading:</strong> Enter the heading shown above the brand links. Examples: Brands, Shop by Brand, Featured Brands.",
                     "<strong>Brands Menu:</strong> Select a Shopify menu containing brand links. Collection-based links automatically display the associated product count."
                   ]
-                }
-              ]
-            },
-            {
-              "type": "image-text",
-              "url": "/mega-menu-col3.png",
-              "orientation": "landscape",
-              "contents": [
+                },
                 {
                   "type": "list",
                   "ordered": false,
                   "label": "Column 3 – Featured Products",
                   "items": [
                     "<strong>Column Heading:</strong> Enter the heading shown above the featured product area. Examples: Featured, Best Sellers, Trending Now, New Arrivals.",
-                    "<strong>Number of Products to Show:</strong> Choose how many products appear in the featured product slider. Range: 1–10 products.",
-                    "<strong>Product List:</strong> Select the products to feature. Up to 10 products can be assigned; the display limit is controlled by the Number of Products to Show setting. The featured area displays product image, title, pricing, compare-at price (when applicable), and a direct product link."
+                    "<strong>Number of Products to Show:</strong> Choose how many products should appear in the featured product slider. Range: 1–10 products.",
+                    "<strong>Product List:</strong> Select the products to feature. Up to 10 products can be assigned; the display limit is controlled by the Number of Products to Show setting. The featured products area displays: product image, product title, product pricing, compare-at price (when applicable), and a direct product link. Customers can browse products using the built-in slider controls."
                   ]
-                }
-              ]
-            },
-            {
-              "type": "image-text",
-              "url": "/mega-menu-col4.png",
-              "orientation": "landscape",
-              "contents": [
+                },
                 {
                   "type": "list",
                   "ordered": false,
-                  "label": "Column 4 – Mega Banner",
+                  "label": "Column 4 – Mega Banner Image",
                   "items": [
-                    "<strong>Mega Banner Image:</strong> Upload an image to appear in the banner area. Recommended size: 790 &times; 499 px (approximately 3:2 landscape ratio). Portrait or square images may be cropped to fit.",
-                    "<strong>Marquee Line 1:</strong> Enter the first promotional message to scroll over the banner image. Default: <em>Check out our latest products!</em>",
-                    "<strong>Marquee Line 2:</strong> Enter the second promotional message. Default: <em>Discover what's new in store!</em> Both messages repeat in a continuous scrolling marquee."
+                    "<strong>Mega Banner Image:</strong> Upload an image to appear in the banner area. Recommended size: 790 &times; 499 px (approximately 3:2 landscape ratio). Portrait or square images may be cropped to fit the available space.",
+                    "<strong>Marquee Line 1:</strong> Enter the first promotional message. Default: <em>Check out our latest products!</em>",
+                    "<strong>Marquee Line 2:</strong> Enter the second promotional message. Default: <em>Discover what's new in store!</em> The two messages automatically repeat in a continuous scrolling marquee."
                   ]
                 }
               ]
@@ -1509,6 +1488,33 @@
               ]
             }
           ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Features"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Header block-based Mega Menu",
+                "Multiple Mega Menu blocks supported",
+                "Hover-triggered dropdown panel",
+                "Category and brand navigation columns",
+                "Automatic collection product counts",
+                "Featured product slider with navigation controls",
+                "Promotional banner image support",
+                "Scrolling marquee messaging",
+                "Keyboard accessibility support",
+                "Responsive layout across devices",
+                "Smooth open and close animations"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1522,17 +1528,13 @@
           "content": "Footer"
         },
         {
-          "type": "subheading",
-          "content": "Configure the footer that appears on every page, providing customers with navigation links, policies, newsletter signup, and brand elements."
-        },
-        {
           "type": "image-text",
-          "url": "/footer.png",
+          "url": "/f1.png",
           "orientation": "landscape",
           "contents": [
             {
               "type": "paragraph",
-              "content": "The Footer is an important part of your store layout as it appears on every page and provides customers with quick access to essential information and navigation links. It supports menus, newsletter signup, social media icons, branding elements like logos, and localization controls — helping you maintain a consistent brand identity across your store."
+              "content": "The Footer section provides a centralized area for displaying navigation links, brand information, newsletter signup, social media links, store information, and legal content. It helps customers quickly access important pages and stay connected with your brand."
             }
           ]
         },
@@ -1566,32 +1568,39 @@
               "content": "Section Settings"
             },
             {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Color Scheme:</strong> Select the color scheme used throughout the footer section.",
+                "<strong>Margin Top:</strong> Adjust the spacing above the footer section.",
+                "<strong>Margin Bottom:</strong> Adjust the spacing below the footer section."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Newsletter",
+              "items": [
+                "<strong>Show Newsletter Section:</strong> Enable or disable the newsletter signup area.",
+                "<strong>Newsletter Heading:</strong> Enter the heading displayed above the newsletter form. Example: Unlock your full potential with 50% off!",
+                "<strong>Footer Logo:</strong> Upload a logo to display in the footer. If no logo is selected, the store name will be displayed as text instead.",
+                "<strong>Show Bottom Image:</strong> Enable or disable the sticky footer image displayed beneath the footer content.",
+                "<strong>Bottom Sticky Image:</strong> Upload an image to appear below the footer section. This image is typically used for branding, promotional artwork, or decorative visual elements."
+              ]
+            },
+            {
               "type": "image-text",
-              "url": "/footer-settings.png",
+              "url": "/f2.png",
               "orientation": "landscape",
-              "contents": [
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "items": [
-                    "<strong>Color Scheme:</strong> Choose a color scheme to control the background and text colors of the footer section.",
-                    "<strong>Select Background Image (Optional):</strong> Upload an image to display as the footer background for a more visually appealing design.",
-                    "<strong>Background Image Overlay:</strong> Adjust the overlay opacity to improve text visibility when a background image is applied.",
-                    "<strong>Top Menu:</strong> Select the menu that will appear at the top of the footer. Typically contains quick navigation links such as Contact, Blog, FAQs, or About pages.",
-                    "<strong>Show Social Media:</strong> Enable this option to display social media icons in the footer linking to your social platforms.",
-                    "<strong>Footer Logo Image:</strong> Upload a logo image to display in the footer.",
-                    "<strong>Logo Position:</strong> Choose where the footer logo appears — Left, Center, or Right.",
-                    "<strong>Logo Width:</strong> Adjust the size of the footer logo using the width slider.",
-                    "<strong>Marquee Text:</strong> Add scrolling text to display promotional messages, announcements, or brand highlights in the footer area.",
-                    "<strong>Apply Bottom Border:</strong> Enable this option to display a separator line between footer sections for a cleaner layout.",
-                    "<strong>Block Heading Font Weight:</strong> Adjust the font thickness of the footer block headings.",
-                    "<strong>Enable Follow on Shop:</strong> Allow customers to follow your store through the Shop app.",
-                    "<strong>Show Localization:</strong> Displays language and country selectors so customers can change their region or language.",
-                    "<strong>Show Payment Icons:</strong> Display accepted payment method icons such as Visa, Mastercard, American Express, and PayPal.",
-                    "<strong>Bottom Logo:</strong> Upload an additional logo that will appear in the bottom section of the footer.",
-                    "<strong>Section Spacing:</strong> Adjust the top and bottom spacing above and below the footer."
-                  ]
-                }
+              "contents": []
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Bottom Bar",
+              "items": [
+                "<strong>Show Country/Region Selector:</strong> Enable or disable the country and region selector. This allows customers to switch between available markets when Shopify Markets is configured.",
+                "<strong>Copyright Text:</strong> Add custom copyright text for your store. If left blank, the theme automatically displays: Copyright &copy; [Current Year] [Store Name]."
               ]
             }
           ]
@@ -1602,38 +1611,109 @@
             {
               "type": "heading",
               "level": 2,
-              "content": "Available Blocks"
+              "content": "Footer Blocks"
+            },
+            {
+              "type": "paragraph",
+              "content": "The footer supports multiple content blocks that can be added, removed, or reordered as needed. You can add up to 4 blocks in total and arrange them in any order."
+            },
+            {
+              "type": "image-text",
+              "url": "/f3.png",
+              "orientation": "landscape",
+              "contents": []
             },
             {
               "type": "list",
               "ordered": false,
               "label": "Menu Block",
               "items": [
-                "<strong>Column Max Width:</strong> Adjust the width of the menu column to control how much space the block occupies in the footer.",
-                "<strong>Heading:</strong> Enter a title for the menu block. Examples: Collections, Quick Links, Policies.",
-                "<strong>Select Menu:</strong> Choose a navigation menu from your Shopify menu list to appear under this heading. Multiple Menu blocks can be added to display different groups of links."
+                "<strong>Heading:</strong> Column title displayed above the menu links.",
+                "<strong>Menu:</strong> Select the navigation menu to display."
               ]
             },
             {
               "type": "list",
               "ordered": false,
-              "label": "Newsletter Block",
+              "label": "Notes",
               "items": [
-                "<strong>Column Max Width:</strong> Adjust the width of the newsletter column.",
-                "<strong>Heading:</strong> Enter a heading for the newsletter section. Example: Subscribe To Get 10% OFF.",
-                "<strong>Text:</strong> Add a short description encouraging visitors to subscribe, highlighting benefits such as exclusive updates or special discounts.",
-                "<strong>Apply Secondary Color Scheme:</strong> Enable this option to apply an alternative color scheme to the newsletter block for better visual emphasis.",
-                "<strong>Show Policy Info:</strong> Display additional policy information below the newsletter form, informing customers they accept the terms and privacy policy by entering their email."
+                "Multiple menu blocks can be added.",
+                "Useful for sections such as Shop, Company, Support, or Resources."
               ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Social Block",
+              "items": [
+                "<strong>Heading:</strong> Title displayed above the social links."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Notes",
+              "items": [
+                "Social links are automatically pulled from Theme Settings.",
+                "Only social networks with URLs configured will be shown.",
+                "Recommended for 'Follow Us' or 'Connect With Us' sections."
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/f4.png",
+              "orientation": "landscape",
+              "contents": []
             },
             {
               "type": "list",
               "ordered": false,
               "label": "Text Block",
               "items": [
-                "<strong>Column Max Width:</strong> Adjust the width of the text block to control how much space it occupies in the footer layout.",
-                "<strong>Heading:</strong> Enter a title for the text block. Examples: About Us, Store Information, Contact Details.",
-                "<strong>Description:</strong> Add the text content that will appear under the heading — such as a short store description, contact information, or any additional message for your customers."
+                "<strong>Heading:</strong> Block title.",
+                "<strong>Text:</strong> Rich text content supporting formatting and links."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Notes",
+              "items": [
+                "Ideal for store information, contact details, brand message, shipping information, or promotional content."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Use clear and concise block headings.",
+                "Keep footer navigation focused on important pages only.",
+                "Add social links through Theme Settings to display them automatically in the Social block.",
+                "Use the Text block for important store information, support details, or brand messaging.",
+                "Organize footer content logically so customers can find information quickly."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Overload the footer with too many links.",
+                "Use excessively long block headings that may wrap across multiple lines.",
+                "Add duplicate menus containing the same links.",
+                "Rely on the Text block for large amounts of content.",
+                "Leave empty blocks without content, as they may create unnecessary spacing in the footer."
               ]
             }
           ]
@@ -1646,7 +1726,1657 @@
 },
 
 
-
+{
+  "type": "multipage",
+  "name": "Featured Collection",
+  "href": "/sections/featured-collection",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Featured Collection"
+    },
+    {
+      "type": "subheading",
+      "content": "Highlight curated collections, campaigns, or promotional categories through two visually impactful collection cards."
+    },
+    {
+      "type": "paragraph",
+      "content": "The Featured Collection section is designed to highlight curated collections, campaigns, or promotional categories through two visually impactful collection cards. Each card supports a custom image, heading, call-to-action link, and individual styling controls, allowing merchants to create engaging collection-focused storytelling throughout the storefront."
+    },
+    {
+      "type": "image-text",
+      "url": "/featured-collection.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The section is fully responsive and adapts seamlessly across desktop, tablet, and mobile devices while maintaining strong visual emphasis on featured collections and promotional content."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Featured Collection Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Featured Collection</strong> section from the left sidebar.",
+            "Adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Color Scheme:</strong> Select a color scheme that matches the overall design of the storefront and surrounding content.",
+            "<strong>Heading:</strong> Add an optional section heading to introduce the featured collections and provide context for customers.",
+            "<strong>Layout &amp; Spacing:</strong> Control the section spacing using customizable padding and margin settings. These settings help create consistent spacing between adjacent sections and improve overall page composition."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Featured Collection Card 1"
+        },
+        {
+          "type": "paragraph",
+          "content": "The first card can be configured independently to showcase a collection, category, seasonal campaign, or promotional destination."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Merchants can",
+          "items": [
+            "Upload a custom image.",
+            "Add a collection title or promotional heading.",
+            "Control the maximum width of the heading.",
+            "Customize heading color.",
+            "Add a call-to-action label.",
+            "Customize link color.",
+            "Assign a destination URL."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Featured Collection Card 2"
+        },
+        {
+          "type": "paragraph",
+          "content": "The second card provides the same flexibility and can be used to highlight an additional collection, category, or campaign."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Merchants can",
+          "items": [
+            "Upload a custom image.",
+            "Add a collection title or promotional heading.",
+            "Control the maximum width of the heading.",
+            "Customize heading color.",
+            "Add a call-to-action label.",
+            "Customize link color.",
+            "Assign a destination URL."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If a collection image is not assigned, a placeholder graphic is displayed automatically. This ensures the section remains visually structured during store setup and content management."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use high-quality collection imagery.",
+            "Keep collection titles short and impactful.",
+            "Link cards directly to relevant collection or campaign pages.",
+            "Use contrasting text colors for better readability.",
+            "Feature collections that are important to current marketing goals."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use overly long collection titles.",
+            "Link cards to unrelated destinations.",
+            "Use low-resolution images.",
+            "Overcrowd collection cards with excessive text.",
+            "Use text colors that reduce readability against the background image."
+          ]
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "Product Recommendations",
+      "href": "/sections/product-recommendations",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Product Recommendations"
+        },
+        {
+          "type": "subheading",
+          "content": "Increase product discovery and encourage additional purchases by displaying related products directly on product pages."
+        },
+        {
+          "type": "paragraph",
+          "content": "The Product Recommendations section helps increase product discovery and encourage additional purchases by displaying related products directly on product pages. Recommendations are dynamically generated based on the currently viewed product, providing customers with relevant items they may also be interested in."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-reco.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The section automatically loads recommendations using Shopify's product recommendation system and only appears when relevant products are available."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "How to Edit the Product Recommendations Section"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+                "Click <strong>Customize</strong> on the active theme.",
+                "Select the <strong>Product Recommendations</strong> section from the left sidebar.",
+                "Adjust the settings according to your preferences.",
+                "Click <strong>Save</strong> to apply your changes."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Section Settings"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme that matches the overall design of the storefront and surrounding content.",
+                "<strong>Heading:</strong> Customize the section heading displayed above the recommended products. Common examples include: You May Also Like, Related Products, Recommended For You, Complete The Look.",
+                "<strong>Number of Products:</strong> Control how many recommended products are displayed within the section. The product limit can be adjusted to show between 3 and 10 recommended products depending on the desired layout and merchandising strategy.",
+                "<strong>Layout &amp; Spacing:</strong> Control the section spacing using customizable padding and margin settings. These settings help create consistent spacing between adjacent sections and improve overall page composition."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Grid Layout",
+              "items": [
+                "<strong>Desktop columns:</strong> Number of products displayed per row on desktop.",
+                "<strong>Laptop columns:</strong> Number of products displayed per row on laptop.",
+                "<strong>Tablet columns:</strong> Number of products displayed per row on tablet.",
+                "<strong>Product grid spacing:</strong> Spacing between product cards in the grid."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Use a clear and relevant section heading.",
+                "Display a reasonable number of recommended products.",
+                "Maintain accurate product categorization.",
+                "Use recommendations to support cross-selling opportunities.",
+                "Review product relationships regularly."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Display too many recommended products.",
+                "Use misleading section headings.",
+                "Rely on recommendations as the only product discovery method.",
+                "Ignore product organization and collection structure.",
+                "Overcrowd the product page with competing recommendation sections."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "name": "Promotion Banner",
+  "href": "/sections/promotion-banner",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Promotion Banner"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a full-width promotional media section with image or video background and optional scrolling marquee messaging."
+    },
+    {
+      "type": "image-text",
+      "url": "/promotion-banner-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Promotion Banner is a full-width media section designed to create high-impact visual experiences at any point in your storefront. It supports both image and video backgrounds with separate desktop and mobile media controls, an optional scrolling marquee strip pinned to the bottom of the section, and full color scheme integration."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Promotion Banner Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Promotion Banner</strong> section from the left sidebar.",
+            "Adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/promotion-banner-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Heading:</strong> Add an optional heading displayed above the media area."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Media",
+              "items": [
+                "<strong>Media Type:</strong> Choose between <em>Image</em> or <em>Video</em> as the background media.",
+                "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Recommended width: 2000px. Only available when Media Type is set to Image.",
+                "<strong>Mobile Image:</strong> Upload a separate image optimized for mobile devices. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
+                "<strong>Video Type:</strong> Select the video source type. Options: <em>Shopify</em> — upload a video directly via Shopify; <em>External</em> — link to a YouTube or Vimeo video; <em>Direct</em> — enter a direct MP4 URL. Only available when Media Type is set to Video.",
+                "<strong>Shopify Video:</strong> Upload a video file through Shopify. Only available when Video Type is set to Shopify.",
+                "<strong>External Video URL:</strong> Enter a YouTube or Vimeo URL. Only available when Video Type is set to External.",
+                "<strong>Direct Video URL:</strong> Enter a direct MP4 video URL. Only available when Video Type is set to Direct.",
+                "<strong>Section Height (Desktop):</strong> Set the minimum height of the section on desktop. Range: 300–1020px. Default: 840px.",
+                "<strong>Section Height (Mobile):</strong> Set the minimum height of the section on mobile. Range: 200–800px. Default: 660px."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Marquee Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/promotion-banner-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Show Marquee:</strong> Enable or disable the scrolling marquee strip pinned to the bottom of the section.",
+                "<strong>Vertical Padding:</strong> Controls the top and bottom padding inside the marquee strip. Default: 8px.",
+                "<strong>Overlay Style:</strong> Sets the background style behind the marquee. Options: <em>None</em> — transparent background; <em>Solid</em> — flat color background; <em>Gradient</em> — fades from solid to transparent upward.",
+                "<strong>Overlay Color:</strong> Sets the color used for the solid or gradient overlay. Only available when Overlay Style is not set to None.",
+                "<strong>Gradient Start Opacity:</strong> Controls the opacity at the bottom of the gradient. Range: 0–100%. Default: 85%.",
+                "<strong>Gradient End Opacity:</strong> Controls the opacity at the top of the gradient. Range: 0–100%. Default: 50%.",
+                "<strong>Text Color:</strong> Sets the color of the marquee text and separator characters.",
+                "<strong>Direction:</strong> Controls the scroll direction. Options: <em>Left to Right</em>; <em>Right to Left</em>; <em>Both</em> — alternates direction.",
+                "<strong>Speed:</strong> Controls the scroll speed. A lower value scrolls faster; a higher value scrolls slower. Default: 400.",
+                "<strong>Item Gap:</strong> Sets the spacing between marquee items. Default: 8px."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Marquee Item Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Add up to 20 Marquee Item blocks to populate the scrolling marquee strip. Each block contains a single rich text field for the message content."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Content:</strong> Enter the text to display as a marquee item. Supports rich text formatting."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If no image or video is assigned, a placeholder graphic is displayed automatically. If no video is uploaded for Shopify or Direct video types, a default placeholder video is shown. This ensures the section remains visually structured during store setup."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use high-resolution images for crisp display across all screen sizes.",
+            "Upload a separate mobile image optimized for portrait viewports.",
+            "Keep marquee messages short and easy to read while scrolling.",
+            "Use a gradient overlay when marquee text needs to stand out against the media.",
+            "Use Shopify-hosted videos for the best performance and compatibility."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use low-resolution images that appear blurry on large screens.",
+            "Enable the marquee without adding any Marquee Item blocks.",
+            "Use excessively long marquee messages that are difficult to read.",
+            "Link external videos from unsupported platforms other than YouTube or Vimeo.",
+            "Set section height too low when using a video background, as it may clip the content."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Flash Sale Timer",
+  "href": "/sections/flash-sale-timer",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Flash Sale Timer"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a two-column promotional section with a countdown timer to create urgency and drive conversions during limited-time sales."
+    },
+    {
+      "type": "image-text",
+      "url": "/flash-sale-timer-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Flash Sale Timer section is a two-column promotional layout designed to create urgency and drive conversions during limited-time sales and campaigns. The left column displays a promotional image with an overlaid flash label, tagline, countdown timer, and call-to-action button. The right column displays a secondary supporting image. The section supports separate desktop and mobile images for the left column and scales spacing responsively across all device sizes."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Flash Sale Timer Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Flash Sale Timer</strong> section from the left sidebar.",
+            "Adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/flash-sale-timer-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Heading:</strong> Add an optional section heading displayed above the two-column layout.",
+                "<strong>Padding Top:</strong> Controls the top padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Padding Bottom:</strong> Controls the bottom padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Content",
+              "items": [
+                "<strong>Left Image:</strong> Upload the primary promotional image displayed in the left column on desktop.",
+                "<strong>Right Image:</strong> Upload the supporting image displayed in the right column.",
+                "<strong>Left Image (Mobile):</strong> Upload a separate image for the left column optimized for mobile devices. If left blank, the desktop left image is used as a fallback.",
+                "<strong>Flash Label:</strong> Enter a short promotional label displayed as an overlay on the left image. Example: Flash Sale, Limited Offer.",
+                "<strong>Tagline:</strong> Enter a short supporting message displayed above the countdown timer.",
+                "<strong>CTA Label:</strong> Enter the text for the call-to-action button.",
+                "<strong>CTA URL:</strong> Assign a destination URL for the call-to-action button."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Countdown Timer Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/flash-sale-timer-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "End Date & Time",
+              "items": [
+                "<strong>Month:</strong> Select the month the sale ends.",
+                "<strong>Day:</strong> Enter the day the sale ends.",
+                "<strong>Year:</strong> Enter the year the sale ends.",
+                "<strong>Hour:</strong> Select the hour the sale ends (24-hour format).",
+                "<strong>Minute:</strong> Select the minute the sale ends."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Timer Labels",
+              "items": [
+                "<strong>Days Label:</strong> Customize the label displayed below the days counter. Default: Days.",
+                "<strong>Hours Label:</strong> Customize the label displayed below the hours counter. Default: Hours.",
+                "<strong>Minutes Label:</strong> Customize the label displayed below the minutes counter. Default: Minutes.",
+                "<strong>Seconds Label:</strong> Customize the label displayed below the seconds counter. Default: Seconds."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If no image is assigned to the left or right column, a placeholder graphic is displayed automatically. This ensures the section remains visually structured during store setup and content management."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use high-quality promotional images for both columns.",
+            "Upload a separate mobile image for the left column to ensure optimal display on small screens.",
+            "Keep the flash label and tagline short and impactful.",
+            "Set a clear and realistic sale end date to build genuine urgency.",
+            "Link the CTA button directly to the relevant sale collection or landing page."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use low-resolution images that appear blurry on large screens.",
+            "Set a sale end date that has already passed.",
+            "Use overly long flash labels or taglines that overlap the image content.",
+            "Leave the CTA button without a destination URL.",
+            "Use the section without updating the countdown timer end date for each new promotion."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Testimonials",
+  "href": "/sections/testimonials",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Testimonials"
+    },
+    {
+      "type": "subheading",
+      "content": "Display customer reviews and testimonials in a full-width slider to build trust and social proof across your storefront."
+    },
+    {
+      "type": "image-text",
+      "url": "/testimonials-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Testimonials section displays customer quotes in a full-width slider powered by Swiper.js. Each testimonial includes a quote, author name, and optional author title. The section supports autoplay, loop, and configurable transition speed, and includes previous and next navigation buttons along with pagination dots when multiple testimonials are added."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Testimonials Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Testimonials</strong> section from the left sidebar.",
+            "Add Testimonial blocks and adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/testimonials-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Heading:</strong> Add an optional section heading displayed above the testimonials slider.",
+                "<strong>Padding Top:</strong> Controls the top padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Padding Bottom:</strong> Controls the bottom padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Slider",
+              "items": [
+                "<strong>Autoplay:</strong> Enable or disable automatic cycling through testimonials.",
+                "<strong>Autoplay Delay:</strong> Set the time each testimonial is displayed before advancing to the next. Range: 2000–9000ms. Default: 4000ms.",
+                "<strong>Transition Speed:</strong> Controls how fast the slide transition animation plays. Range: 200–1200ms. Default: 600ms.",
+                "<strong>Loop:</strong> Enable or disable continuous looping of testimonials. When enabled, the slider cycles back to the first testimonial after the last."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Testimonial Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Add up to 10 Testimonial blocks to populate the slider. Each block contains the following settings."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Quote:</strong> Enter the customer review or testimonial text.",
+            "<strong>Author:</strong> Enter the name of the customer or reviewer.",
+            "<strong>Author Title:</strong> Optionally enter a title or role displayed in brackets beside the author name. Example: Verified Buyer, CEO."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If no Testimonial blocks are added, a placeholder message is displayed prompting you to add testimonial blocks in the theme editor. Navigation buttons and pagination dots are only shown when more than one testimonial block is present."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use genuine customer quotes that highlight specific product benefits.",
+            "Keep quotes concise and easy to read at a glance.",
+            "Include author names and titles to add credibility.",
+            "Add at least 3 testimonials to make the slider meaningful.",
+            "Enable autoplay for a more dynamic presentation on landing pages."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use excessively long quotes that are difficult to read in a slider.",
+            "Leave author name or title fields blank when the information is available.",
+            "Add only one testimonial block as navigation and pagination will not appear.",
+            "Set autoplay delay too short, making it difficult for customers to read the full quote.",
+            "Use the section without any blocks, as it will display a placeholder message instead of content."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Latest Insights",
+  "href": "/sections/latest-insights",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Latest Insights"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a curated selection of blog articles alongside a sticky cover image to drive content engagement and blog discovery."
+    },
+    {
+      "type": "image-text",
+      "url": "/latest-insights-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Latest Insights section displays a horizontally scrollable article slider alongside a sticky cover image. The cover image supports an optional quote and author overlay. Each article card displays the article image, publication date, optional author name, and article title. A customizable button links customers to the full blog. The section supports up to 10 article blocks and scales responsively across all device sizes."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Latest Insights Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Latest Insights</strong> section from the left sidebar.",
+            "Add Article blocks and adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/latest-insights-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Heading:</strong> Add an optional section heading displayed above the layout.",
+                "<strong>Padding Top:</strong> Controls the top padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Padding Bottom:</strong> Controls the bottom padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Content",
+              "items": [
+                "<strong>Cover Image:</strong> Upload the sticky cover image displayed alongside the article slider.",
+                "<strong>Quote:</strong> Add an optional quote or message displayed as an overlay on the cover image.",
+                "<strong>Author:</strong> Enter the name of the author displayed below the quote on the cover image.",
+                "<strong>Show Author Name:</strong> Enable or disable the display of the article author name on each article card.",
+                "<strong>Button Text:</strong> Customize the label of the button that links to the full blog.",
+                "<strong>Blog:</strong> Select the blog to link the button to."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Overlay Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/latest-insights-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Overlay Style:</strong> Choose between <em>Solid</em> — flat color overlay; or <em>Gradient</em> — fades from solid at the bottom to transparent at the top.",
+                "<strong>Cover Overlay Color:</strong> Sets the overlay color applied to the cover image. Default: #1C1C1C.",
+                "<strong>Card Overlay Color:</strong> Sets the overlay color applied to each article card image. Default: #1C1C1C.",
+                "<strong>Gradient Start Opacity:</strong> Controls the opacity at the bottom of the gradient overlay. Range: 0–100%. Default: 85%.",
+                "<strong>Gradient End Opacity:</strong> Controls the opacity at the top of the gradient overlay. Range: 0–100%. Default: 50%."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Article Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Add up to 10 Article blocks to populate the slider. Each block contains the following setting."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Article:</strong> Select an article from your Shopify blog to display as a card in the slider. Each card displays the article image, publication date, optional author name, and article title. If no article is assigned, a placeholder card is displayed automatically."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If no cover image is uploaded, a placeholder graphic is displayed in the cover area. If an article block has no article assigned, a placeholder card with a sample date and title is displayed to maintain the layout structure during store setup."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use a high-quality cover image that complements the overall section design.",
+            "Keep the cover quote short and impactful.",
+            "Add at least 3 article blocks to make the slider feel complete.",
+            "Use the gradient overlay style for a more refined visual appearance.",
+            "Link the button to the most relevant blog for your customers."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Leave the cover image blank if a quote is configured, as the overlay will have no background to display against.",
+            "Use excessively long quotes that overflow the cover image area.",
+            "Add article blocks without assigning articles, as placeholder cards will be shown instead.",
+            "Use low-resolution article images that appear blurry in the slider.",
+            "Set the overlay opacity too high, making article titles and dates difficult to read."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Hero Banner",
+  "href": "/sections/hero-banner",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Hero Banner"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a full-width media section with overlaid text content, supporting image and video backgrounds with flexible layout and alignment controls."
+    },
+    {
+      "type": "image-text",
+      "url": "/hero-banner-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Hero Banner is a full-width media section designed to create impactful first impressions on any page. It supports both image and video backgrounds with separate desktop and mobile image controls, an optional color overlay, and fully configurable overlaid text content including a subheading, heading, description, and call-to-action button. Content alignment can be controlled independently for desktop and mobile devices."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Hero Banner Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Hero Banner</strong> section from the left sidebar.",
+            "Adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/hero-banner-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Media",
+              "items": [
+                "<strong>Media Type:</strong> Choose between <em>Image</em> or <em>Video</em> as the background media.",
+                "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Recommended width: 2000px. Only available when Media Type is set to Image.",
+                "<strong>Mobile Image:</strong> Upload a separate image optimized for mobile devices. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
+                "<strong>Video Type:</strong> Select the video source type. Options: <em>Shopify</em> — upload a video directly via Shopify; <em>External</em> — link to a YouTube or Vimeo video; <em>Direct</em> — enter a direct MP4 URL. Only available when Media Type is set to Video.",
+                "<strong>Shopify Video:</strong> Upload a video file through Shopify. Only available when Video Type is set to Shopify.",
+                "<strong>External Video URL:</strong> Enter a YouTube or Vimeo URL. Only available when Video Type is set to External.",
+                "<strong>Direct Video URL:</strong> Enter a direct MP4 video URL. Only available when Video Type is set to Direct.",
+                "<strong>Section Height (Desktop):</strong> Set the minimum height of the section on desktop. Range: 300–1020px. Default: 840px.",
+                "<strong>Section Height (Mobile):</strong> Set the minimum height of the section on mobile. Range: 200–800px. Default: 660px.",
+                "<strong>Show Overlay:</strong> Enable or disable a color overlay applied on top of the background media.",
+                "<strong>Overlay Color:</strong> Sets the color of the overlay. Default: #000000. Only available when Show Overlay is enabled.",
+                "<strong>Overlay Opacity:</strong> Controls the transparency of the overlay. Range: 0–90%. Default: 30%. Only available when Show Overlay is enabled."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Content Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/hero-banner-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Layout",
+              "items": [
+                "<strong>Text Size:</strong> Controls the size of the heading and body text. Options: <em>Medium</em>; <em>Large</em>.",
+                "<strong>Text Color:</strong> Sets the color of the overlaid text content. Options: <em>Light</em> — white text; <em>Dark</em> — dark text; <em>Inherit</em> — uses the active color scheme text color.",
+                "<strong>Content Alignment (Desktop):</strong> Controls the horizontal alignment of the content block on desktop. Options: Left, Center, Right.",
+                "<strong>Content Alignment (Mobile):</strong> Controls the horizontal alignment of the content block on mobile. Options: Left, Center, Right.",
+                "<strong>Move Content Below Media on Mobile:</strong> When enabled, the text content is displayed below the background media on mobile instead of overlaid on top of it."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Content",
+              "items": [
+                "<strong>Subheading:</strong> Enter an optional subheading displayed above the main heading.",
+                "<strong>Heading:</strong> Enter the main heading displayed over the background media.",
+                "<strong>Description:</strong> Add an optional rich text description displayed below the heading.",
+                "<strong>Button Label:</strong> Enter the text for the call-to-action button.",
+                "<strong>Button Link:</strong> Assign a destination URL for the call-to-action button."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If no desktop or mobile image is uploaded, a placeholder graphic is displayed automatically. If no video is assigned for Shopify or Direct video types, a default placeholder video is used. This ensures the section remains visually structured during store setup."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use high-resolution images for crisp display across all screen sizes.",
+            "Upload a separate mobile image optimized for portrait viewports.",
+            "Use a subtle overlay to improve text readability over busy backgrounds.",
+            "Keep the heading short and impactful for immediate customer engagement.",
+            "Use Shopify-hosted videos for the best performance and compatibility."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use low-resolution images that appear blurry on large screens.",
+            "Set overlay opacity too high, which may obscure the background media entirely.",
+            "Use excessively long headings or descriptions that overflow the banner area.",
+            "Link external videos from unsupported platforms other than YouTube or Vimeo.",
+            "Disable the overlay when using light-colored backgrounds with light text, as content may become unreadable."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Rich Text",
+  "href": "/sections/rich-text",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Rich Text"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a flexible block of text content with optional subheading, heading, description, and call-to-action button."
+    },
+    {
+      "type": "image-text",
+      "url": "/rich-text-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Rich Text section provides a simple and flexible content block for displaying promotional copy, brand messaging, editorial content, or any other text-based information. It is block-based, allowing merchants to combine a subheading, heading, body text, and button in any configuration. Content alignment can be set to left, center, or right to suit the surrounding page layout."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Rich Text Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Rich Text</strong> section from the left sidebar.",
+            "Add blocks and adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/rich-text-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Padding Top:</strong> Controls the top padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Padding Bottom:</strong> Controls the bottom padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Content Alignment:</strong> Controls the horizontal alignment of all content within the section. Options: Left, Center, Right. Default: Center."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Blocks"
+        },
+        {
+          "type": "paragraph",
+          "content": "The Rich Text section is built using blocks. Each block type can be added once and arranged in any order."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Subheading Block",
+          "items": [
+            "<strong>Subheading:</strong> Enter a short subheading displayed above the main heading. Rendered in uppercase with subtle letter spacing."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Heading Block",
+          "items": [
+            "<strong>Heading:</strong> Enter the main heading text.",
+            "<strong>Heading Size:</strong> Select the heading level. Options: <em>H1</em> — 48px; <em>H2</em> — 38px; <em>H3</em> — 30px. Default: H2."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Text Block",
+          "items": [
+            "<strong>Text:</strong> Add rich text body content supporting formatting such as bold, italic, lists, and links."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Button Block",
+          "items": [
+            "<strong>Button Label:</strong> Enter the text for the call-to-action button.",
+            "<strong>Button Link:</strong> Assign a destination URL for the button."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Keep headings concise and relevant to the surrounding page content.",
+            "Use the subheading to provide brief context above the main heading.",
+            "Use center alignment for standalone promotional or editorial sections.",
+            "Use left alignment when the section sits alongside other content columns.",
+            "Link the button to a relevant collection, page, or campaign destination."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Add excessive body text that makes the section feel overwhelming.",
+            "Use H1 heading size unless the section is the primary heading of the page.",
+            "Leave the button block without a destination URL.",
+            "Use all four blocks when only a subset is needed — add only what serves the content.",
+            "Use right alignment for primary content sections as it reduces readability."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Image with Text",
+  "href": "/sections/image-with-text",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Image with Text"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a two-column layout combining an image with a text content area, ideal for brand storytelling, feature highlights, and promotional messaging."
+    },
+    {
+      "type": "image-text",
+      "url": "/image-with-text-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Image with Text section creates a two-column layout that pairs an image with a text content area. The image position can be set to display on the left or right side of the text. The content area supports a heading, rich text body, and call-to-action button. On mobile devices the layout stacks vertically with the image displayed above the content. Content alignment can be set independently to match the surrounding page design."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Image with Text Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Image with Text</strong> section from the left sidebar.",
+            "Adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/image-with-text-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Padding Top:</strong> Controls the top padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Padding Bottom:</strong> Controls the bottom padding of the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Heading:</strong> Add an optional section heading displayed above the two-column layout."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Content",
+              "items": [
+                "<strong>Image:</strong> Upload the image displayed in the image column.",
+                "<strong>Layout:</strong> Controls the position of the image relative to the text content. Options: <em>Image Left</em> — image on the left, text on the right; <em>Image Right</em> — image on the right, text on the left. Default: Image Right.",
+                "<strong>Content Alignment:</strong> Controls the horizontal alignment of the text content. Options: Left, Center, Right. Default: Center.",
+                "<strong>Content Heading:</strong> Enter the heading displayed in the text content area.",
+                "<strong>Text:</strong> Add rich text body content supporting formatting such as bold, italic, lists, and links.",
+                "<strong>Button Label:</strong> Enter the text for the call-to-action button.",
+                "<strong>Button Link:</strong> Assign a destination URL for the button."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If no image is uploaded, a placeholder graphic is displayed automatically in the image column. This ensures the section remains visually structured during store setup and content management."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use high-quality images that complement the text content.",
+            "Keep the content heading concise and directly relevant to the image.",
+            "Use left alignment for text-heavy content to improve readability.",
+            "Alternate image position between sections to create visual rhythm on the page.",
+            "Link the button to a relevant collection, product, or landing page."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use low-resolution images that appear blurry alongside sharp text.",
+            "Add excessive body text that makes the section feel unbalanced.",
+            "Leave the button label without a destination URL.",
+            "Use center alignment for long paragraphs of body text as it reduces readability.",
+            "Use the same image position for every Image with Text section on the same page."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
+  "name": "Contact Form",
+  "href": "/sections/contact-form",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Contact Form"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a customizable contact form that allows customers to send messages directly from your storefront."
+    },
+    {
+      "type": "image-text",
+      "url": "/contact-form-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Contact Form section provides a clean and accessible form for customers to get in touch with your store. It includes required fields for full name, email address, and a comment message, with optional fields for phone number and order number. The form supports Ajax submission with inline success and error feedback, and an optional response time note displayed below the form."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Contact Form Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Contact Form</strong> section from the left sidebar.",
+            "Adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/contact-form-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Heading:</strong> Enter the page title displayed above the contact form.",
+                "<strong>Short Description:</strong> Add an optional subtitle or short description displayed below the heading.",
+                "<strong>Padding Top:</strong> Controls the top padding of the section.",
+                "<strong>Padding Bottom:</strong> Controls the bottom padding of the section."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Form Fields",
+              "items": [
+                "<strong>Show Phone Number Field:</strong> Enable or disable the optional phone number input field.",
+                "<strong>Phone Placeholder:</strong> Customize the placeholder text for the phone number field. Only available when Show Phone Number Field is enabled.",
+                "<strong>Show Order Number Field:</strong> Enable or disable the optional order number input field.",
+                "<strong>Order Number Label:</strong> Customize the label displayed above the order number field. Only available when Show Order Number Field is enabled.",
+                "<strong>Order Number Placeholder:</strong> Customize the placeholder text for the order number field. Only available when Show Order Number Field is enabled.",
+                "<strong>Submit Button Label:</strong> Customize the text displayed on the form submit button. Default: Send Message.",
+                "<strong>Show Response Time:</strong> Enable or disable the response time note displayed below the form.",
+                "<strong>Response Time Text:</strong> Customize the response time message. Default: Average response time: within 24 hours."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Form Fields"
+        },
+        {
+          "type": "paragraph",
+          "content": "The contact form includes the following fields."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Always Visible",
+          "items": [
+            "<strong>Full Name:</strong> Required text field for the customer's full name.",
+            "<strong>Email Address:</strong> Required email field for the customer's email address.",
+            "<strong>Comment:</strong> Required textarea for the customer's message."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Optional",
+          "items": [
+            "<strong>Phone Number:</strong> Optional telephone input field. Enable via Show Phone Number Field setting.",
+            "<strong>Order Number:</strong> Optional text field for referencing a specific order. Enable via Show Order Number Field setting."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Keep the heading and description concise and welcoming.",
+            "Enable the phone number field when your support process involves follow-up calls.",
+            "Enable the order number field when handling order-related inquiries.",
+            "Set a realistic and accurate response time note to manage customer expectations.",
+            "Customize the submit button label to match the tone of your store."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Enable optional fields that are not relevant to your support workflow.",
+            "Leave the response time note enabled without updating it to reflect your actual response time.",
+            "Use a vague or generic heading that does not communicate the purpose of the form.",
+            "Leave the heading and description blank as this reduces context for customers.",
+            "Use the contact form as the only support channel without providing alternative contact options elsewhere on the page."
+          ]
+        }
+      ]
+    }
+  ]
+}
+  ],
+  "sidebar": true,
+  "header": false
+},
 
     {
       "type": "multipage",
