@@ -24,6 +24,7 @@ type ImageBlock = {
 type ImageTextBlock = {
   type: "image-text";
   url: string;
+  videoUrl?: string; 
   orientation?: "landscape" | "portrait";
   contents: DocContentBlock[];
 };

@@ -2017,7 +2017,193 @@
         }
       ]
     },
+{
+  "name": "Hero Banner",
+  "href": "/sections/hero-banner",
+  "contents": [
     {
+      "type": "heading",
+      "level": 1,
+      "content": "Hero Banner"
+    },
+    {
+      "type": "subheading",
+      "content": "Display a full-width promotional banner with separate desktop and mobile media support, overlaid text content, and flexible layout controls."
+    },
+    {
+      "type": "image-text",
+      "url": "/hero-banner-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Hero Banner is a full-width media section designed for high-impact promotional experiences. It supports both image and video backgrounds with independent desktop and mobile media controls across all video types — Shopify-hosted, external YouTube or Vimeo, and direct MP4 URLs. An optional color overlay improves text readability, and the overlaid content area supports a subheading, heading, description, and call-to-action button with independent desktop and mobile alignment controls."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Edit the Hero Banner Section"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
+            "Click <strong>Customize</strong> on the active theme.",
+            "Select the <strong>Hero Banner</strong> section from the left sidebar.",
+            "Adjust the settings according to your preferences.",
+            "Click <strong>Save</strong> to apply your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/hero-banner-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
+                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
+                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Media",
+              "items": [
+                "<strong>Media Type:</strong> Choose between <em>Image</em> or <em>Video</em> as the background media.",
+                "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Recommended width: 2000px. Only available when Media Type is set to Image.",
+                "<strong>Mobile Image:</strong> Upload a separate image optimized for mobile devices. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
+                "<strong>Video Type:</strong> Select the video source type. Options: <em>Shopify</em> — upload videos directly via Shopify; <em>External</em> — link to YouTube or Vimeo URLs; <em>Direct</em> — enter direct MP4 URLs. Only available when Media Type is set to Video.",
+                "<strong>Desktop Video (Shopify):</strong> Upload the desktop video via Shopify. Only available when Video Type is set to Shopify.",
+                "<strong>Mobile Video (Shopify):</strong> Upload a separate mobile video via Shopify. If left blank, the desktop video is used as a fallback. Only available when Video Type is set to Shopify.",
+                "<strong>External Video URL (Desktop):</strong> Enter a YouTube or Vimeo URL for desktop. Supports standard URLs, short URLs, and YouTube Shorts. Only available when Video Type is set to External.",
+                "<strong>External Video URL (Mobile):</strong> Enter a separate YouTube or Vimeo URL for mobile. If left blank, the desktop URL is used as a fallback. Only available when Video Type is set to External.",
+                "<strong>Direct Video URL (Desktop):</strong> Enter a direct MP4 video URL for desktop. Only available when Video Type is set to Direct.",
+                "<strong>Direct Video URL (Mobile):</strong> Enter a separate direct MP4 URL for mobile. If left blank, the desktop URL is used as a fallback. Only available when Video Type is set to Direct.",
+                "<strong>Section Height (Desktop):</strong> Set the minimum height of the section on desktop. Range: 300–1020px. Default: 840px.",
+                "<strong>Section Height (Mobile):</strong> Set the minimum height of the section on mobile. Range: 200–800px. Default: 660px.",
+                "<strong>Show Overlay:</strong> Enable or disable a color overlay applied on top of the background media.",
+                "<strong>Overlay Color:</strong> Sets the color of the overlay. Default: #000000. Only available when Show Overlay is enabled.",
+                "<strong>Overlay Opacity:</strong> Controls the transparency of the overlay. Range: 0–90%. Default: 30%. Only available when Show Overlay is enabled."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Content Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/hero-banner-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Layout",
+              "items": [
+                "<strong>Text Size:</strong> Controls the size of the heading and body text. Options: <em>Medium</em>; <em>Large</em>.",
+                "<strong>Text Color:</strong> Sets the color of the overlaid text content. Options: <em>Light</em> — white text; <em>Dark</em> — dark text; <em>Inherit</em> — uses the active color scheme text color.",
+                "<strong>Content Alignment (Desktop):</strong> Controls the horizontal alignment of the content block on desktop. Options: Left, Center, Right.",
+                "<strong>Content Alignment (Mobile):</strong> Controls the horizontal alignment of the content block on mobile. Options: Left, Center, Right.",
+                "<strong>Move Content Below Media on Mobile:</strong> When enabled, the text content is displayed below the background media on mobile instead of overlaid on top of it."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Content",
+              "items": [
+                "<strong>Subheading:</strong> Enter an optional subheading displayed above the main heading.",
+                "<strong>Heading:</strong> Enter the main heading displayed over the background media.",
+                "<strong>Description:</strong> Add an optional rich text description displayed below the heading.",
+                "<strong>Button Label:</strong> Enter the text for the call-to-action button.",
+                "<strong>Button Link:</strong> Assign a destination URL for the call-to-action button."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Fallback Behaviour"
+        },
+        {
+          "type": "paragraph",
+          "content": "If no desktop or mobile image is uploaded, a placeholder graphic is displayed automatically. For video types, if no mobile video or URL is provided, the desktop video is used as a fallback across all device sizes. If no video is configured at all, a default placeholder video is displayed to maintain the section layout during store setup."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use high-resolution images for crisp display across all screen sizes.",
+            "Upload separate mobile images and videos optimized for portrait viewports.",
+            "Use a subtle overlay to improve text readability over busy backgrounds.",
+            "Keep the heading short and impactful for immediate customer engagement.",
+            "Use Shopify-hosted videos for the best performance and compatibility.",
+            "Use YouTube Shorts URLs for mobile external videos to better suit portrait screen ratios."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Use low-resolution images that appear blurry on large screens.",
+            "Set overlay opacity too high, which may obscure the background media entirely.",
+            "Use excessively long headings or descriptions that overflow the banner area.",
+            "Link external videos from unsupported platforms other than YouTube or Vimeo.",
+            "Disable the overlay when using light-colored backgrounds with light text, as content may become unreadable."
+          ]
+        }
+      ]
+    }
+  ]
+},
+{
   "name": "Promotion Banner",
   "href": "/sections/promotion-banner",
   "contents": [
@@ -2028,7 +2214,7 @@
     },
     {
       "type": "subheading",
-      "content": "Display a full-width promotional media section with image or video background and optional scrolling marquee messaging."
+      "content": "Display a full-width media section with image or video background and an optional scrolling marquee strip pinned to the bottom."
     },
     {
       "type": "image-text",
@@ -2037,7 +2223,7 @@
       "contents": [
         {
           "type": "paragraph",
-          "content": "The Promotion Banner is a full-width media section designed to create high-impact visual experiences at any point in your storefront. It supports both image and video backgrounds with separate desktop and mobile media controls, an optional scrolling marquee strip pinned to the bottom of the section, and full color scheme integration."
+          "content": "The Promotion Banner is a full-width media section designed to create high-impact visual experiences across your storefront. It supports both image and video backgrounds with independent desktop and mobile media controls across all video types — Shopify-hosted, external YouTube or Vimeo, and direct MP4 URLs. An optional scrolling marquee strip can be pinned to the bottom of the section with configurable text, speed, direction, and overlay style."
         }
       ]
     },
@@ -2056,7 +2242,7 @@
             "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
             "Click <strong>Customize</strong> on the active theme.",
             "Select the <strong>Promotion Banner</strong> section from the left sidebar.",
-            "Adjust the settings according to your preferences.",
+            "Add Marquee Item blocks and adjust the settings according to your preferences.",
             "Click <strong>Save</strong> to apply your changes."
           ]
         }
@@ -2092,14 +2278,17 @@
               "label": "Media",
               "items": [
                 "<strong>Media Type:</strong> Choose between <em>Image</em> or <em>Video</em> as the background media.",
-                "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Recommended width: 2000px. Only available when Media Type is set to Image.",
-                "<strong>Mobile Image:</strong> Upload a separate image optimized for mobile devices. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
-                "<strong>Video Type:</strong> Select the video source type. Options: <em>Shopify</em> — upload a video directly via Shopify; <em>External</em> — link to a YouTube or Vimeo video; <em>Direct</em> — enter a direct MP4 URL. Only available when Media Type is set to Video.",
-                "<strong>Shopify Video:</strong> Upload a video file through Shopify. Only available when Video Type is set to Shopify.",
-                "<strong>External Video URL:</strong> Enter a YouTube or Vimeo URL. Only available when Video Type is set to External.",
-                "<strong>Direct Video URL:</strong> Enter a direct MP4 video URL. Only available when Video Type is set to Direct.",
-                "<strong>Section Height (Desktop):</strong> Set the minimum height of the section on desktop. Range: 300–1020px. Default: 840px.",
-                "<strong>Section Height (Mobile):</strong> Set the minimum height of the section on mobile. Range: 200–800px. Default: 660px."
+                "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Only available when Media Type is set to Image.",
+                "<strong>Mobile Image:</strong> Upload a separate image for mobile. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
+                "<strong>Video Type:</strong> Select the video source. Options: <em>Shopify</em>; <em>External</em> — YouTube or Vimeo; <em>Direct</em> — MP4 URL. Only available when Media Type is set to Video.",
+                "<strong>Desktop Video (Shopify):</strong> Upload the desktop video via Shopify. Only available when Video Type is set to Shopify.",
+                "<strong>Mobile Video (Shopify):</strong> Upload a separate mobile video. If left blank, the desktop video is used as a fallback. Only available when Video Type is set to Shopify.",
+                "<strong>External Video URL (Desktop):</strong> Enter a YouTube or Vimeo URL for desktop. Supports standard URLs, short URLs, and YouTube Shorts. Only available when Video Type is set to External.",
+                "<strong>External Video URL (Mobile):</strong> Enter a separate URL for mobile. If left blank, the desktop URL is used as a fallback. Only available when Video Type is set to External.",
+                "<strong>Direct Video URL (Desktop):</strong> Enter a direct MP4 URL for desktop. Only available when Video Type is set to Direct.",
+                "<strong>Direct Video URL (Mobile):</strong> Enter a separate MP4 URL for mobile. If left blank, the desktop URL is used as a fallback. Only available when Video Type is set to Direct.",
+                "<strong>Section Height (Desktop):</strong> Set the minimum height on desktop. Range: 300–1020px. Default: 840px.",
+                "<strong>Section Height (Mobile):</strong> Set the minimum height on mobile. Range: 200–800px. Default: 660px."
               ]
             }
           ]
@@ -2125,7 +2314,7 @@
               "items": [
                 "<strong>Show Marquee:</strong> Enable or disable the scrolling marquee strip pinned to the bottom of the section.",
                 "<strong>Vertical Padding:</strong> Controls the top and bottom padding inside the marquee strip. Default: 8px.",
-                "<strong>Overlay Style:</strong> Sets the background style behind the marquee. Options: <em>None</em> — transparent background; <em>Solid</em> — flat color background; <em>Gradient</em> — fades from solid to transparent upward.",
+                "<strong>Overlay Style:</strong> Sets the background style behind the marquee. Options: <em>None</em> — transparent; <em>Solid</em> — flat color; <em>Gradient</em> — fades from solid at the bottom to transparent upward.",
                 "<strong>Overlay Color:</strong> Sets the color used for the solid or gradient overlay. Only available when Overlay Style is not set to None.",
                 "<strong>Gradient Start Opacity:</strong> Controls the opacity at the bottom of the gradient. Range: 0–100%. Default: 85%.",
                 "<strong>Gradient End Opacity:</strong> Controls the opacity at the top of the gradient. Range: 0–100%. Default: 50%.",
@@ -2170,7 +2359,7 @@
         },
         {
           "type": "paragraph",
-          "content": "If no image or video is assigned, a placeholder graphic is displayed automatically. If no video is uploaded for Shopify or Direct video types, a default placeholder video is shown. This ensures the section remains visually structured during store setup."
+          "content": "If no image or video is assigned, a placeholder graphic is displayed automatically. For video types, if no mobile video or URL is provided, the desktop video is used as a fallback. If no video is configured at all, a default placeholder video is displayed to maintain the section layout during store setup."
         }
       ]
     },
@@ -2188,10 +2377,11 @@
           "label": "Do",
           "items": [
             "Use high-resolution images for crisp display across all screen sizes.",
-            "Upload a separate mobile image optimized for portrait viewports.",
+            "Upload separate mobile images and videos optimized for portrait viewports.",
             "Keep marquee messages short and easy to read while scrolling.",
             "Use a gradient overlay when marquee text needs to stand out against the media.",
-            "Use Shopify-hosted videos for the best performance and compatibility."
+            "Use Shopify-hosted videos for the best performance and compatibility.",
+            "Use YouTube Shorts URLs for mobile external videos to better suit portrait screen ratios."
           ]
         },
         {
@@ -2201,7 +2391,7 @@
           "items": [
             "Use low-resolution images that appear blurry on large screens.",
             "Enable the marquee without adding any Marquee Item blocks.",
-            "Use excessively long marquee messages that are difficult to read.",
+            "Use excessively long marquee messages that are difficult to read while scrolling.",
             "Link external videos from unsupported platforms other than YouTube or Vimeo.",
             "Set section height too low when using a video background, as it may clip the content."
           ]
@@ -2563,7 +2753,7 @@
     },
     {
       "type": "image-text",
-      "url": "/latest-insights-1.png",
+      "videoUrl": "/latest-insights-1.mp4",
       "orientation": "landscape",
       "contents": [
         {
@@ -2729,188 +2919,6 @@
             "Add article blocks without assigning articles, as placeholder cards will be shown instead.",
             "Use low-resolution article images that appear blurry in the slider.",
             "Set the overlay opacity too high, making article titles and dates difficult to read."
-          ]
-        }
-      ]
-    }
-  ]
-},
-{
-  "name": "Hero Banner",
-  "href": "/sections/hero-banner",
-  "contents": [
-    {
-      "type": "heading",
-      "level": 1,
-      "content": "Hero Banner"
-    },
-    {
-      "type": "subheading",
-      "content": "Display a full-width media section with overlaid text content, supporting image and video backgrounds with flexible layout and alignment controls."
-    },
-    {
-      "type": "image-text",
-      "url": "/hero-banner-1.png",
-      "orientation": "landscape",
-      "contents": [
-        {
-          "type": "paragraph",
-          "content": "The Hero Banner is a full-width media section designed to create impactful first impressions on any page. It supports both image and video backgrounds with separate desktop and mobile image controls, an optional color overlay, and fully configurable overlaid text content including a subheading, heading, description, and call-to-action button. Content alignment can be controlled independently for desktop and mobile devices."
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "contents": [
-        {
-          "type": "heading",
-          "level": 2,
-          "content": "How to Edit the Hero Banner Section"
-        },
-        {
-          "type": "list",
-          "ordered": true,
-          "items": [
-            "From your Shopify admin, go to <strong>Online Store</strong> &rarr; <strong>Themes</strong>.",
-            "Click <strong>Customize</strong> on the active theme.",
-            "Select the <strong>Hero Banner</strong> section from the left sidebar.",
-            "Adjust the settings according to your preferences.",
-            "Click <strong>Save</strong> to apply your changes."
-          ]
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "contents": [
-        {
-          "type": "heading",
-          "level": 2,
-          "content": "Section Settings"
-        },
-        {
-          "type": "image-text",
-          "url": "/hero-banner-2.png",
-          "orientation": "landscape",
-          "contents": [
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "General",
-              "items": [
-                "<strong>Color Scheme:</strong> Select a color scheme applied to the section.",
-                "<strong>Margin Top:</strong> Controls the spacing above the section. Scales automatically across desktop, laptop, tablet, and mobile.",
-                "<strong>Margin Bottom:</strong> Controls the spacing below the section. Scales automatically across desktop, laptop, tablet, and mobile."
-              ]
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "Media",
-              "items": [
-                "<strong>Media Type:</strong> Choose between <em>Image</em> or <em>Video</em> as the background media.",
-                "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Recommended width: 2000px. Only available when Media Type is set to Image.",
-                "<strong>Mobile Image:</strong> Upload a separate image optimized for mobile devices. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
-                "<strong>Video Type:</strong> Select the video source type. Options: <em>Shopify</em> — upload a video directly via Shopify; <em>External</em> — link to a YouTube or Vimeo video; <em>Direct</em> — enter a direct MP4 URL. Only available when Media Type is set to Video.",
-                "<strong>Shopify Video:</strong> Upload a video file through Shopify. Only available when Video Type is set to Shopify.",
-                "<strong>External Video URL:</strong> Enter a YouTube or Vimeo URL. Only available when Video Type is set to External.",
-                "<strong>Direct Video URL:</strong> Enter a direct MP4 video URL. Only available when Video Type is set to Direct.",
-                "<strong>Section Height (Desktop):</strong> Set the minimum height of the section on desktop. Range: 300–1020px. Default: 840px.",
-                "<strong>Section Height (Mobile):</strong> Set the minimum height of the section on mobile. Range: 200–800px. Default: 660px.",
-                "<strong>Show Overlay:</strong> Enable or disable a color overlay applied on top of the background media.",
-                "<strong>Overlay Color:</strong> Sets the color of the overlay. Default: #000000. Only available when Show Overlay is enabled.",
-                "<strong>Overlay Opacity:</strong> Controls the transparency of the overlay. Range: 0–90%. Default: 30%. Only available when Show Overlay is enabled."
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "contents": [
-        {
-          "type": "heading",
-          "level": 2,
-          "content": "Content Settings"
-        },
-        {
-          "type": "image-text",
-          "url": "/hero-banner-3.png",
-          "orientation": "landscape",
-          "contents": [
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "Layout",
-              "items": [
-                "<strong>Text Size:</strong> Controls the size of the heading and body text. Options: <em>Medium</em>; <em>Large</em>.",
-                "<strong>Text Color:</strong> Sets the color of the overlaid text content. Options: <em>Light</em> — white text; <em>Dark</em> — dark text; <em>Inherit</em> — uses the active color scheme text color.",
-                "<strong>Content Alignment (Desktop):</strong> Controls the horizontal alignment of the content block on desktop. Options: Left, Center, Right.",
-                "<strong>Content Alignment (Mobile):</strong> Controls the horizontal alignment of the content block on mobile. Options: Left, Center, Right.",
-                "<strong>Move Content Below Media on Mobile:</strong> When enabled, the text content is displayed below the background media on mobile instead of overlaid on top of it."
-              ]
-            },
-            {
-              "type": "list",
-              "ordered": false,
-              "label": "Content",
-              "items": [
-                "<strong>Subheading:</strong> Enter an optional subheading displayed above the main heading.",
-                "<strong>Heading:</strong> Enter the main heading displayed over the background media.",
-                "<strong>Description:</strong> Add an optional rich text description displayed below the heading.",
-                "<strong>Button Label:</strong> Enter the text for the call-to-action button.",
-                "<strong>Button Link:</strong> Assign a destination URL for the call-to-action button."
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "contents": [
-        {
-          "type": "heading",
-          "level": 2,
-          "content": "Fallback Behaviour"
-        },
-        {
-          "type": "paragraph",
-          "content": "If no desktop or mobile image is uploaded, a placeholder graphic is displayed automatically. If no video is assigned for Shopify or Direct video types, a default placeholder video is used. This ensures the section remains visually structured during store setup."
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "contents": [
-        {
-          "type": "heading",
-          "level": 2,
-          "content": "Best Practices"
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "label": "Do",
-          "items": [
-            "Use high-resolution images for crisp display across all screen sizes.",
-            "Upload a separate mobile image optimized for portrait viewports.",
-            "Use a subtle overlay to improve text readability over busy backgrounds.",
-            "Keep the heading short and impactful for immediate customer engagement.",
-            "Use Shopify-hosted videos for the best performance and compatibility."
-          ]
-        },
-        {
-          "type": "list",
-          "ordered": false,
-          "label": "Don't",
-          "items": [
-            "Use low-resolution images that appear blurry on large screens.",
-            "Set overlay opacity too high, which may obscure the background media entirely.",
-            "Use excessively long headings or descriptions that overflow the banner area.",
-            "Link external videos from unsupported platforms other than YouTube or Vimeo.",
-            "Disable the overlay when using light-colored backgrounds with light text, as content may become unreadable."
           ]
         }
       ]
