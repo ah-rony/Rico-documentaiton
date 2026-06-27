@@ -3380,7 +3380,4057 @@
       ]
     }
   ]
-}
+},
+  {
+    "name": "Bundle Builder",
+    "href": "/sections/bundle-builder",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "Bundle Builder"
+      },
+      {
+        "type": "subheading",
+        "content": "Let customers pick multiple products and earn automatic discounts at checkout — the more items they add, the bigger the discount they unlock."
+      },
+      {
+        "type": "image-text",
+        "url": "/bundle-builder-1.png",
+        "videoUrl":"" ,
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The Bundle Builder section lets your customers pick multiple products and earn an automatic discount at checkout — the more items they add, the bigger the discount they unlock. Products are shown in a grid on the left, and a live sidebar on the right keeps track of what has been added, shows how close the customer is to the next discount level, and handles checkout."
+          }
+        ]
+      },
+      {
+        "type": "image-text",
+        "videoUrl":"/bundle-builder-1.mp4" ,
+        "orientation": "landscape",
+        "contents": []
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Critical: Three Steps Must Be Done Before the Bundle Works"
+          },
+          {
+            "type": "paragraph",
+            "content": "This section will not work correctly if you skip any of the three steps below. The theme cannot create or apply discounts on its own. It works by sending a discount code to Shopify's checkout page. If that code does not exist in your Shopify admin, or if the settings do not match, the customer will not receive any discount — even if the progress bar shows they have unlocked one."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Step 1: Create a Collection in Shopify"
+          },
+          {
+            "type": "paragraph",
+            "content": "First, group all the products you want to be available in the bundle into a single Shopify collection."
+          },
+          {
+            "type": "image-text",
+            "url": "/bundle-builder-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": true,
+                "items": [
+                  "Go to <strong>Shopify Admin</strong> &rarr; <strong>Products</strong> &rarr; <strong>Collections</strong>.",
+                  "Click <strong>Create collection</strong>.",
+                  "Give it a clear name (e.g. \"Bundle Products\").",
+                  "Add all the products you want customers to choose from.",
+                  "Save the collection."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Step 2: Create the Discount Codes in Shopify Admin"
+          },
+          {
+            "type": "paragraph",
+            "content": "You need to create one discount code for each tier you plan to offer. For example, if you want three tiers (2 items, 3 items, 5 items), you need to create three separate discount codes."
+          },
+          {
+            "type": "paragraph",
+            "content": "For each tier, go to: <strong>Shopify Admin</strong> &rarr; <strong>Discounts</strong> &rarr; <strong>Create discount</strong> &rarr; <strong>Amount off products</strong> &rarr; <strong>Discount code</strong>."
+          },
+          {
+            "type": "image-text",
+            "url": "/bundle-builder-3.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Set it up like this",
+                "items": [
+                  "<strong>Discount type:</strong> Choose <em>Discount code</em>.",
+                  "<strong>Code:</strong> Click \"Generate\" or type your own code (e.g. BUNDLE20).",
+                  "<strong>Type:</strong> Select <em>Percentage</em>.",
+                  "<strong>Discount value:</strong> Enter the percentage (e.g. 20).",
+                  "<strong>Applies to:</strong> Select your bundle collection.",
+                  "<strong>Minimum quantity:</strong> Set the minimum number of items for this tier (e.g. 2).",
+                  "<strong>Usage limit:</strong> Set to unlimited — do <strong>NOT</strong> set it to one per customer.",
+                  "<strong>Active dates:</strong> Set a start date and leave \"Set end date\" unchecked."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image-text",
+            "url": "/bundle-builder-4.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "paragraph",
+                "content": "Repeat this for every tier you want to offer. Here is an example of what a full set of tiers could look like:"
+              },
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Example Tiers",
+                "items": [
+                  "<strong>BUNDLE20</strong> — 20% off, minimum 2 items",
+                  "<strong>BUNDLE30</strong> — 30% off, minimum 3 items",
+                  "<strong>BUNDLE50</strong> — 50% off, minimum 5 items"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "These are just examples — use whatever codes and percentages you want. The same product can be added to the bundle twice only if it has a different variant (for example, a different size or color)."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Step 3: Enter the Same Codes in the Theme Editor"
+          },
+          {
+            "type": "paragraph",
+            "content": "Once the discount codes are live in Shopify, you need to tell the theme about them."
+          },
+          {
+            "type": "image-text",
+            "url": "/bundle-builder-5.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": true,
+                "items": [
+                  "Open the <strong>Theme Editor</strong> (Shopify Admin &rarr; Online Store &rarr; Themes &rarr; Customize).",
+                  "Find the <strong>Bundle Builder</strong> section.",
+                  "For each tier, add a <strong>Discount Tier</strong> block.",
+                  "In each block, set the <strong>Minimum Items</strong>, <strong>Discount Percent</strong>, and <strong>Discount Code</strong> to exactly match what you set in Step 2."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "The values must match exactly. If the discount code in the theme does not match the one in Shopify Admin, the discount will not apply at checkout. Once all three steps are done, the bundle will work. When a customer reaches a tier, the matching discount code is automatically sent to the Shopify checkout page and the discount is applied."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "How to Edit the Bundle Builder Section"
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "content": "Section Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/bundle-builder-6.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store. This controls the background color, text color, and borders across the whole section.",
+                  "<strong>Heading:</strong> An optional title shown above the bundle builder. Use it to introduce the offer — for example, \"Build Your Bundle &amp; Save\".",
+                  "<strong>Bundle Title:</strong> The title shown inside the sidebar panel (the part that tracks what the customer has added). If you leave it blank, the space is hidden automatically.",
+                  "<strong>Bundle Collection:</strong> Pick the collection you created in Step 1. Only products from this collection will appear in the bundle grid. If no collection is chosen, placeholder cards are shown instead so the layout does not look broken during setup.",
+                  "<strong>Layout &amp; Spacing:</strong> Adjust the space around the section using the padding (inside space) and margin (outside space) controls. The section automatically reduces spacing on smaller screens, so you only need to set the desktop value."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Discount Tier Blocks"
+          },
+          {
+            "type": "paragraph",
+            "content": "Each Discount Tier block sets one level of discount. You can add as many tiers as you like, up to the block limit. This is where you enter the codes you created in Step 2."
+          },
+          {
+            "type": "image-text",
+            "url": "/bundle-builder-7.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Minimum Items:</strong> How many items a customer needs to add before this discount unlocks. The highest number you set across all your tiers also becomes the maximum number of items allowed in the bundle.",
+                  "<strong>Discount Percent:</strong> The percentage discount the customer gets when they reach this tier. This number is shown on the progress bar in the sidebar.",
+                  "<strong>Discount Code:</strong> The exact discount code from your Shopify Admin (Step 2). This must match perfectly — same letters, same capitalisation."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Tiers are sorted automatically by item count. You do not need to add them in any particular order."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Progress Tracker"
+          },
+          {
+            "type": "paragraph",
+            "content": "The sidebar shows a step-by-step progress bar built from your configured tiers. As a customer adds items, the bar fills up and steps turn green. Each step shows the item count and the discount percentage available at that level."
+          },
+          {
+            "type": "image-text",
+            "url": "/bundle-builder-8.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "A step can be in one of three states",
+                "items": [
+                  "<strong>Not yet reached:</strong> Grey circle — discount not unlocked yet.",
+                  "<strong>Currently active:</strong> Green circle — this discount is now applied.",
+                  "<strong>Passed:</strong> Green circle with a checkmark (on desktop) or a number (on mobile)."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Best Practices"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Do",
+            "items": [
+              "Complete all three setup steps (collection, discount codes, theme tiers) before publishing the bundle section to customers.",
+              "After setup, do a test purchase for each tier to make sure the correct discount applies at checkout.",
+              "When creating the discount code in Shopify, set the usage limit to unlimited — the same code is sent to every customer via the checkout link, so a limited-use code will stop working after a few orders.",
+              "Keep the bundle title short so it does not get cut off on small phone screens.",
+              "Make each tier's discount noticeably bigger than the last (e.g. 20% &rarr; 30% &rarr; 50%) so customers are motivated to add more items."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Don't",
+            "items": [
+              "Leave the Discount Code field empty in a tier block — if there is no code, nothing gets sent to checkout and the customer pays full price even if the progress bar shows a discount.",
+              "Set the Shopify discount to \"limit to one use per customer\" — since all customers share the same code, it will stop working for anyone after the first use.",
+              "Set an end date on the discount code in Shopify — if the code expires, the bundle will silently stop applying discounts at checkout.",
+              "Give two tier blocks the same minimum item count — only one will ever be active and the other is wasted.",
+              "Add unrelated products to the bundle collection — customers will see them in the grid and may add them expecting the bundle discount to apply."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Store Location",
+    "href": "/sections/store-location",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "Store Location"
+      },
+      {
+        "type": "subheading",
+        "content": "Display your physical store details — address, opening hours, and contact information — alongside a large image, with expandable entries for up to three locations."
+      },
+      {
+        "type": "image-text",
+        "url": "/store-location-1.png",
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The Store Location section lets you display your physical store details like address, opening hours, and contact information alongside a large image. Customers can click on each store to expand its details. It is a clean, organised way to show one, two, or three store locations all on one page. On mobile, the locations are listed one below the other. On tablet and desktop, a large image appears on the right side next to the store details."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "How to Edit the Store Location Section"
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "content": "Section Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/store-location-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store design.",
+                  "<strong>Section Heading:</strong> An optional title shown above the section — for example, \"Find Us\" or \"Our Stores\". Leave it blank if you do not want a heading.",
+                  "<strong>Section Image:</strong> Upload one large image that appears on the right side of the section on tablet and desktop. This is usually a photo of your store, team, or location. If no image is uploaded, a placeholder is shown automatically.",
+                  "<strong>Layout &amp; Spacing:</strong> Adjust the padding and margin to control the space around the section. You only need to set the desktop value — the section automatically reduces spacing on smaller screens."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Location Blocks"
+          },
+          {
+            "type": "paragraph",
+            "content": "Each Location Block is one store entry. You can add up to 3 location blocks. Click <strong>Add block</strong> in the theme editor to add a new store."
+          },
+          {
+            "type": "image-text",
+            "url": "/store-location-3.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Location Title:</strong> The name of this store or location, shown as the clickable heading (e.g. \"New York Store\" or \"London Branch\"). Keep it short — it may get cut off on desktop if it is too long.",
+                  "<strong>Opening Hours:</strong> Type your store hours here. Press Enter to start a new line for each day or time range (e.g. Mon–Fri: 9am–6pm / Sat: 10am–5pm / Sun: Closed).",
+                  "<strong>Address:</strong> Your store's full address. Press Enter to put each line on a separate row.",
+                  "<strong>Phone Number:</strong> Your store's phone number. On mobile, customers can tap it to call directly.",
+                  "<strong>Email Address:</strong> Your store's email address. Customers can tap or click it to open their email app."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "You do not need to fill in every field. Any field you leave blank is simply not shown to customers. At minimum, fill in the Location Title and at least one contact detail."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Feature Strip Blocks"
+          },
+          {
+            "type": "paragraph",
+            "content": "Feature strips are small text callouts that appear below the store list. Use them to highlight a short, store-wide message."
+          },
+          {
+            "type": "image-text",
+            "url": "/store-location-4.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Examples",
+                "items": [
+                  "<strong>Free Returns</strong> — Return any item within 30 days",
+                  "<strong>Same-Day Pickup</strong> — Order before 2pm for same-day collection",
+                  "<strong>Open 7 Days</strong> — We're here every day of the week"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "You can add up to 3 feature strips. Each one has a <strong>Title</strong> and a short <strong>Description</strong>. Keep both brief — long text gets cut off, especially on desktop."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Best Practices"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Do",
+            "items": [
+              "Upload a high-quality image that represents your store well — a storefront photo, interior shot, or team photo all work well.",
+              "Keep location titles short so they do not get cut off on desktop.",
+              "Write opening hours clearly with one time range per line.",
+              "Use the feature strips for store-wide benefits that apply to all your locations.",
+              "Fill in both phone and email for each location so customers have multiple ways to reach you."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Don't",
+            "items": [
+              "Add more than 3 location blocks — the section is designed to display a maximum of 3 stores cleanly.",
+              "Write long feature strip titles — they will be cut off on desktop.",
+              "Leave the section image empty in a live store — the placeholder looks unfinished to customers.",
+              "Use feature strips for location-specific information — they appear the same across all stores."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Socials Connect",
+    "href": "/sections/socials-connect",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "Socials Connect"
+      },
+      {
+        "type": "subheading",
+        "content": "Display a scrollable gallery of image or video cards to showcase your social media feed, with optional auto-scroll and per-card links."
+      },
+      {
+        "type": "image-text",
+        "url": "/socials-connect-1.png",
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The Socials Connect section displays a scrollable gallery of media cards — images or videos — typically used to showcase your social media feed or highlight visual content like Instagram posts, reels, or campaign clips. Each card can link anywhere on your site or to an external URL. On mobile, one card takes up most of the screen width at a time. On tablet, three cards are visible. On desktop, four cards are visible. Customers can drag to scroll through the cards, and the section can also auto-scroll automatically on a timer."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "How to Edit the Socials Connect Section"
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "content": "Section Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/socials-connect-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store.",
+                  "<strong>Section Heading:</strong> An optional title shown above the card gallery — for example, \"Follow Us on Instagram\" or \"Shop the Look\". Leave it blank to hide the heading.",
+                  "<strong>Layout Direction:</strong> Choose whether the cards scroll left-to-right (default) or right-to-left. Right-to-left is useful for Arabic or Hebrew storefronts.",
+                  "<strong>Card Border Radius:</strong> Controls how rounded the corners of each card are. Set to 0 for sharp corners, or increase it for a softer, rounded look. You can also override this per individual card in the block settings.",
+                  "<strong>Shadow Color &amp; Shadow Opacity:</strong> A gradient shadow fades in at the bottom of each card, sitting behind the label and icon. You can change the color and how strong the shadow is. On desktop, the shadow only appears when a customer hovers over the card.",
+                  "<strong>Label Text Color:</strong> Sets the color of the text label and icon shown at the bottom of each card.",
+                  "<strong>Layout &amp; Spacing:</strong> Controls padding and margin around the section. Only set the desktop value — the section scales it down automatically for laptop, tablet, and mobile."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Slideshow Settings"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<strong>Enable Auto Scroll:</strong> When turned on, the gallery automatically scrolls to the next card after a set time. When turned off, customers scroll manually by dragging or swiping.",
+              "<strong>Scroll Interval:</strong> How many seconds to wait before scrolling to the next card. Available when auto scroll is enabled. Range: 2–10 seconds."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Auto scroll pauses automatically when a customer hovers over or touches the gallery, and resumes when they move away."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Media Item Blocks"
+          },
+          {
+            "type": "paragraph",
+            "content": "Each Media Item block is one card in the gallery. You can add up to 20 blocks. Click <strong>Add block</strong> to add a new card."
+          },
+          {
+            "type": "image-text",
+            "url": "/socials-connect-3.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Media Type",
+                "items": [
+                  "<strong>Image:</strong> Upload the image you want to display on this card. Use portrait-oriented images for best results — cards have a 3:4 aspect ratio.",
+                  "<strong>Video — Shopify-hosted:</strong> Upload a video directly through Shopify's file manager, or paste a direct video file URL (e.g. a .mp4 link). The video plays automatically, silently, and loops.",
+                  "<strong>Video — External:</strong> Paste a YouTube or Vimeo URL. The video is embedded as an iframe and plays muted and looped in the background."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image-text",
+            "url": "/socials-connect-4.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Card Options",
+                "items": [
+                  "<strong>Card Link:</strong> Paste any URL here to make the entire card clickable. This can be a product page, collection, external social media post, or any other link. Leave blank if you do not want the card to be clickable.",
+                  "<strong>Label:</strong> A short text shown at the bottom of the card — typically a social media handle (e.g. @yourbrand) or a short caption. Leave blank to hide it.",
+                  "<strong>Font Size:</strong> Controls how large the label text appears. Range: 10–30px.",
+                  "<strong>Icon:</strong> Upload a small image to display alongside the label — usually a social media logo (e.g. the Instagram icon). If no icon is uploaded, a default Instagram icon is shown automatically.",
+                  "<strong>Icon Size:</strong> Controls the size of the icon in pixels. Range: 14–56px."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "The label and icon only appear if at least one of them is filled in. If both are blank, the card footer is hidden entirely. If no image or video is uploaded, a placeholder is shown automatically."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Best Practices"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Do",
+            "items": [
+              "Use portrait images (taller than wide) — the cards are a 3:4 ratio and portrait content fills them best.",
+              "Keep label text short — it truncates with an ellipsis if it overflows the card width.",
+              "Use a transparent-background PNG for the icon so it looks clean over any card image or video.",
+              "Enable auto scroll with a 4–6 second interval for a polished, hands-free browsing experience.",
+              "Link each card to the most relevant destination — a product, collection, or the social media post it came from."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Don't",
+            "items": [
+              "Upload landscape (wide) images — they will be cropped top and bottom to fit the portrait card shape.",
+              "Use very long label text — it gets cut off on smaller cards.",
+              "Set the scroll interval too low (2–3 seconds) if your cards have labels customers need time to read.",
+              "Leave placeholder cards visible in a published store — always upload an image or video to every block.",
+              "Add more cards than you have good content for — 4 to 8 high-quality cards looks better than 20 mediocre ones."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FAQ",
+    "href": "/sections/faq",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "FAQ"
+      },
+      {
+        "type": "subheading",
+        "content": "Display a list of frequently asked questions in an accordion layout — one open at a time, with numbered indexes and animated open/close icons."
+      },
+      {
+        "type": "image-text",
+        "url": "/faq-1.png",
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The FAQ section displays a list of frequently asked questions in an accordion layout. Each question can be expanded to reveal its answer. Only one question is open at a time — when a customer opens a new one, the previous one closes automatically. Each FAQ item shows a numbered index on the left (e.g. 01, 02), the question in the middle, and a plus/cross icon on the right that animates when opened or closed. The answer text sits directly below the question, aligned to the same column."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "How to Edit the FAQ Section"
+          },
+          {
+            "type": "heading",
+            "level": 3,
+            "content": "Section Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/faq-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Color Scheme:</strong> Sets the background and text color for the entire section. Choose a scheme that matches the surrounding page content.",
+                  "<strong>Section Heading:</strong> An optional heading displayed above the FAQ list. Leave it blank if you want the FAQ list to appear without a title.",
+                  "<strong>Keep Open First FAQ by Default:</strong> When enabled, the first FAQ item is expanded automatically when the page loads. Useful for highlighting your most important question. When disabled, all items start collapsed."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "FAQ Item Blocks"
+          },
+          {
+            "type": "paragraph",
+            "content": "Each FAQ Item block is one question-and-answer pair. You can add up to 20 items. To add a new one, click <strong>Add block</strong> inside the FAQ section in the theme editor."
+          },
+          {
+            "type": "image-text",
+            "url": "/faq-3.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Question:</strong> The question text shown in the trigger row. Keep it short and clear — one line is ideal.",
+                  "<strong>Answer:</strong> The answer that appears when the question is expanded. Supports rich text, so you can use bold, italic, links, and lists inside the answer if needed."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "To reorder FAQ items, drag them up or down in the block list on the left panel of the theme editor."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Best Practices"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Do",
+            "items": [
+              "Write questions the way a real customer would ask them — short, conversational, direct.",
+              "Keep answers concise. If an answer needs several paragraphs, consider whether it belongs in a dedicated page instead.",
+              "Enable \"Keep open first FAQ by default\" to surface your most important question immediately on page load.",
+              "Order questions from most common to least common so customers find answers quickly.",
+              "Use the rich text editor in the Answer field for links — for example, linking \"contact us\" to your contact page inside an answer."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Don't",
+            "items": [
+              "Add more than 10–12 items in a single FAQ section — long lists become hard to scan. Split into multiple sections or pages if needed.",
+              "Use very long question text — it wraps awkwardly on mobile and breaks the single-line trigger layout.",
+              "Leave the Answer field empty on a published item — an empty accordion panel looks broken to customers.",
+              "Use the FAQ section as a substitute for detailed policy pages (returns, shipping, privacy). Link to those pages from within the answers instead."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Product List",
+    "href": "/sections/product-list",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "Product List"
+      },
+      {
+        "type": "subheading",
+        "content": "Display products in a clean responsive product grid sourced from a collection or a manually curated list, with horizontal mobile scrolling and flexible load controls."
+      },
+      {
+        "type": "image-text",
+        "url": "/product-list-1.png",
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The Product List section displays products in a clean responsive grid. Products can be sourced either from a selected collection or from a manually curated product list. The section supports horizontal scrolling on mobile, an optional custom scrollbar, and either a \"Load More\" button or a \"View All\" collection link."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Section Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/product-list-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "General",
+                "items": [
+                  "<strong>Color Scheme:</strong> Choose the color scheme used for the entire section.",
+                  "<strong>Heading:</strong> Main section heading displayed above the product grid.",
+                  "<strong>Padding Top:</strong> Controls the space above the section.",
+                  "<strong>Padding Bottom:</strong> Controls the space below the section.",
+                  "<strong>Margin Top:</strong> Controls the external spacing above the section.",
+                  "<strong>Margin Bottom:</strong> Controls the external spacing below the section."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Products",
+                "items": [
+                  "<strong>Collection:</strong> Select a collection to automatically display products from that collection.",
+                  "<strong>Manual Product List:</strong> Manually select up to 8 products to display. If both a collection and manual product list are configured, the theme's implementation determines which source is used.",
+                  "<strong>Enable Load More:</strong> Shows a \"Load More\" button below the product grid.",
+                  "<strong>Load More Button Text:</strong> Customize the label shown on the Load More button.",
+                  "<strong>Enable View All:</strong> Shows a button linking to the selected collection page. Only available when a collection is selected and Load More is disabled.",
+                  "<strong>View All Button Text:</strong> Customize the label shown on the View All button."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Layout",
+                "items": [
+                  "<strong>Desktop Columns:</strong> Choose how many products appear per row on desktop. Options: 3 Columns, 4 Columns.",
+                  "<strong>Laptop Columns:</strong> Choose how many products appear per row on laptop. Options: 2 Columns, 3 Columns, 4 Columns.",
+                  "<strong>Tablet Columns:</strong> Choose how many products appear per row on tablet. Options: 1 Column, 2 Columns.",
+                  "<strong>Grid Gap:</strong> Controls the spacing between product cards."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Special Features"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<strong>Responsive Layout:</strong> Automatically adapts the number of visible products based on screen size.",
+              "<strong>Mobile Horizontal Scrolling:</strong> Products become horizontally scrollable on mobile devices for a smoother browsing experience.",
+              "<strong>Custom Scrollbar:</strong> Displays a synchronized custom scrollbar for horizontal product navigation.",
+              "<strong>Collection-Based Products:</strong> Automatically pulls products from a selected collection.",
+              "<strong>Manual Product Selection:</strong> Allows merchants to curate and display specific products.",
+              "<strong>Load More Functionality:</strong> Progressively reveals additional products without navigating away from the page.",
+              "<strong>View All Collection Link:</strong> Directs customers to the full collection page.",
+              "<strong>Empty State Placeholders:</strong> Displays placeholder product cards when no products are available.",
+              "<strong>Theme Product Card Integration:</strong> Uses the shared product card component to maintain consistent styling across the theme."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Best Practices"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Do",
+            "items": [
+              "Use a collection when products should update automatically.",
+              "Use the manual product list when showcasing specific products.",
+              "Keep product counts balanced with the selected column layout.",
+              "Use clear and action-oriented button text.",
+              "Test the section on mobile and desktop devices."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Don't",
+            "items": [
+              "Enable both Load More and View All for the same use case.",
+              "Leave the section without products if it is intended to be visible to customers.",
+              "Use extremely large grid gaps that create excessive whitespace.",
+              "Select more products than necessary for the intended layout.",
+              "Use misleading button labels that do not match their destination or action."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "New Arrivals",
+    "href": "/sections/new-arrivals",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "New Arrivals"
+      },
+      {
+        "type": "subheading",
+        "content": "Display newly arrived products in a tabbed product slider. Each tab showcases products from a different collection so customers can browse the latest arrivals by category."
+      },
+      {
+        "type": "image-text",
+        "url": "/new-arrivals-1.png",
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The New Arrivals section displays newly arrived products in a tabbed product slider. Each tab can showcase products from a different collection, allowing customers to browse the latest arrivals by category."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Section Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/new-arrivals-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "General",
+                "items": [
+                  "<strong>Color Scheme:</strong> Choose the color scheme for the section to match your store's branding.",
+                  "<strong>Heading:</strong> Main section heading displayed above the product tabs. Examples: New Arrivals, Latest Drops, Just Landed.",
+                  "<strong>Padding Top:</strong> Controls spacing above the section.",
+                  "<strong>Padding Bottom:</strong> Controls spacing below the section.",
+                  "<strong>Margin Top:</strong> Controls outer spacing above the section.",
+                  "<strong>Margin Bottom:</strong> Controls outer spacing below the section."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "image-text",
+            "url": "/new-arrivals-3.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Slider Settings",
+                "items": [
+                  "<strong>Products Per Tab:</strong> Choose how many products to display from each selected collection. Range: 4–50 products.",
+                  "<strong>Transition Speed:</strong> Controls the slide animation speed. Range: 200ms–1200ms.",
+                  "<strong>Enable Loop:</strong> When enabled, the slider continuously loops through products."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Product Grid Layout",
+                "items": [
+                  "<strong>Desktop Columns:</strong> Choose how many products are visible per row on large desktop screens. Options: 3 Columns, 4 Columns.",
+                  "<strong>Laptop Columns:</strong> Choose how many products are visible on laptop screens. Options: 2 Columns, 3 Columns, 4 Columns.",
+                  "<strong>Tablet Columns:</strong> Choose how many products are visible on tablet devices. Options: 1 Column, 2 Columns.",
+                  "<strong>Grid Gap:</strong> Controls spacing between product cards. Range: 0px–80px."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Tab Blocks"
+          },
+          {
+            "type": "paragraph",
+            "content": "Add one or more Tab blocks to create separate product groups. Each tab has its own title and collection."
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<strong>Tab Title:</strong> Custom title displayed in the tab navigation. Examples: Men, Women, Sneakers, Accessories, New Season.",
+              "<strong>Collection:</strong> Select the collection whose products will be displayed inside the tab. Products are automatically pulled from the selected collection."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Special Features"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "Collection-based product tabs",
+              "Multiple tab support",
+              "Swiper-powered product slider with previous/next navigation controls",
+              "Responsive product grid",
+              "Keyboard-accessible tab navigation",
+              "Mobile optimized layout",
+              "Adjustable slider speed and optional infinite loop mode",
+              "Automatic placeholder products when no collection is selected",
+              "Supports Shopify App Blocks"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Best Practices"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Do",
+            "items": [
+              "Create meaningful tab names that help customers understand product categories.",
+              "Use collections that are regularly updated with new products.",
+              "Keep the number of tabs reasonable for better usability.",
+              "Use consistent product imagery across collections.",
+              "Enable loop mode for larger product collections.",
+              "Test column settings across desktop, tablet, and mobile devices."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "label": "Don't",
+            "items": [
+              "Create tabs without assigning a collection.",
+              "Use very long tab titles that may wrap onto multiple lines.",
+              "Add too many tabs, as navigation may become difficult on smaller screens.",
+              "Set an excessively high product count if collection sizes are small.",
+              "Use duplicate collections across multiple tabs unless intentionally required.",
+              "Enable loop mode when only a few products are available, as it may create a repetitive browsing experience."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Newsletter Popup",
+    "href": "/sections/newsletter-popup",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "Newsletter Popup"
+      },
+      {
+        "type": "subheading",
+        "content": "Grow your subscriber list and promote offers with a customizable email signup popup — control when it appears, what customers see, and what happens after they subscribe."
+      },
+      {
+        "type": "image-text",
+        "url": "/newsletter-popup-1.png",
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The Newsletter Popup section lets you grow your subscriber list, promote offers, and engage visitors with targeted email signup campaigns. It can be customized to match your store branding, control when it appears, and define what customers see before and after subscribing."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Popup Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/newsletter-popup-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Color Scheme:</strong> Select the color scheme used throughout the popup. Choose a scheme that provides strong contrast between text, buttons, and backgrounds for better readability.",
+                  "<strong>Close Button Color:</strong> Controls the color of the popup close (×) icon. Use a color that remains visible against the popup background.",
+                  "<strong>Popup Layout:</strong> Choose how the newsletter popup is displayed. <em>Layout 1</em> — a large centered popup that can include a store logo, promotional image, heading, description, email signup form, and no-spam message. Best for promotional campaigns and visual marketing. <em>Layout 2</em> — a compact popup displayed in the bottom-right corner of the screen with a heading, description, email signup form, and subscribe button. Best for a less intrusive signup experience.",
+                  "<strong>Popup Frequency:</strong> Controls how often visitors see the popup. Options: Once per session, Once per day, Once per week, Once per month.",
+                  "<strong>Popup Image:</strong> Select an image to display inside the popup — for example, a product promotion, seasonal campaign, or lifestyle photo. Only available when Popup Layout is set to Layout 1."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Subscribe View"
+          },
+          {
+            "type": "paragraph",
+            "content": "These settings control the content displayed before a customer subscribes."
+          },
+          {
+            "type": "image-text",
+            "url": "/newsletter-popup-3.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Heading:</strong> Sets the main title displayed in the popup. Example: BE THE FIRST TO KNOW.",
+                  "<strong>Heading Width:</strong> Controls the maximum width of the heading text. Range: 100px–400px. Useful for controlling line breaks in longer headings. Only available in Layout 1.",
+                  "<strong>Subtext:</strong> Sets the supporting text displayed below the heading. Example: New drops, exclusive offers, and style inspiration straight to your inbox.",
+                  "<strong>Email Placeholder:</strong> Sets the placeholder text displayed inside the email input field. Example: Type your email.",
+                  "<strong>No Spam Text:</strong> Displays a reassurance message below the signup button. Example: No spam. Unsubscribe anytime. Only available in Layout 1.",
+                  "<strong>Button Text:</strong> Sets the text displayed on the newsletter signup button. Example: Join now."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Success View"
+          },
+          {
+            "type": "paragraph",
+            "content": "Configure the experience shown after a customer successfully subscribes."
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<strong>Show Discount:</strong> Controls whether a promotional discount offer is shown after signup. When enabled, displays a success heading, success subtext, discount code, copy code button, and success button. When disabled, shows the default newsletter subscription success message.",
+              "<strong>Success Heading:</strong> Sets the main heading displayed after successful subscription. Example: HERE'S 10% OFF. Only available when Show Discount is enabled.",
+              "<strong>Success Subtext:</strong> Sets the supporting message displayed below the success heading. Example: Thanks for joining. Use this code at checkout. Only available when Show Discount is enabled.",
+              "<strong>Discount Code:</strong> Sets the coupon code displayed to subscribers. Customers can copy it using the built-in Copy button. Leave blank to hide the discount code.",
+              "<strong>Success Button Text:</strong> Sets the text displayed on the success action button. Example: Start shopping. Only available when Show Discount is enabled.",
+              "<strong>Success Button Link:</strong> Sets the destination URL for the success action button — for example, a homepage, collection, sale page, or custom URL. Only available when Show Discount is enabled."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Behavior Settings"
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<strong>Popup Delay:</strong> Controls how long the popup waits before appearing. Range: 0–30 seconds. Default: 2 seconds. A short delay allows visitors to start browsing before the popup appears."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Featured Product",
+    "href": "/sections/featured-product",
+    "contents": [
+      {
+        "type": "heading",
+        "level": 1,
+        "content": "Featured Product"
+      },
+      {
+        "type": "subheading",
+        "content": "Display detailed product information with a fully configurable block-based layout — add, remove, and reorder content blocks to build the ideal product page experience."
+      },
+      {
+        "type": "image-text",
+        "videoUrl": "/featured-product-1.mp4",
+        "orientation": "landscape",
+        "contents": [
+          {
+            "type": "paragraph",
+            "content": "The Featured Product section displays detailed product information and allows merchants to customize the product page layout using configurable blocks. Blocks can be added, removed, and reordered to build the exact layout needed."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Adding Blocks"
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Open the Theme Editor.",
+              "Select the <strong>Featured Product</strong> section.",
+              "Click <strong>Add block</strong>.",
+              "Select the desired block type from the available options.",
+              "Configure the block settings from the right sidebar.",
+              "Drag and drop blocks to reorder them within the section."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Available blocks include: Badge, Rich Text, Title, Vendor, Spacing, Price, Countdown Timer, Variant Selector, Button, Stock Information, Store Location, Divider, Collapsible Tab, Ask a Question, Product Details, Share, and Upsell Products."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Section Settings"
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-2.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Color Scheme:</strong> Choose a predefined color style for the section. Includes multiple theme color presets (light/dark variants). Click <em>Edit scheme</em> to customize colors.",
+                  "<strong>Padding Top / Padding Bottom:</strong> Controls space above and below the section.",
+                  "<strong>Image Layout:</strong> Controls how product images are displayed. <em>Layout 1</em> — default layout. <em>Layout 2</em> — alternative visual arrangement suited for modern or product-focused designs.",
+                  "<strong>Heading:</strong> Displays a custom heading above the featured product section. Default: Featured product.",
+                  "<strong>Product Selector:</strong> Select the product that will be displayed in the section.",
+                  "<strong>Cursor Text:</strong> Customize the text displayed when customers hover over the product image.",
+                  "<strong>Size Guide:</strong> Display a size guide link alongside product options.",
+                  "<strong>Size Guide Label:</strong> Customize the text shown to customers. Default: Size guide.",
+                  "<strong>Size Guide Page:</strong> Select a page that contains size guide information."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Badge Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays promotional or status badges above the product title. Supports automatic badges (Sale Percentage, New, Out of Stock) and custom badges created using metafields."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-3.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Alignment:</strong> Text alignment options: Left, Center, Right.",
+                  "<strong>Padding Top:</strong> Controls spacing above the badge.",
+                  "<strong>Padding Bottom:</strong> Controls spacing below the badge."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Title Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays the product title, automatically pulled from the product information."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-4.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Alignment:</strong> Controls the horizontal alignment of the product title. Options: Left, Center, Right.",
+                  "<strong>Padding Top:</strong> Adds space above the title.",
+                  "<strong>Padding Bottom:</strong> Adds space below the title."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Vendor Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays the product brand or vendor name."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-5.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Alignment:</strong> Controls the horizontal alignment of the vendor name. Options: Left, Center, Right.",
+                  "<strong>Padding Top:</strong> Adds space above the vendor block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the vendor block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Price Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays product pricing information including sale price and regular price, allowing customers to clearly see pricing and savings."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-6.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Alignment:</strong> Controls the horizontal alignment of the price. Options: Left, Center, Right.",
+                  "<strong>Reverse Price Order:</strong> Enable or disable to swap the display order of sale and regular prices.",
+                  "<strong>Enable Theme Selling Plan Fallback:</strong> Keep enabled unless a subscription app block manages selling plan inputs for this product form.",
+                  "<strong>Padding Top:</strong> Adds space above the price block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the price block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Rich Text Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays custom text, promotional messages, product highlights, or additional information anywhere within the Featured Product section."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-7.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Rich Text Content:</strong> Add formatted text using the built-in editor. Supports headings, bold, italic, links, and ordered/unordered lists.",
+                  "<strong>Padding Top:</strong> Adds space above the rich text block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the rich text block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Countdown Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays a promotional countdown timer on the product page to highlight limited-time offers and discounts."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-8.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "label": "Requirements",
+                "items": [
+                  "The countdown timer will only appear when the following product metafields are completed: <strong>Discount ending time</strong>, <strong>Discount code</strong>, and <strong>Discount title</strong>. If any of these metafields are empty, the countdown block will not be displayed.",
+                  "When a Discount code is provided, a Copy button is displayed so customers can quickly copy the code."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "label": "Setup Instructions",
+            "items": [
+              "Create a discount in your store admin for the product you want to promote.",
+              "Open the product and fill in the following metafields: Discount ending time, Discount code, and Discount title.",
+              "Add the Countdown Block to the product template in the theme editor.",
+              "Save your changes."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Variant Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Allows customers to select product variants such as Color, Size, and other product options directly from the Featured Product section."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-9.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Color Variant Label:</strong> Customize the label displayed above the color variant selector. Default: Product Siblings.",
+                  "<strong>Size Variant Label:</strong> Customize the label displayed above the size selector. Default: Product Size.",
+                  "<strong>Other Variant Label:</strong> Customize the label for an additional product option such as Material or Style.",
+                  "<strong>Color Option Swatch Style:</strong> Choose how color variants are displayed. <em>Image</em> — displays each color using the associated product image; recommended when each color has a unique appearance. <em>Color</em> — displays each color as a colored swatch using the configured color value.",
+                  "<strong>Variant Gap:</strong> Controls the spacing between individual variant options.",
+                  "<strong>Padding Top:</strong> Adds space above the variant block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the variant block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Spacing Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Adds adjustable vertical space between blocks to improve layout and create visual separation between product information, buttons, and other content."
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<strong>Spacing:</strong> Controls the amount of vertical space displayed below the block."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Button Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays the primary purchase actions for the product, including the Add to Cart and Buy it now buttons."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-10.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Add to Cart:</strong> Adds the selected product variant and quantity to the shopping cart.",
+                  "<strong>Buy it now:</strong> Redirects customers directly to the checkout page using Shopify's dynamic checkout feature, allowing for a faster purchasing experience.",
+                  "<strong>Padding Top:</strong> Adds space above the button block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the button block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Stock Information Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays the current inventory status and a visual stock progress indicator to create urgency for low-stock products."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-11.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Minimum Stock Alert:</strong> Defines the inventory threshold at which the stock message is displayed. For example, if set to 10, the stock alert appears only when inventory falls to 10 units or fewer.",
+                  "<strong>Padding Top:</strong> Adds space above the block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the block."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "The block displays the remaining inventory count and a progress bar representing available stock. It automatically hides when inventory exceeds the configured threshold."
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Store Location Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays store pickup availability for the selected product. Customers can view the pickup location, estimated pickup time, and access additional store information via a drawer containing the store address, contact details, availability status, and a contact form."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-12.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Heading:</strong> Customize the heading displayed above the pickup availability section. Default: Pickup availability.",
+                  "<strong>Footer Note:</strong> Customize the pickup availability message displayed beneath the store location. Default: Usually ready in 24 hours.",
+                  "<strong>Link Text:</strong> Customize the text displayed for the store information link. Default: View store information.",
+                  "<strong>Margin Top:</strong> Adds space above the Store Location block.",
+                  "<strong>Margin Bottom:</strong> Adds space below the Store Location block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Divider Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Inserts a horizontal divider between blocks to separate content visually and improve the overall layout. Useful for separating sections such as stock information, pickup availability, and collapsible tabs."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-13.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Thickness:</strong> Controls the thickness of the divider line.",
+                  "<strong>Length:</strong> Controls the width of the divider as a percentage of the available content width.",
+                  "<strong>Padding Top:</strong> Adds space above the divider.",
+                  "<strong>Padding Bottom:</strong> Adds space below the divider."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Collapsible Tab Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays expandable sections that help organize product information without overwhelming the product page. Customers click a tab title to open a side drawer containing additional content. Common uses include product descriptions, care instructions, shipping information, warranty details, and FAQs."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-14.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Title:</strong> Defines the heading displayed for the collapsible tab. Default: Tab title. Examples: Description, Product Care, Shipping &amp; Returns, Materials, Warranty, FAQs.",
+                  "<strong>Content:</strong> Adds the information displayed when the customer opens the tab. Supports headings, bold, italic, hyperlinks, ordered lists, and unordered lists.",
+                  "<strong>Page:</strong> Select an existing page from your store to display its content inside the collapsible drawer — useful for reusing content such as a Size Guide, Shipping Policy, or Warranty Information across multiple products.",
+                  "<strong>Padding Top:</strong> Adds space above the collapsible tab block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the collapsible tab block."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "label": "Bind the Product Description to a Collapsible Tab",
+            "items": [
+              "Open the Theme Editor and select the collapsible tab.",
+              "In the Content field, click the <strong>Dynamic Source</strong> (database) icon.",
+              "Select <strong>Current Block → Page</strong>.",
+              "From the available sources, choose <strong>Section → Product</strong>.",
+              "Select <strong>Description</strong> from the product fields.",
+              "Save your changes."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Ask a Question Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Allows customers to contact your store directly from the product page. When clicked, it opens a side drawer containing a contact form where customers can submit their inquiries. This helps customers get additional product information before purchasing, improving confidence and reducing purchase hesitation."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-15.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Title:</strong> Customize the heading displayed for the block on the product page. Default: Ask a question.",
+                  "<strong>Content:</strong> Add a short message that appears at the top of the question drawer.",
+                  "<strong>Padding Top:</strong> Adds space above the block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Product Details Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Displays a dedicated link to a detailed product information page — useful for technical specifications, size charts, manuals, or detailed product guides."
+          },
+          {
+            "type": "list",
+            "ordered": false,
+            "items": [
+              "<strong>Label:</strong> Customize the link text.",
+              "<strong>Link Destination:</strong> Select the page or URL that contains additional product information."
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Share Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Allows customers to share the current product on their preferred social media platforms directly from the product page. Sharing products on social media helps increase product visibility and drive additional traffic to your store."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-16.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Label:</strong> Customize the heading displayed above the social sharing links. Default: Share.",
+                  "<strong>Social Media Platforms:</strong> Enable or disable each platform independently. Available options: Twitter, Pinterest, Facebook, LinkedIn, WhatsApp, Telegram.",
+                  "<strong>Padding Top:</strong> Adds space above the Share block.",
+                  "<strong>Padding Bottom:</strong> Adds space below the Share block."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "section",
+        "contents": [
+          {
+            "type": "heading",
+            "level": 2,
+            "content": "Upsell Block"
+          },
+          {
+            "type": "paragraph",
+            "content": "Recommends related products directly on the product page, making it easy for customers to discover complementary items and add them to their cart. Products displayed in this block are pulled from the Related Products metafield assigned to each product in your Shopify Admin."
+          },
+          {
+            "type": "image-text",
+            "url": "/featured-product-17.png",
+            "orientation": "landscape",
+            "contents": [
+              {
+                "type": "list",
+                "ordered": false,
+                "items": [
+                  "<strong>Label:</strong> Customize the heading displayed above the recommended products.",
+                  "<strong>Product Limit:</strong> Choose the maximum number of related products to display. Options: 1–10 products. Default: 1.",
+                  "<strong>Margin Top:</strong> Adds space above the Upsell block.",
+                  "<strong>Margin Bottom:</strong> Adds space below the Upsell block."
+                ]
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "label": "How to Add Upsell Products",
+            "items": [
+              "In your Shopify Admin, go to <strong>Products</strong>.",
+              "Open the product you want to edit.",
+              "Locate the <strong>Related Products</strong> metafield.",
+              "Select one or more products you want to recommend.",
+              "Save the product.",
+              "Open the Theme Editor and add the Upsell Block to the Featured Product section if it has not already been added."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "content": "Each recommended product displays a product image, title, price (including sale price if applicable), discount badge (when available), quantity selector, and an Add to Cart button — allowing customers to purchase complementary products with just a few clicks. If no related products are assigned, the Upsell block will not appear on the product page."
+          }
+        ]
+      }
+    ]
+  }
+  ],
+  "sidebar": true,
+  "header": false
+},
+{
+  "type": "multipage",
+  "name": "Product Page",
+  "href": "/sections/product-page",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Product Page"
+    },
+    {
+      "type": "subheading",
+      "content": "Display detailed product information with a fully configurable block-based layout — add, remove, and reorder content blocks to build the ideal product page experience."
+    },
+    {
+      "type": "video",
+      "url": "/product-video"
+    },
+    {
+      "type": "image-text",
+      "url": "/product-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Product section displays detailed product information and allows merchants to customize the product page layout using configurable blocks."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Adding Blocks"
+        },
+        {
+          "type": "image-text",
+          "url": "/product-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Open the Theme Editor.",
+                "Select the <strong>Product</strong> page.",
+                "Click <strong>Add block</strong>.",
+                "Select the desired block type from the available options.",
+                "Configure the block settings from the right sidebar.",
+                "Drag and drop blocks to reorder them within the section."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "Available blocks include: Badge, Rich Text, Title, Vendor, Spacing, Price, Countdown Timer, Variant Selector, Button, Stock Information, Store Location, Divider, Collapsible Tab, Ask a Question, Share, and Upsell Products."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/product-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Color Scheme:</strong> Choose a predefined color style for the section. Includes multiple theme color presets (light/dark variants). Click <em>Edit scheme</em> to customize colors.",
+                "<strong>Padding Top / Padding Bottom:</strong> Controls space above and below the section."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/product-4.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Image Layout:</strong> Controls how product images are displayed. <em>Layout 1</em> — default layout. <em>Layout 2</em> — alternative visual arrangement suited for modern or product-focused designs.",
+                "<strong>Heading:</strong> Displays a custom heading above the Product section. Default: Product.",
+                "<strong>Cursor Text:</strong> Customize the text displayed when customers hover over the product image.",
+                "<strong>Size Guide:</strong> Display a size guide link alongside product options.",
+                "<strong>Size Guide Label:</strong> Customize the text shown to customers. Default: Size guide.",
+                "<strong>Size Guide Page:</strong> Select a page that contains size guide information."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Badge Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays promotional or status badges above the product title. Supports automatic badges (Sale Percentage, New, Out of Stock) and custom badges created using metafields."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-5.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Alignment:</strong> Text alignment options: Left, Center, Right.",
+                "<strong>Padding Top:</strong> Controls spacing above the badge.",
+                "<strong>Padding Bottom:</strong> Controls spacing below the badge."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Title Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays the product title, automatically pulled from the product information."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-6.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Alignment:</strong> Controls the horizontal alignment of the product title. Options: Left, Center, Right.",
+                "<strong>Padding Top:</strong> Adds space above the title.",
+                "<strong>Padding Bottom:</strong> Adds space below the title."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Vendor Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays the product brand or vendor name."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-7.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Alignment:</strong> Controls the horizontal alignment of the vendor name. Options: Left, Center, Right.",
+                "<strong>Padding Top:</strong> Adds space above the vendor block.",
+                "<strong>Padding Bottom:</strong> Adds space below the vendor block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Rich Text Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays custom text, promotional messages, product highlights, or additional information anywhere within the Product section."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-8.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Rich Text Content:</strong> Add formatted text using the built-in editor. Supports headings, bold, italic, links, and ordered/unordered lists.",
+                "<strong>Padding Top:</strong> Adds space above the rich text block.",
+                "<strong>Padding Bottom:</strong> Adds space below the rich text block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Price Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays product pricing information including sale price and regular price, allowing customers to clearly see pricing and savings."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-9.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Alignment:</strong> Controls the horizontal alignment of the price. Options: Left, Center, Right.",
+                "<strong>Reverse Price Order:</strong> Enable or disable to swap the display order of sale and regular prices.",
+                "<strong>Enable Theme Selling Plan Fallback:</strong> Keep enabled unless a subscription app block manages selling plan inputs for this product form.",
+                "<strong>Padding Top:</strong> Adds space above the price block.",
+                "<strong>Padding Bottom:</strong> Adds space below the price block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Countdown Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays a promotional countdown timer on the product page to highlight limited-time offers and discounts."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-10.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Requirements",
+              "items": [
+                "The countdown timer will only appear when the following product metafields are completed: <strong>Discount ending time</strong>, <strong>Discount code</strong>, and <strong>Discount title</strong>. If any of these metafields are empty, the countdown block will not be displayed.",
+                "When a Discount code is provided, a Copy button is displayed so customers can quickly copy the code."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "label": "Setup Instructions",
+          "items": [
+            "Create a discount in your store admin for the product you want to promote.",
+            "Open the product and fill in the following metafields: Discount ending time, Discount code, and Discount title.",
+            "Add the Countdown Block to the product template in the theme editor.",
+            "Save your changes."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Variant Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Allows customers to select product variants such as Color, Size, and other product options directly from the Product section."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-11.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Color Variant Label:</strong> Customize the label displayed above the color variant selector. Default: Product Siblings.",
+                "<strong>Size Variant Label:</strong> Customize the label displayed above the size selector. Default: Product Size.",
+                "<strong>Other Variant Label:</strong> Customize the label for an additional product option such as Material or Style.",
+                "<strong>Color Option Swatch Style:</strong> Choose how color variants are displayed. <em>Image</em> — displays each color using the associated product image. <em>Color</em> — displays each color as a colored swatch using the configured color value."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/product-12.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Variant Gap:</strong> Controls the spacing between individual variant options.",
+                "<strong>Padding Top:</strong> Adds space above the variant block.",
+                "<strong>Padding Bottom:</strong> Adds space below the variant block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Spacing Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Adds adjustable vertical space between blocks to improve layout and create visual separation between product information, buttons, and other content."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-13.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Spacing:</strong> Controls the amount of vertical space displayed below the block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Button Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays the primary purchase actions for the product, including the Add to Cart and Buy it now buttons."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-14.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Add to Cart:</strong> Adds the selected product variant and quantity to the shopping cart.",
+                "<strong>Buy it now:</strong> Redirects customers directly to the checkout page using Shopify's dynamic checkout feature, allowing for a faster purchasing experience.",
+                "<strong>Padding Top:</strong> Adds space above the button block.",
+                "<strong>Padding Bottom:</strong> Adds space below the button block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Stock Information Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays the current inventory status and a visual stock progress indicator to create urgency for low-stock products."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-15.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Minimum Stock Alert:</strong> Defines the inventory threshold at which the stock message is displayed. For example, if set to 10, the stock alert appears only when inventory falls to 10 units or fewer.",
+                "<strong>Padding Top:</strong> Adds space above the block.",
+                "<strong>Padding Bottom:</strong> Adds space below the block."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "The block displays the remaining inventory count and a progress bar representing available stock. It automatically hides when inventory exceeds the configured threshold."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Store Location Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays store pickup availability for the selected product. Customers can view the pickup location, estimated pickup time, and access additional store information via a drawer containing the store address, contact details, availability status, and a contact form."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-16.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Heading:</strong> Customize the heading displayed above the pickup availability section. Default: Pickup availability.",
+                "<strong>Footer Note:</strong> Customize the pickup availability message displayed beneath the store location. Default: Usually ready in 24 hours.",
+                "<strong>Link Text:</strong> Customize the text displayed for the store information link. Default: View store information."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/product-17.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Margin Top:</strong> Adds space above the Store Location block.",
+                "<strong>Margin Bottom:</strong> Adds space below the Store Location block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Divider Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Inserts a horizontal divider between blocks to separate content visually and improve the overall layout. Useful for separating sections such as stock information, pickup availability, and collapsible tabs."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-18.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Thickness:</strong> Controls the thickness of the divider line.",
+                "<strong>Length:</strong> Controls the width of the divider as a percentage of the available content width.",
+                "<strong>Padding Top:</strong> Adds space above the divider.",
+                "<strong>Padding Bottom:</strong> Adds space below the divider."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Collapsible Tab Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Displays expandable sections that help organize product information without overwhelming the product page. Customers click a tab title to open a side drawer containing additional content. Common uses include product descriptions, care instructions, shipping information, warranty details, and FAQs."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-19.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Title:</strong> Defines the heading displayed for the collapsible tab. Default: Tab title. Examples: Description, Product Care, Shipping &amp; Returns, Materials, Warranty, FAQs.",
+                "<strong>Content:</strong> Adds the information displayed when the customer opens the tab. Supports headings, bold, italic, hyperlinks, ordered lists, and unordered lists.",
+                "<strong>Page:</strong> Select an existing page from your store to display its content inside the collapsible drawer — useful for reusing content such as a Size Guide, Shipping Policy, or Warranty Information across multiple products.",
+                "<strong>Padding Top:</strong> Adds space above the collapsible tab block.",
+                "<strong>Padding Bottom:</strong> Adds space below the collapsible tab block."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/product-24.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "Select an existing page from your store to display its content inside the collapsible drawer. This option is useful for reusing content across multiple products, such as a Size Guide, Shipping Policy, Return Policy, Warranty Information, or Product Care Guide."
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/product-25.png",
+          "orientation": "landscape",
+          "content":[]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Ask a Question Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Allows customers to contact your store directly from the product page. When clicked, it opens a side drawer containing a contact form where customers can submit their inquiries. This helps customers get additional product information before purchasing, improving confidence and reducing purchase hesitation."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-26.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Title:</strong> Customize the heading displayed for the block on the product page. Default: Ask a question.",
+                "<strong>Content:</strong> Add a short message that appears at the top of the question drawer."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/product-27.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Padding Top:</strong> Adds space above the block.",
+                "<strong>Padding Bottom:</strong> Adds space below the block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Share Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Allows customers to share the current product on their preferred social media platforms directly from the product page. Sharing products on social media helps increase product visibility and drive additional traffic to your store."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-28.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Label:</strong> Customize the heading displayed above the social sharing links. Default: Share.",
+                "<strong>Social Media Platforms:</strong> Enable or disable each platform independently. Available options: Twitter, Pinterest, Facebook, LinkedIn, WhatsApp, Telegram.",
+                "<strong>Padding Top:</strong> Adds space above the Share block.",
+                "<strong>Padding Bottom:</strong> Adds space below the Share block."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Upsell Block"
+        },
+        {
+          "type": "paragraph",
+          "content": "Recommends related products directly on the product page, making it easy for customers to discover complementary items and add them to their cart. Products displayed in this block are pulled from the Related Products metafield assigned to each product in your Shopify Admin."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-29.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Label:</strong> Customize the heading displayed above the recommended products.",
+                "<strong>Product Limit:</strong> Choose the maximum number of related products to display. Options: 1–10 products. Default: 1.",
+                "<strong>Margin Top:</strong> Adds space above the Upsell block.",
+                "<strong>Margin Bottom:</strong> Adds space below the Upsell block."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "label": "How to Add Upsell Products",
+          "items": [
+            "In your Shopify Admin, go to <strong>Products</strong>.",
+            "Open the product you want to edit.",
+            "Locate the <strong>Related Products</strong> metafield.",
+            "Select one or more products you want to recommend.",
+            "Save the product.",
+            "Open the Theme Editor and add the Upsell Block to the Product section if it has not already been added."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "Each recommended product displays a product image, title, price (including sale price if applicable), discount badge (when available), quantity selector, and an Add to Cart button — allowing customers to purchase complementary products with just a few clicks. If no related products are assigned, the Upsell block will not appear on the product page."
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "Product Metafields",
+      "href": "/sections/product-page/product-metafields",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Product Metafields"
+        },
+        {
+          "type": "subheading",
+          "content": "Add custom content and promotional information to individual products using metafields — badges, marquee text, countdown timers, discount codes, and upsell links."
+        },
+        {
+          "type": "image-text",
+          "url": "/product-29.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "Use product metafields to add custom content and promotional information to individual products."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Badge"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Namespace and key:</strong> custom.badge",
+                "<strong>Type:</strong> One, Single line text",
+                "<strong>Examples:</strong> Sale, Featured",
+                "<strong>Note:</strong> The badge text entered in this metafield is displayed when badges are enabled in Product Card Settings."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Marquee"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Namespace and key:</strong> custom.marquee",
+                "<strong>Type:</strong> List, Single line text",
+                "<strong>Examples:</strong> Free Shipping Worldwide, Limited Time Offer, New Arrival, 20% Off This Week",
+                "<strong>Note:</strong> This metafield is used when the Product Marquee feature is enabled."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Discount Ending Time"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Namespace and key:</strong> custom.discount_ending_time",
+                "<strong>Type:</strong> One, Date and time",
+                "<strong>Example:</strong> December 31, 2025, 11:59 PM",
+                "<strong>Use Cases:</strong> Display countdown timers, highlight limited-time promotions, and automatically hide expired offers depending on theme implementation."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Discount Code"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Namespace and key:</strong> custom.discount_code",
+                "<strong>Type:</strong> One, Single line text",
+                "<strong>Examples:</strong> SAVE10, WELCOME20, SUMMER25",
+                "<strong>Note:</strong> This code can be displayed on product cards, product pages, or promotional banners depending on your theme configuration."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Discount Title"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Namespace and key:</strong> custom.discount_tittel",
+                "<strong>Type:</strong> One, Single line text",
+                "<strong>Examples:</strong> Save 20% Today, Limited Time Offer",
+                "<strong>Note:</strong> This title is typically displayed alongside the discount code or countdown timer."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Upsell"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Namespace and key:</strong> custom.upsell",
+                "<strong>Type:</strong> List, Product",
+                "<strong>Use Cases:</strong> \"Goes great with\" — select an existing product from your catalog to create the upsell relationship.",
+                "<strong>Note:</strong> Select an existing product from your catalog to create the upsell relationship."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sidebar": true,
+  "header": false
+},
+{
+  "type": "multipage",
+  "name": "Collection Page",
+  "href": "/sections/collection-page",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Collection Page"
+    },
+    {
+      "type": "subheading",
+      "content": "Display all products inside a collection in a filterable, sortable grid with instant updates, active filter tags, and a collection navigation bar."
+    },
+    {
+      "type": "image-text",
+      "url": "/collection-page-1.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "paragraph",
+          "content": "The Collection Page displays all the products inside a collection. Customers can browse products in a grid, filter them by things like color, price, or availability, sort them in different orders, and jump between collections using the navigation bar at the top. The filters and results update instantly without the page reloading."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "General",
+              "items": [
+                "<strong>Color Scheme:</strong> Sets the background and text colors for the collection page. Pick a scheme that matches the rest of your store.",
+                "<strong>Padding Top / Padding Bottom:</strong> Controls the space above and below the section. Set it once for desktop and the theme handles smaller screens automatically."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Collection Navigation Bar",
+              "items": [
+                "<strong>Navigation Collections:</strong> A horizontal row of collection links appears just below the page header. By default it shows all your store's collections. If you only want specific collections to appear, pick them here using the collection picker. Each collection link shows the number of products it contains next to its name. If left empty, all collections in your store will appear in the nav bar automatically."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-4.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Products",
+              "items": [
+                "<strong>Products Per Page:</strong> Controls how many products are shown before pagination appears. Range: 4–48 products. Default: 12."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-5.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Layout Switcher",
+              "items": [
+                "<strong>Show Layout Switcher:</strong> Turns on a dropdown in the toolbar that lets customers switch the product grid between a 3-column and 4-column layout. The customer's chosen layout is saved in their browser. Turn this off if you prefer a fixed layout."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-6.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Sorting",
+              "items": [
+                "<strong>Show Sort:</strong> Shows or hides the sort option inside the filter drawer. When turned on, customers can sort products by things like price, date, or best selling.",
+                "<strong>Sort Label:</strong> The heading text shown above the sort dropdown inside the filter drawer. Default: \"Sort by\". You can change this to anything you like, for example \"Order by\" or \"Arrange by\"."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-7.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Filters",
+              "items": [
+                "<strong>Show Availability:</strong> Shows or hides the Availability filter, which lets customers filter by In Stock or Out of Stock.",
+                "<strong>Show Price:</strong> Shows or hides the Price filter. When visible, customers can drag a slider or type a min and max price to narrow down results.",
+                "<strong>Show Other Filters:</strong> Shows or hides everything else — things like Size, Category, Material, or any other filters configured in the Search &amp; Discovery app.",
+                "<strong>Hidden Filters:</strong> If you want to hide a specific filter without turning off the whole group, type its exact name here. Separate multiple names with a comma — for example: Brand, Color. The names must match exactly what appears in your Search &amp; Discovery app."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Filter Drawer"
+        },
+        {
+          "type": "paragraph",
+          "content": "The filter drawer opens as a side panel when a customer clicks the Filter &amp; Sort button in the toolbar. All filtering and sorting happens inside this panel."
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-8.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "What customers can do inside the drawer",
+              "items": [
+                "<strong>Sort:</strong> Choose how products are ordered. Options like Price: Low to High, Best Selling, and Newest are shown depending on what you have enabled in Shopify Admin.",
+                "<strong>Availability:</strong> Tick In Stock to only show products that are available to buy right now.",
+                "<strong>Price:</strong> Drag the slider handles or type values into the min and max fields to show only products within a price range.",
+                "<strong>Color:</strong> Color filters appear as circular swatches. Customers tap a swatch to filter by that color. The color shown is matched automatically from your theme's color palette settings.",
+                "<strong>Other filters:</strong> Any additional filter groups from your Search &amp; Discovery app (such as Size or Category) appear as a list of checkboxes. Ticking one narrows down the results immediately.",
+                "<strong>Clear All:</strong> A button at the bottom of the drawer removes all active filters at once and resets the grid to show all products.",
+                "<strong>Apply:</strong> Closes the drawer and confirms the current filter selection."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Active Filter Tags"
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-9.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "When a customer has filters active, small tags appear in the toolbar showing what is currently applied. Each tag has an X that removes just that one filter. A \"Clear all\" tag also appears to remove everything at once."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Empty State"
+        },
+        {
+          "type": "image-text",
+          "url": "/collection-page-10.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "If no products match the active filters, the grid is replaced with a short message and a button that takes the customer back to the all-products collection."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Best Practices"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Do",
+          "items": [
+            "Use the Hidden Filters field to tidy up the filter drawer if you have filters that are not relevant to a particular collection.",
+            "Keep the Sort Label short so it fits neatly inside the drawer header.",
+            "Test the filter drawer on mobile before publishing — the panel takes up the full screen on smaller devices.",
+            "If you want more control over which filters appear and how they are ordered, you can optionally install the Shopify Search &amp; Discovery app — but the filters work perfectly without it."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Don't",
+          "items": [
+            "Turn off Show Others if you have custom filters like Size or Material set up — they will disappear from the drawer entirely.",
+            "Leave the Hidden Filters field with trailing spaces or wrong capitalisation — the name must match exactly what appears in the filter drawer.",
+            "Set Products Per Page too high if your product cards have videos or large images, as it may slow down the page on mobile."
+          ]
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+  "name": "Cart Page",
+  "href": "/sections/cart-page",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 1,
+      "content": "Cart Page"
+    },
+    {
+      "type": "subheading",
+      "content": "The Cart Page is where your customers review what they have added before checking out. It shows each product with its image, name, selected options, and price. Customers can change quantities, remove items, apply a discount code, add a note to their order, and proceed to checkout — all from one place."
+    },
+    {
+      "type": "image",
+      "url": "/cart-page-1.png",
+      "orientation": "landscape"
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Section Settings"
+        },
+        {
+          "type": "image",
+          "url": "/cart-page-2.png",
+          "orientation": "landscape"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "General"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Color Scheme</strong> — Choose a color scheme that matches the rest of your store. This controls the background, text, and border colors across the entire cart page.",
+            "<strong>Padding Top / Padding Bottom</strong> — Controls the space above and below the cart section. You only need to set the desktop value; the theme handles the rest automatically."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Gift Box"
+        },
+        {
+          "type": "image-text",
+          "url": "/cart-page-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "image",
+              "url": "/cart-page-4.png",
+              "orientation": "landscape"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Enable Gift Box</strong> — Turns on a gift upsell button inside the order summary. When a customer clicks it, a pre-selected product is added to their order.",
+            "<strong>Gift Product</strong> — The product that appears as the gift offer. Only set this after turning on Enable Gift Box. Make sure the product you pick is in stock, otherwise the button will not appear."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "What Customers Can Do"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Adjust quantities</strong> — Customers can increase or decrease the quantity of any item directly from the cart.",
+            "<strong>Remove items</strong> — Each item has a remove button. Removing an item updates the cart immediately.",
+            "<strong>Add a note</strong> — An optional note field lets customers leave a message for your store. The note is attached to the order and visible in your Shopify Admin.",
+            "<strong>Apply a discount code</strong> — Customers can enter a discount code and apply it directly from the cart. If the code is valid it is shown as a tag they can remove. Multiple codes can be applied at once.",
+            "<strong>Proceed to checkout</strong> — The checkout button takes customers to Shopify's checkout with their cart and any discount codes already applied."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Order Summary"
+        },
+        {
+          "type": "paragraph",
+          "content": "The right side of the cart page shows a running total of the order. It includes the subtotal, any discounts that have been applied, and the final total. Taxes and shipping are calculated at Shopify's checkout."
+        },
+        {
+          "type": "paragraph",
+          "content": "If your Shopify plan supports express checkout options like Shop Pay or PayPal, those buttons appear below the main checkout button automatically."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Empty Cart"
+        },
+        {
+          "type": "image-text",
+          "url": "/cart-page-5.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "When the cart has no items, the page shows a short message and a button that takes customers back to your store to continue shopping."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Cart Drawer"
+        },
+        {
+          "type": "paragraph",
+          "content": "The Cart Drawer is a slide-in panel that opens from the right side of the screen when a customer clicks the cart icon. It gives customers a quick look at their cart without leaving the page they are on. It has the same features as the Cart Page — quantity controls, discount codes, a note field, and checkout — but in a compact panel so shopping is not interrupted."
+        },
+        {
+          "type": "image",
+          "url": "/cart-drawer-1.png",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "How to Open the Drawer"
+        },
+        {
+          "type": "image-text",
+          "url": "/cart-drawer-2.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The drawer opens when a customer clicks the cart icon in your header. Clicking the icon again, clicking the X button inside the drawer, or clicking the dimmed area behind the drawer will close it."
+            },
+            {
+              "type": "paragraph",
+              "content": "You can also set the drawer to open automatically every time a product is added to the cart. This is controlled by the Cart Drawer Auto Open setting in your global theme settings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "What Customers Can Do"
+        },
+        {
+          "type": "image-text",
+          "url": "/cart-drawer-3.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Adjust quantities</strong> — Same as the Cart Page. Customers can increase or decrease quantities directly inside the drawer.",
+                "<strong>Remove items</strong> — The trash icon next to each item removes it from the cart.",
+                "<strong>Add a note</strong> — An expandable section lets customers type a note for your store. Clicking Save sends the note without closing the drawer.",
+                "<strong>Apply a discount code</strong> — Customers can enter and apply discount codes from inside the drawer. Applied codes show as removable tags. Multiple codes are supported.",
+                "<strong>View cart</strong> — A button at the bottom of the drawer takes customers to the full Cart Page.",
+                "<strong>Checkout</strong> — The checkout button submits the cart and takes customers to Shopify's checkout. Any active discount codes go with them automatically."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Order Totals"
+        },
+        {
+          "type": "paragraph",
+          "content": "The bottom of the drawer shows the subtotal, any applied discounts, and the final total. A note reminds customers that taxes and shipping are calculated at checkout."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Gift Button"
+        },
+        {
+          "type": "paragraph",
+          "content": "If you have set up a Gift Product in the Cart Page settings, the same gift upsell button appears inside the drawer as well. To enable the gift card, you will have to go to the \"header\" and make sure you have enabled it."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Enable cart drawer gift box",
+            "Cart drawer gift product added"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": "No extra setup is needed — it reads the setting you have already configured there."
+        },
+        {
+          "type": "image",
+          "url": "/cart-drawer-gift-1.png",
+          "orientation": "landscape"
+        },
+        {
+          "type": "image",
+          "url": "/cart-drawer-gift-2.png",
+          "orientation": "landscape"
+        },
+        {
+          "type": "image",
+          "url": "/cart-drawer-gift-3.png",
+          "orientation": "landscape"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Empty Cart"
+        },
+        {
+          "type": "image-text",
+          "url": "/cart-drawer-empty.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "When the cart is empty, the drawer shows a short message and a Continue Shopping button. The checkout button is not available in this state."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Settings"
+        },
+        {
+          "type": "image-text",
+          "url": "/cart-drawer-settings.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The Cart Drawer does not have its own section in the Theme Editor. Its color scheme and gift product are controlled by the Cart Page section settings. The auto-open behavior is controlled by your global Theme Settings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "Accessibility"
+        },
+        {
+          "type": "paragraph",
+          "content": "The cart drawer is built with accessibility in mind. When the drawer opens, keyboard focus moves into it automatically and is trapped inside — Tab and Shift+Tab cycle through the drawer's interactive elements without reaching the page behind it. When the drawer closes, focus returns to the element that opened it (usually the cart icon). Screen readers are notified of cart updates through a live region that announces the new item count whenever it changes."
+        }
+      ]
+    }
+  ]
+},
+    {
+      "name": "Search Results",
+      "href": "/sections/search-results",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Search Results"
+        },
+        {
+          "type": "subheading",
+          "content": "Show matching products, articles, and pages after a customer search — with a refineable search bar, filter drawer, recent searches, and empty state handling."
+        },
+        {
+          "type": "image-text",
+          "url": "/search-results-1.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The Search Results page is where customers land after typing something into the search bar. It shows a search input at the top so customers can refine or start a new search, and displays matching results below in a product grid. The page also supports filtering and sorting the results, just like the Collection page."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Section Settings"
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-2.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Color Scheme:</strong> Sets the background and text colors for the search page. Pick a scheme that matches the rest of your store.",
+                    "<strong>Padding Top / Padding Bottom:</strong> Controls the space above and below the section.",
+                    "<strong>Products Per Page:</strong> How many results appear before pagination kicks in. Range: 4–48.",
+                    "<strong>Show Layout Switcher:</strong> Turns on a dropdown that lets customers switch the results grid between a 3-column and 4-column layout. The chosen layout is remembered in the customer's browser.",
+                    "<strong>Show Sort Options:</strong> Shows or hides the sort option inside the filter drawer. When turned on, customers can sort results by price, relevance, newest, and other options.",
+                    "<strong>Sort Label:</strong> The heading text shown above the sort dropdown inside the filter drawer. Default: \"Sort by\".",
+                    "<strong>Show Availability:</strong> Shows or hides the Availability filter, which lets customers narrow results to in-stock items only.",
+                    "<strong>Show Price Range:</strong> Shows or hides the Price filter. Customers can drag a slider or type a min and max value to filter by price.",
+                    "<strong>Show Other Filters:</strong> Shows or hides any additional filters based on your product data, such as Color, Size, or Category.",
+                    "<strong>Hidden Filter Names:</strong> If you want to hide a specific filter without turning off the whole group, type its exact name here. Separate multiple names with a comma — for example: Color, Size. The name must match exactly what appears in the filter drawer."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-3.png",
+              "orientation": "landscape",
+              "contents": []
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Search Bar"
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-4.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "The search input sits at the center of the page, above the results. Customers can type a new search term here without going back to the header. The bar includes a Clear button that appears as soon as something is typed, so customers can wipe it and start fresh quickly."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Recent Searches"
+            },
+            {
+              "type": "paragraph",
+              "content": "Below the search bar, the page remembers the last few things the customer searched for and shows them as clickable tags. Customers can tap any tag to run that search again instantly. There is also a Clear all button to wipe the recent search history. Recent searches are saved in the customer's browser so they persist across visits."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "What the Results Show"
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-5.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Products:</strong> Shown as standard product cards in the grid.",
+                    "<strong>Blog articles:</strong> Shown as image cards with the article title and publish date overlaid on the image. These only appear if you have article search turned on in Theme Settings.",
+                    "<strong>Pages:</strong> Shown as simple cards with the page title and a short excerpt. These only appear if you have page search turned on in Theme Settings."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-6.png",
+              "orientation": "landscape",
+              "contents": []
+            },
+            {
+              "type": "paragraph",
+              "content": "The result count and the search term are shown below the page title so customers always know what they searched for and how many matches came back."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Filter Drawer"
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-7.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "The Filter &amp; Sort button appears in the toolbar above the results once a search has been performed. It opens the same side panel filter drawer as the Collection Page, with the same filter types — availability, price slider, color swatches, and checkbox filters. Active filters appear as removable tags in the toolbar."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Theme Settings — What Gets Searched"
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-8.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "The search page searches products by default. You can also include blog articles and store pages in search results. These options are found in your Theme Settings, not inside this section. Look for search-related toggles there to control what types of content show up in results."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Empty State"
+            },
+            {
+              "type": "image-text",
+              "url": "/search-results-9.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "If a search returns no results, the page shows a short message and a button that takes the customer back to the all-products collection to continue shopping."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Keep Products Per Page at a reasonable number — too many results on one page can slow things down, especially on mobile.",
+                "Test a search with no results to make sure the empty state message reads naturally for your store.",
+                "Use the Hidden Filter Names field to remove any filter groups that do not apply to your product catalogue — for example, if you do not sell by size, hide the Size filter."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Turn off Show Sort Options and Show Other Filters at the same time unless you have very few products — customers on a search page usually want to narrow things down quickly.",
+                "Leave the Sort Label blank — the filter drawer will still work but the section heading will be empty."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gift Card",
+      "href": "/sections/gift-card",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Gift Card"
+        },
+        {
+          "type": "subheading",
+          "content": "Built-in gift card support — customers can buy for themselves or send to someone else with a personal message and scheduled delivery date."
+        },
+        {
+          "type": "image-text",
+          "url": "/gift-card-1.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The theme includes full built-in support for Shopify gift cards. Customers can buy a gift card for themselves to use at checkout, or send one directly to someone else with a personal message and a scheduled delivery date. Once purchased, the recipient gets their own gift card page showing the code, the balance, and a QR code they can scan at checkout."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Setting Up a Gift Card Product"
+            },
+            {
+              "type": "paragraph",
+              "content": "Before anything shows up on your store, you need to create a gift card product in your Shopify Admin. The theme reads this product automatically — there are no extra theme settings to configure for the gift card product page itself."
+            },
+            {
+              "type": "image-text",
+              "url": "/gift-card-2.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "items": [
+                    "Go to <strong>Shopify Admin</strong> &rarr; <strong>Products</strong>.",
+                    "Click <strong>Add product</strong>.",
+                    "Under the product type, select <strong>Gift card</strong> — this is a special product type in Shopify.",
+                    "Set the title, description, and images as you would any other product.",
+                    "Add variants for each denomination you want to offer — for example $10, $50, $100, $300.",
+                    "Save the product and make sure it is set to <strong>Active</strong>."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Shopify handles all the gift card balance tracking, delivery, and redemption. The theme simply displays the product and the gift card details page in a way that matches your store's design."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "The Gift Card Product Page"
+            },
+            {
+              "type": "paragraph",
+              "content": "When a customer visits the gift card product page, it looks and works like any other product page in the theme. The main difference is that it includes an optional recipient form for sending the card as a gift. The gift card variants appear as selectable options — for example $10.00, $50.00, $100.00, and $300.00."
+            },
+            {
+              "type": "image-text",
+              "url": "/gift-card-3.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "<strong>Buying for Yourself:</strong> If the customer just wants a gift card for their own use, they skip the recipient form entirely. They choose a denomination, set the quantity, and add to cart or buy now. After checkout, Shopify sends the gift card code to their own email."
+                }
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "/gift-card-4.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Sending as a Gift",
+                  "items": [
+                    "To send the gift card to someone else, the customer ticks the \"I want to send this as a gift\" checkbox. This expands a form with the following fields.",
+                    "<strong>Recipient Email:</strong> Required. The email address the gift card will be delivered to. The form will not allow checkout without a valid email address entered here.",
+                    "<strong>Recipient Name:</strong> Optional. The name of the person receiving the gift card.",
+                    "<strong>Message:</strong> Optional. A personal message included with the gift card delivery. Limited to 200 characters.",
+                    "<strong>Send On:</strong> Optional. A date picker that lets the customer schedule when the gift card is delivered. If left blank, it is sent immediately after purchase."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "The Gift Card Redemption Page"
+            },
+            {
+              "type": "paragraph",
+              "content": "After a gift card is purchased and delivered, the recipient receives an email from Shopify with a link to their personal gift card page. This page is styled to match your store."
+            },
+            {
+              "type": "image-text",
+              "url": "/gift-card-5.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "What the Recipient Sees",
+                  "items": [
+                    "<strong>Store logo:</strong> Your store's logo or name appears in the top left of the card header.",
+                    "<strong>QR code:</strong> A scannable QR code is displayed at the top of the card. Customers can scan this directly at checkout on compatible devices.",
+                    "<strong>Gift card name:</strong> The name of the gift card product is shown below the QR code.",
+                    "<strong>Current balance:</strong> The remaining balance on the card is shown prominently and updates every time the card is used.",
+                    "<strong>Expiry notice:</strong> If the gift card has an expiry date, a badge shows when it expires. If it has already expired or been disabled, a badge shows that too.",
+                    "<strong>Gift card code:</strong> The unique gift card code is displayed inside a dashed box. Customers can select and copy it manually.",
+                    "<strong>Copy Code button:</strong> A one-click button that copies the code to the clipboard. The button briefly changes to \"Copied!\" to confirm the action.",
+                    "<strong>Visit store link:</strong> A link at the bottom takes the recipient directly to your store to start shopping."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Customers apply a gift card code at Shopify's checkout page by entering it in the gift card or discount code field. If the order total is higher than the gift card balance, the customer pays the difference with another payment method. If the balance is higher than the order total, the remaining amount stays on the card for future use."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Add a clear, attractive image to your gift card product — it appears on the product page and is the first thing customers see.",
+                "Offer a range of denominations so customers can choose an amount that suits them. Common options are a low, mid, and high value.",
+                "Test the gifting flow yourself before publishing — buy a gift card, send it to your own email, and confirm the recipient page looks correct.",
+                "Keep your gift card product title short and descriptive, such as \"Store Gift Card\" or \"Premium Gift Card\", since the title appears on the recipient's gift card page."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Set a gift card product as a Draft — customers will not be able to find or purchase it.",
+                "Add the gift card to a collection that also contains regular products if you want to keep the shopping experience clean. Consider a separate \"Gift Cards\" collection.",
+                "Worry about the recipient form fields being submitted empty — Name, Message, and Send On are all optional. Only the Recipient Email is required when the \"send as a gift\" checkbox is ticked."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "404 Page",
+      "href": "/sections/404-page",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "404 Page"
+        },
+        {
+          "type": "subheading",
+          "content": "A fully designed two-column 404 layout with a brand image on the left and an editable message, button, and status code on the right."
+        },
+        {
+          "type": "image-text",
+          "url": "/404-page-1.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The 404 page appears when a customer tries to visit a URL that does not exist in your store — for example a deleted product, a mistyped link, or an old URL that no longer works. Instead of showing a plain error message, this theme gives you a fully designed two-column layout with an image on the left and your message and button on the right. Everything on this page is editable from the Theme Editor."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Section Settings"
+            },
+            {
+              "type": "image-text",
+              "url": "/404-page-2.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "General",
+                  "items": [
+                    "<strong>Color Scheme:</strong> Sets the background and text colors for the page. Pick a scheme that matches the rest of your store.",
+                    "<strong>Padding Top / Padding Bottom:</strong> Controls the space inside the section, above and below the content.",
+                    "<strong>Margin Top / Margin Bottom:</strong> Controls the space outside the section, pushing it away from whatever is above or below it on the page."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Image",
+                  "items": [
+                    "<strong>Image:</strong> The image that fills the left half of the page. Use something visually interesting that fits your brand — a product photo, a lifestyle shot, or a branded illustration all work well here. If left empty, the theme shows a placeholder graphic automatically. Upload a high-resolution image for the best result — a portrait or square image works better than a very wide one."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Content",
+                  "items": [
+                    "<strong>Top Heading:</strong> The short line of text that appears at the top right of the page, above the button. Typically a friendly message explaining the page could not be found. Keep it brief so it reads clearly at a glance.",
+                    "<strong>Button Label:</strong> The text shown on the call-to-action button next to the top heading. Default: \"Back to homepage\".",
+                    "<strong>Button Link:</strong> Where the button takes the customer. Default: your homepage. You can change it to any page in your store, such as your all-products collection.",
+                    "<strong>404 Heading:</strong> The large text displayed at the bottom left of the content area. Default: \"Page Not Found\".",
+                    "<strong>Show Status Code:</strong> Toggles the large error number on or off. When turned on, the number sits in the bottom right corner of the content area as a bold visual element.",
+                    "<strong>404 Code:</strong> The number displayed when Show Status Code is turned on. Default: 404. Most stores keep this as 404 since that is the standard error code customers recognise."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Use a striking product or brand image on the left side — the 404 page is a chance to keep customers engaged even when something has gone wrong.",
+                "Point the button to a useful destination — your all-products collection or a popular category page is often more helpful than the homepage.",
+                "Keep the Top Heading message short, friendly, and honest. Customers appreciate clarity over clever phrasing when they are lost."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Leave the button link empty — it defaults to the homepage, which is fine, but if you have a better destination for lost customers, set it explicitly.",
+                "Use a very wide landscape image — the image column is tall and portrait-oriented, so wide images will be cropped heavily on the top and bottom.",
+                "Turn off the status code if your store targets customers who are likely to share or troubleshoot broken links — the 404 number helps them identify the issue quickly."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Password Page",
+      "href": "/sections/password-page",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "Password Page"
+        },
+        {
+          "type": "subheading",
+          "content": "A fully branded page for visitors when your store is password protected — with an email waitlist signup, a password entry modal, and editable headings and button labels."
+        },
+        {
+          "type": "image-text",
+          "url": "/password-page-1.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The Password Page is what visitors see when your store is password protected — typically when your store is still under development or has not yet launched. Instead of showing a blank screen or a generic Shopify lock page, this theme gives you a fully branded page where visitors can sign up to be notified when you open, and where you or your team can enter a password to access the store."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "How to Enable Password Protection"
+            },
+            {
+              "type": "image-text",
+              "url": "/password-page-2.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "The password itself is not set inside the Theme Editor. To turn password protection on and set the password, go to <strong>Shopify Admin</strong> &rarr; <strong>Online Store</strong> &rarr; <strong>Preferences</strong> and scroll to the Password protection section. Enable it there and set your password. Once that is done, the theme's Password Page will show automatically for all visitors."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Section Settings"
+            },
+            {
+              "type": "image-text",
+              "url": "/password-page-3.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Main Page Content",
+                  "items": [
+                    "<strong>Color Scheme:</strong> Sets the background and text colors for the password page. Pick a scheme that matches your brand.",
+                    "<strong>Heading:</strong> The large text displayed at the center of the page. Use something that sets the right tone — for example \"Opening soon!\" or \"We're getting ready\". If you have set a password message in Shopify Admin under Online Store &rarr; Preferences, that message will show here instead.",
+                    "<strong>Subheading:</strong> A shorter line of supporting text shown below the heading — for example \"Be the first one to know when we open!\" or \"Sign up below and we will let you know the moment we go live.\"",
+                    "<strong>Subscribe Button Label:</strong> The text on the button next to the email input field. Default: \"Subscribe\"."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Email Subscription"
+            },
+            {
+              "type": "image-text",
+              "url": "/password-page-4.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "The center of the page shows an email input field and a subscribe button. Visitors can enter their email address to be notified when the store opens. When they submit their email, Shopify saves it as a newsletter subscriber and shows a confirmation message in place of the form. You can view these subscribers in your Shopify Admin under Customers."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Header Button and Password Modal"
+            },
+            {
+              "type": "image-text",
+              "url": "/password-page-5.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Header Button Label:</strong> The text of the button in the top right corner of the page that opens the password entry panel. Default: \"Enter storefront password\".",
+                    "<strong>Password Modal Button Label:</strong> The text of the button inside the password panel next to the input field. Default: \"Enter\"."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "When the correct password is entered, the store opens normally. If the wrong password is entered, an error message appears below the input field and the panel stays open for another attempt."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Set a clear, friendly heading that tells visitors the store is coming soon — leaving them guessing creates a poor first impression.",
+                "Use the subheading to encourage email sign-ups. The email list you build on the password page is valuable for your launch announcement.",
+                "Keep your storefront password private — only share it with people who genuinely need access, such as team members or a client reviewing the build.",
+                "Test the email subscription form before your launch to make sure sign-ups are coming through to your Customers list in Shopify Admin."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Forget to disable password protection before launching — go to Shopify Admin &rarr; Online Store &rarr; Preferences and turn it off when you are ready to go live.",
+                "Leave the heading as the default if your store has a specific name or theme — a personalised message feels much more intentional.",
+                "Use the storefront password as your Shopify Admin password — they are separate and should be kept that way."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "404 Collections List",
+      "href": "/sections/404-collections-list",
+      "contents": [
+        {
+          "type": "heading",
+          "level": 1,
+          "content": "404 Collections List"
+        },
+        {
+          "type": "subheading",
+          "content": "Show up to four collection cards on your 404 page so customers always have a helpful next step when they land on a broken or missing link."
+        },
+        {
+          "type": "image-text",
+          "url": "/404-collections-list-1.png",
+          "orientation": "landscape",
+          "contents": [
+            {
+              "type": "paragraph",
+              "content": "The 404 Collections List section is designed specifically for your store's 404 page. Instead of leaving customers on a dead end, this section shows up to four of your collections with their product count and a button to browse all collections. Each collection card shows a product image, the collection name, and the number of products in that collection. When a customer hovers over a card, the image animates with a subtle tilt and lift effect. The entire card is clickable and takes the customer directly to that collection."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "How to Edit the 404 Collections List Section"
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "content": "Section Settings"
+            },
+            {
+              "type": "image-text",
+              "url": "/404-collections-list-2.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store.",
+                    "<strong>Section Heading:</strong> The title shown above the collection cards — for example \"Some of our collections\" or \"Keep exploring\".",
+                    "<strong>Button Label:</strong> The text shown on the button below the collection cards. Default: \"View collections\".",
+                    "<strong>Button Link:</strong> Where the button takes the customer when clicked. Default: your all-products page. You can change this to any page, collection, or custom URL.",
+                    "<strong>Layout &amp; Spacing:</strong> Controls the padding and margin around the section. Only set the desktop value — the section scales it down automatically for smaller screens."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Collection Blocks"
+            },
+            {
+              "type": "paragraph",
+              "content": "Each Showcase Collection block is one card in the grid. You can add up to 4 blocks. Click <strong>Add block</strong> to add a new one."
+            },
+            {
+              "type": "image-text",
+              "url": "/404-collections-list-3.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Select Collection:</strong> Pick which Shopify collection this card represents. The card will automatically show the collection's featured image, the collection name, and the number of products in the collection (shown as a small superscript count next to the title, e.g. (06), (11))."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": "Collection images come from the collection itself in Shopify. Go to <strong>Shopify Admin</strong> &rarr; <strong>Products</strong> &rarr; <strong>Collections</strong>, open a collection, and upload a featured image there. The card will automatically use that image. If no image is set, a placeholder illustration is shown. The \"Add block\" option is greyed out once 4 blocks have been added."
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Fallback Behaviour"
+            },
+            {
+              "type": "image-text",
+              "url": "/404-collections-list-4.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "paragraph",
+                  "content": "If no blocks have been added yet, the section automatically looks for collections in your store named \"Vans\", \"Jordan\", \"Nike air\", and \"Converse\". If it finds them, it shows them as cards. If not, it shows placeholder cards with mock titles and counts so the section always looks complete in the theme editor and during setup. Once you add your own blocks, the fallback disappears and only your chosen collections are shown."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "contents": [
+            {
+              "type": "heading",
+              "level": 2,
+              "content": "Best Practices"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Do",
+              "items": [
+                "Add a featured image to each collection in Shopify Admin so the cards look polished — placeholder illustrations look unfinished on a live store.",
+                "Use collections that are popular or relevant to what most customers are looking for.",
+                "Keep the section heading short and reassuring — customers are on a broken page, so a message like \"Here's what you might be looking for\" works better than a generic title.",
+                "Set the button link to your most relevant browse destination, whether that is all products, a specific category, or a sale collection."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Don't",
+              "items": [
+                "Add collections with very few products — a count of (01) or (02) can feel sparse and underwhelming.",
+                "Leave the button label as the default if it does not match your store's tone.",
+                "Use more than 4 blocks — the grid layout is built for exactly 4 cards and adding more is not supported.",
+                "Leave this section off your 404 page entirely — a helpful 404 page significantly reduces the chance customers leave your store after hitting a broken link."
+              ]
+            }
+          ]
+        }
+      ]
+    }
   ],
   "sidebar": true,
   "header": false

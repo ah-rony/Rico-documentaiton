@@ -5,6 +5,8 @@ export const sectionLabels: Record<string, string> = {
   "Logo and Favicon": "Theme Settings",
   "Announcement Bar": "Header & Footer",
   "Featured Collection": "Sections",
+  "Collection Page":"Pages",
+  "Product Page":"Product & Metafields"
 };  
 
 export function getSectionLabel(name?: string) {
