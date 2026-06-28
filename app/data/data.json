@@ -2178,7 +2178,7 @@
         },
         {
           "type": "image-text",
-          "videoUrl": "/collection-carousel-1.mp4",
+          "videoUrl": "https://s3.zenexcloud.com/nextvence/rico/collection-carousel-1-2026-06-28-16:52:51-1782643971591.mp4",
           "orientation": "landscape"
         },
         {
@@ -2493,7 +2493,7 @@
         },
         {
           "type": "image-text",
-          "videoUrl": "/breakdown-1.mp4",
+          "videoUrl": "https://s3.zenexcloud.com/nextvence/rico/breakdown-1-2026-06-28-16:52:55-1782643975643.mp4",
           "orientation": "landscape"
         },
         {
@@ -2840,7 +2840,7 @@
         },
         {
           "type": "image-text",
-          "videoUrl": "/product-list-1.mp4",
+          "videoUrl": "https://s3.zenexcloud.com/nextvence/rico/product-list-1-2026-06-28-16:53:02-1782643982403.mp4",
           "orientation": "landscape",
           "contents": [
             {
@@ -3350,7 +3350,7 @@
         },
         {
           "type": "image-text",
-          "videoUrl":"/featured-product-1.mp4" ,
+          "videoUrl":"https://s3.zenexcloud.com/nextvence/rico/featured-product-1-2026-06-28-16:50:13-1782643813120.mp4" ,
           "orientation": "landscape",
           "contents": [
             {
@@ -4250,7 +4250,7 @@
         },
         {
           "type": "image-text",
-          "videoUrl":"/bundle-builder-1.mp4" ,
+          "videoUrl":"https://s3.zenexcloud.com/nextvence/rico/bundle-builder-1-2026-06-28-16:51:43-1782643903464.mp4" ,
           "orientation": "landscape",
           "contents": []
         },
@@ -4870,7 +4870,7 @@
         },
         {
           "type": "image-text",
-          "videoUrl": "/latest-insights-1.mp4",
+          "videoUrl": "https://s3.zenexcloud.com/nextvence/rico/latest-insights-1-2026-06-28-16:52:58-1782643978687.mp4",
           "orientation": "landscape",
           "contents": [
             {
