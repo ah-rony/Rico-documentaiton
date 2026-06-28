@@ -8795,48 +8795,83 @@
         },
         {
           "type": "paragraph",
-          "content": "Here are some frequently asked questions about Rico and how it works."
+          "content": "Here are some frequently asked questions about the Rico theme and how it works."
         },
         {
           "type": "collapsible",
           "contents": {
-            "heading": "How does the app detect my customer's location?",
-            "desc": "Our app uses smart IP-based geolocation technology. When a customer visits your store, the app identifies their country in real-time and automatically switches the currency to match their local market, creating a seamless shopping experience."
+            "heading": "How do I install the Rico theme on my Shopify store?",
+            "desc": "Go to Online Store → Themes in your Shopify admin, click Add theme → Visit Theme Store, find Rico, and click Try theme. Once you're satisfied, click Buy and then Publish to make it live."
           }
         },
         {
           "type": "collapsible",
           "contents": {
-            "heading": "Will the app slow down my store’s loading speed?",
-            "desc": "Not at all. We use a lightweight 'Theme Embed' script that loads asynchronously. This means it doesn't interfere with your store’s main content, ensuring your page speed remains fast and your SEO stays strong."
+            "heading": "Can I preview the theme before purchasing?",
+            "desc": "Yes. You can start a free trial directly from the Shopify Theme Store. Any customizations you make during the trial carry over if you decide to purchase."
           }
         },
         {
           "type": "collapsible",
           "contents": {
-            "heading": "Can I customize the look of the currency switcher?",
-            "desc": "Yes! You have total control over the design. You can customize the colors to match your brand and choose the exact position where the widget appears on your site whether it's the header, footer, or a floating position."
+            "heading": "How do I customize the colors and fonts?",
+            "desc": "Open the Theme Editor (Online Store → Themes → Customize) and go to Theme Settings → Colors or Typography. You can create multiple color schemes and assign them to individual sections across your store."
           }
         },
         {
           "type": "collapsible",
           "contents": {
-            "heading": "What happens if a customer's currency isn't supported?",
-            "desc": "We provide a 'Fallback Currency' feature. If a visitor comes from a region where you haven't enabled a specific currency, the app will automatically display your chosen fallback currency (usually your store's base currency) so they always see a price."
+            "heading": "What video types does the theme support?",
+            "desc": "Rico supports three video types: Shopify-hosted videos, external YouTube or Vimeo URLs (including YouTube Shorts), and direct MP4 URLs. You can set separate desktop and mobile videos for sections like Hero Banner and Promotion Banner."
           }
         },
         {
           "type": "collapsible",
           "contents": {
-            "heading": "How often are the exchange rates updated?",
-            "desc": "To ensure accuracy, our exchange rates are updated automatically in real-time. This protects your margins by ensuring that the converted prices always reflect the most current global market rates without any manual work from you."
+            "heading": "How does the Mega Menu work?",
+            "desc": "Add a Mega Menu block inside the Header section and enter the exact navigation item name in the Nav Link Title field. The Mega Menu supports category links, brand links, featured products, a promotional banner image, and a scrolling marquee."
           }
         },
         {
           "type": "collapsible",
           "contents": {
-            "heading": "Does the app store any customer personal data?",
-            "desc": "No. Privacy is our priority. We do not collect or store any Personally Identifiable Information (PII) from your customers. The geolocation process happens instantly and is never saved on our servers, making your store fully compliant with GDPR and CCPA."
+            "heading": "How do I set up the Bundle Builder discount tiers?",
+            "desc": "You need to complete three steps: create a collection of bundle products in Shopify, create matching discount codes in Shopify Admin under Discounts, then add Discount Tier blocks in the Bundle Builder section with the same minimum item counts, percentages, and codes. All three steps must match for discounts to apply at checkout."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "How do I add upsell products to a product page?",
+            "desc": "In Shopify Admin, open the product, locate the Related Products metafield, and select the products you want to recommend. Then add the Upsell Block to the Product section in the Theme Editor."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "How does the countdown timer on the product page work?",
+            "desc": "The countdown block requires three product metafields to be filled in: Discount ending time (custom.discount_ending_time), Discount code (custom.discount_code), and Discount title (custom.discount_tittel). If any of these are empty, the block will not appear."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "Can I show different products on mobile and desktop?",
+            "desc": "The theme supports separate desktop and mobile media for sections like Hero Banner and Promotion Banner. You can upload different images or videos for each device size. If no mobile media is provided, the desktop version is used as a fallback."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "What browsers does Rico support?",
+            "desc": "Rico targets current versions of Safari, Chrome, Firefox, and Edge on desktop, and Mobile Safari, Chrome Mobile, and Samsung Internet on mobile. Test major changes in your target browsers before publishing."
+          }
+        },
+        {
+          "type": "collapsible",
+          "contents": {
+            "heading": "How do I contact support?",
+            "desc": "In the Theme Editor, open Theme actions in the top bar and choose Get support. Support covers questions about Rico settings and sections, troubleshooting theme behavior, and guidance on using the theme editor. Custom code changes and third-party app integrations are not covered."
           }
         }
       ],
