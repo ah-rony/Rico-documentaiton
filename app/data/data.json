@@ -104,7 +104,7 @@
             {
               "type": "heading",
               "level": 2,
-              "content": "Try Rico free"
+              "content": "Try Rico"
             },
             {
               "type": "list",
@@ -158,14 +158,14 @@
               "items": [
                 "Duplicate your live theme before major edits.",
                 "Use preview share links to gather feedback before publishing.",
-                "Most stores can hold up to 20 themes — remove old copies if you hit the limit."
+                "Most stores can hold up to 20 themes - remove old copies if you hit the limit."
               ]
             }
           ]
         },
         {
           "type": "paragraph",
-          "content": "After install, start with <a href=\"/installation/editing-your-theme\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Editing your theme</a>. Help and docs links are under Theme actions in the editor — see <a href=\"/installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
+          "content": "After install, start with <a href=\"/installation/editing-your-theme\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Editing your theme</a>. Help and docs links are under Theme actions in the editor  -  see <a href=\"/installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
       ],
   "pages": [
@@ -180,7 +180,7 @@
         },
         {
           "type": "subheading",
-          "content": "Customize layout, content, and style in the theme editor — no code required."
+          "content": "Customize layout, content, and style in the theme editor - no code required."
         },
         {
           "type": "paragraph",
@@ -204,7 +204,7 @@
             },
             {
               "type": "paragraph",
-              "content": "The left sidebar lists sections and blocks for the current template. Theme settings (gear icon) holds storewide defaults — colors, fonts, cards, and cart behavior."
+              "content": "The left sidebar lists sections and blocks for the current template. Theme settings (gear icon) holds storewide defaults - colors, fonts, cards, and cart behavior."
             }
           ]
         },
@@ -218,7 +218,7 @@
             },
             {
               "type": "paragraph",
-              "content": "Use the top template menu to switch pages — home, product, collection, cart, blog, and others. Click <strong>Change</strong> in the preview bar to preview with a specific product, collection, or blog post loaded."
+              "content": "Use the top template menu to switch pages - home, product, collection, cart, blog, and others. Click <strong>Change</strong> in the preview bar to preview with a specific product, collection, or blog post loaded."
             },
             {
               "type": "paragraph",
@@ -238,11 +238,11 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Add section</strong> — use + above or below a section, or the <strong>Add section</strong> button in the sidebar.",
-                "<strong>Add block</strong> — open a section and click <strong>Add block</strong>.",
-                "<strong>Reorder</strong> — drag the handle on a section or block.",
-                "<strong>Hide</strong> — click the eye icon to hide without deleting settings.",
-                "<strong>Remove</strong> — select the item and click <strong>Remove section</strong> or <strong>Remove block</strong>."
+                "<strong>Add section</strong>-use + above or below a section, or the <strong>Add section</strong> button in the sidebar.",
+                "<strong>Add block</strong>  -  open a section and click <strong>Add block</strong>.",
+                "<strong>Reorder</strong>  -  drag the handle on a section or block.",
+                "<strong>Hide</strong>  -  click the eye icon to hide without deleting settings.",
+                "<strong>Remove</strong>  -  select the item and click <strong>Remove section</strong> or <strong>Remove block</strong>."
               ]
             },
             {
@@ -281,7 +281,7 @@
         },
         {
           "type": "paragraph",
-          "content": "Storewide options live under <strong>Theme settings</strong> — start with <strong>Colors</strong>, <strong>Fonts</strong>, and <strong>Layout</strong>. For help, see <a href=\"/installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
+          "content": "Storewide options live under <strong>Theme settings</strong>  -  start with <strong>Colors</strong>, <strong>Fonts</strong>, and <strong>Layout</strong>. For help, see <a href=\"/installation/theme-support\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Theme support</a>."
         }
       ]
     },
@@ -300,7 +300,7 @@
         },
         {
           "type": "paragraph",
-          "content": "Rico is a paid theme — support comes from the theme developer, not Shopify's free-theme design team."
+          "content": "Rico is a paid theme  -  support comes from the theme developer, not Shopify's free-theme design team."
         },
         {
           "type": "section",
@@ -470,7 +470,7 @@
                     "<strong>View or edit:</strong> Go to <strong>Theme Settings</strong> &rarr; <strong>Colors</strong> in the customizer to view, edit, or create color schemes.",
                     "<strong>Add a new scheme:</strong> Click <strong>Add Scheme</strong> to create a new color scheme. Once created, you can customize the colors and assign the scheme to supported sections.",
                     "<strong>Edit a scheme:</strong> Select an existing color scheme to modify its colors. Changes are automatically reflected in any sections using that scheme.",
-                    "<strong>Apply a scheme:</strong> Color schemes can be applied to supported sections across your store — for example, a light scheme for content sections and a dark scheme for promotional banners."
+                    "<strong>Apply a scheme:</strong> Color schemes can be applied to supported sections across your store  -  for example, a light scheme for content sections and a dark scheme for promotional banners."
                   ]
                 }
               ]
@@ -748,8 +748,8 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Hover style:</strong> Controls the animation when customers hover over a product card. Options: <strong>Slide</strong> — content shifts with a sliding effect; <strong>Flip</strong> — the card flips to reveal more information.",
-                    "<strong>Flip effect:</strong> Controls the animation style when Hover style is set to Flip. Options: <strong>Fade</strong> — smooth fade between front and back card content; <strong>Flip</strong> — card-flipping animation between front and back. This setting only applies when Hover style is set to Flip.",
+                    "<strong>Hover style:</strong> Controls the animation when customers hover over a product card. Options: <strong>Slide</strong>  -  content shifts with a sliding effect; <strong>Flip</strong>  -  the card flips to reveal more information.",
+                    "<strong>Flip effect:</strong> Controls the animation style when Hover style is set to Flip. Options: <strong>Fade</strong>  -  smooth fade between front and back card content; <strong>Flip</strong>  -  card-flipping animation between front and back. This setting only applies when Hover style is set to Flip.",
                     "<strong>Reverse price order:</strong> Reverses the display order of product prices (for example, shows compare-at price before sale price, or vice versa, depending on your implementation)."
                   ]
                 }
@@ -1051,7 +1051,7 @@
                 },
                 {
                   "type": "paragraph",
-                  "content": "Define your store's color palette by entering color names and their corresponding color codes. Each color should be entered in the following format: <strong>Color Name:#HEXCODE</strong> — separate multiple colors with a comma."
+                  "content": "Define your store's color palette by entering color names and their corresponding color codes. Each color should be entered in the following format: <strong>Color Name:#HEXCODE</strong>  -  separate multiple colors with a comma."
                 },
                 {
                   "type": "paragraph",
@@ -1708,7 +1708,8 @@
                   "items": [
                     "<strong>Mega Banner Image:</strong> Upload an image to appear in the banner area. Recommended size: 790 &times; 499 px (approximately 3:2 landscape ratio). Portrait or square images may be cropped to fit the available space.",
                     "<strong>Marquee Line 1:</strong> Enter the first promotional message. Default: <em>Check out our latest products!</em>",
-                    "<strong>Marquee Line 2:</strong> Enter the second promotional message. Default: <em>Discover what's new in store!</em> The two messages automatically repeat in a continuous scrolling marquee."
+                    "<strong>Marquee Line 2:</strong> Enter the second promotional message. Default: <em>Discover what's new in store!</em> The two messages automatically repeat in a continuous scrolling marquee.",
+                    "<strong>Mega Banner Image Link:</strong> Here you can select product collection or specific product or page which you want to show."
                   ]
                 }
               ]
@@ -2425,7 +2426,7 @@
                   "ordered": false,
                   "items": [
                     "Collection title (or custom label)",
-                    "Product count — pulled automatically from the selected collection."
+                    "Product count  -  pulled automatically from the selected collection."
                   ]
                 },
                 {
@@ -2466,11 +2467,11 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Add too many slides — a long carousel can feel overwhelming. Aim for a focused selection of your key collections.",
-                "Leave slides without an assigned collection — they will show a placeholder image and no meaningful content.",
+                "Add too many slides  -  a long carousel can feel overwhelming. Aim for a focused selection of your key collections.",
+                "Leave slides without an assigned collection  -  they will show a placeholder image and no meaningful content.",
                 "Use overlay text colors that are too similar to your image tones, as this makes the labels hard to read.",
                 "Rely solely on the collection's featured image if it has not been set in Shopify Admin, as a placeholder will appear instead.",
-                "Set custom labels that are too long — they are displayed in a small overlay and may get cut off on smaller screens."
+                "Set custom labels that are too long  -  they are displayed in a small overlay and may get cut off on smaller screens."
               ]
             }
           ]
@@ -2517,11 +2518,11 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Color Scheme</strong> — Select the section color scheme.",
-                    "<strong>Padding Bottom</strong> — Controls spacing below the section.",
-                    "<strong>Title</strong> — Main heading displayed above the breakdown area.",
-                    "<strong>Before Image Title</strong> — Text displayed before the animated center image.",
-                    "<strong>After Image Title</strong> — Text displayed after the animated center image."
+                    "<strong>Color Scheme</strong>  -  Select the section color scheme.",
+                    "<strong>Padding Bottom</strong>  -  Controls spacing below the section.",
+                    "<strong>Title</strong>  -  Main heading displayed above the breakdown area.",
+                    "<strong>Before Image Title</strong>  -  Text displayed before the animated center image.",
+                    "<strong>After Image Title</strong>  -  Text displayed after the animated center image."
                   ]
                 }
               ]
@@ -2545,10 +2546,10 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Title</strong> — Internal reference label for the animation block.",
-                    "<strong>Image</strong> — Main product illustration or image displayed in the center.",
-                    "<strong>Rotate</strong> — Rotation angle applied to the product image.",
-                    "<strong>Shadow Color</strong> — Shadow color displayed behind the product image."
+                    "<strong>Title</strong>  -  Internal reference label for the animation block.",
+                    "<strong>Image</strong>  -  Main product illustration or image displayed in the center.",
+                    "<strong>Rotate</strong>  -  Rotation angle applied to the product image.",
+                    "<strong>Shadow Color</strong>  -  Shadow color displayed behind the product image."
                   ]
                 },
                 {
@@ -2556,8 +2557,8 @@
                   "ordered": false,
                   "label": "Desktop Position",
                   "items": [
-                    "<strong>Position X</strong> — Horizontal position of the image on desktop devices.",
-                    "<strong>Position Y</strong> — Vertical position of the image on desktop devices."
+                    "<strong>Position X</strong>  -  Horizontal position of the image on desktop devices.",
+                    "<strong>Position Y</strong>  -  Vertical position of the image on desktop devices."
                   ]
                 },
                 {
@@ -2565,8 +2566,8 @@
                   "ordered": false,
                   "label": "Laptop Position",
                   "items": [
-                    "<strong>Position X</strong> — Horizontal position of the image on laptop devices.",
-                    "<strong>Position Y</strong> — Vertical position of the image on laptop devices."
+                    "<strong>Position X</strong>  -  Horizontal position of the image on laptop devices.",
+                    "<strong>Position Y</strong>  -  Vertical position of the image on laptop devices."
                   ]
                 },
                 {
@@ -2574,8 +2575,8 @@
                   "ordered": false,
                   "label": "Mobile Position",
                   "items": [
-                    "<strong>Position X</strong> — Horizontal position of the image on mobile devices.",
-                    "<strong>Position Y</strong> — Vertical position of the image on mobile devices."
+                    "<strong>Position X</strong>  -  Horizontal position of the image on mobile devices.",
+                    "<strong>Position Y</strong>  -  Vertical position of the image on mobile devices."
                   ]
                 }
               ]
@@ -2599,11 +2600,11 @@
               "ordered": false,
               "label": "First Card",
               "items": [
-                "<strong>Image</strong> — Icon or small image displayed inside the card.",
-                "<strong>Title</strong> — Feature title.",
-                "<strong>Description</strong> — Feature explanation text.",
-                "<strong>Point Position X</strong> — Horizontal hotspot position connected to the product image.",
-                "<strong>Point Position Y</strong> — Vertical hotspot position connected to the product image."
+                "<strong>Image</strong>  -  Icon or small image displayed inside the card.",
+                "<strong>Title</strong>  -  Feature title.",
+                "<strong>Description</strong>  -  Feature explanation text.",
+                "<strong>Point Position X</strong>  -  Horizontal hotspot position connected to the product image.",
+                "<strong>Point Position Y</strong>  -  Vertical hotspot position connected to the product image."
               ]
             },
             {
@@ -2611,11 +2612,11 @@
               "ordered": false,
               "label": "Second Card",
               "items": [
-                "<strong>Image</strong> — Icon or small image displayed inside the card.",
-                "<strong>Title</strong> — Feature title.",
-                "<strong>Description</strong> — Feature explanation text.",
-                "<strong>Point Position X</strong> — Horizontal hotspot position connected to the product image.",
-                "<strong>Point Position Y</strong> — Vertical hotspot position connected to the product image."
+                "<strong>Image</strong>  -  Icon or small image displayed inside the card.",
+                "<strong>Title</strong>  -  Feature title.",
+                "<strong>Description</strong>  -  Feature explanation text.",
+                "<strong>Point Position X</strong>  -  Horizontal hotspot position connected to the product image.",
+                "<strong>Point Position Y</strong>  -  Vertical hotspot position connected to the product image."
               ]
             },
             {
@@ -2623,11 +2624,11 @@
               "ordered": false,
               "label": "Third Card",
               "items": [
-                "<strong>Image</strong> — Icon or small image displayed inside the card.",
-                "<strong>Title</strong> — Feature title.",
-                "<strong>Description</strong> — Feature explanation text.",
-                "<strong>Point Position X</strong> — Horizontal hotspot position connected to the product image.",
-                "<strong>Point Position Y</strong> — Vertical hotspot position connected to the product image."
+                "<strong>Image</strong>  -  Icon or small image displayed inside the card.",
+                "<strong>Title</strong>  -  Feature title.",
+                "<strong>Description</strong>  -  Feature explanation text.",
+                "<strong>Point Position X</strong>  -  Horizontal hotspot position connected to the product image.",
+                "<strong>Point Position Y</strong>  -  Vertical hotspot position connected to the product image."
               ]
             },
             {
@@ -2635,11 +2636,11 @@
               "ordered": false,
               "label": "Fourth Card",
               "items": [
-                "<strong>Image</strong> — Icon or small image displayed inside the card.",
-                "<strong>Title</strong> — Feature title.",
-                "<strong>Description</strong> — Feature explanation text.",
-                "<strong>Point Position X</strong> — Horizontal hotspot position connected to the product image.",
-                "<strong>Point Position Y</strong> — Vertical hotspot position connected to the product image."
+                "<strong>Image</strong>  -  Icon or small image displayed inside the card.",
+                "<strong>Title</strong>  -  Feature title.",
+                "<strong>Description</strong>  -  Feature explanation text.",
+                "<strong>Point Position X</strong>  -  Horizontal hotspot position connected to the product image.",
+                "<strong>Point Position Y</strong>  -  Vertical hotspot position connected to the product image."
               ]
             }
           ]
@@ -2656,10 +2657,10 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Select Product</strong> — Choose the product linked to the call-to-action button.",
-                "<strong>Button Name</strong> — Custom text displayed on the button.",
-                "<strong>Type</strong> — Choose between Primary or Secondary button style.",
-                "<strong>Animation</strong> — Select button animation style. Available options include Default and Letter Slide."
+                "<strong>Select Product</strong>  -  Choose the product linked to the call-to-action button.",
+                "<strong>Button Name</strong>  -  Custom text displayed on the button.",
+                "<strong>Type</strong>  -  Choose between Primary or Secondary button style.",
+                "<strong>Animation</strong>  -  Select button animation style. Available options include Default and Letter Slide."
               ]
             }
           ]
@@ -2719,12 +2720,12 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Upload low-resolution images — they will appear blurry against the large central display area.",
-                "Use long paragraphs inside card descriptions — keep each description to one or two short sentences.",
-                "Place hotspot points outside the product image area — they will appear disconnected and confuse customers.",
+                "Upload low-resolution images  -  they will appear blurry against the large central display area.",
+                "Use long paragraphs inside card descriptions  -  keep each description to one or two short sentences.",
+                "Place hotspot points outside the product image area  -  they will appear disconnected and confuse customers.",
                 "Use excessive image rotation values that make the product difficult to view or identify.",
-                "Leave feature cards empty — placeholder cards will appear in your live store and look unfinished.",
-                "Use this section for products that do not benefit from visual feature explanations — it works best for footwear, apparel, accessories, and technical products with distinct components."
+                "Leave feature cards empty  -  placeholder cards will appear in your live store and look unfinished.",
+                "Use this section for products that do not benefit from visual feature explanations  -  it works best for footwear, apparel, accessories, and technical products with distinct components."
               ]
             }
           ]
@@ -2756,11 +2757,11 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Color Scheme</strong> — Sets the background and text colors for the marquee strip.",
-                "<strong>Padding Vertical</strong> — Controls the space above and below the scrolling content inside the strip.",
-                "<strong>Direction</strong> — Controls which way the marquee scrolls. Choose <strong>Right to Left</strong> for a standard ticker, <strong>Left to Right</strong> for a reversed flow, or <strong>Auto</strong> to alternate direction back and forth.",
-                "<strong>Speed</strong> — Controls how fast the marquee scrolls. Higher values produce a slower, more relaxed scroll; lower values produce a faster scroll.",
-                "<strong>Gap</strong> — Controls the spacing between each item in the marquee."
+                "<strong>Color Scheme</strong>  -  Sets the background and text colors for the marquee strip.",
+                "<strong>Padding Vertical</strong>  -  Controls the space above and below the scrolling content inside the strip.",
+                "<strong>Direction</strong>  -  Controls which way the marquee scrolls. Choose <strong>Right to Left</strong> for a standard ticker, <strong>Left to Right</strong> for a reversed flow, or <strong>Auto</strong> to alternate direction back and forth.",
+                "<strong>Speed</strong>  -  Controls how fast the marquee scrolls. Higher values produce a slower, more relaxed scroll; lower values produce a faster scroll.",
+                "<strong>Gap</strong>  -  Controls the spacing between each item in the marquee."
               ]
             }
           ]
@@ -2781,9 +2782,9 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Icon</strong> — An optional image or logo displayed alongside the text. Works best with small icons or brand marks.",
-                "<strong>Icon Width</strong> — Sets the display width of the icon in pixels. The height scales automatically to maintain the aspect ratio.",
-                "<strong>Content</strong> — The text displayed in the marquee item. Supports rich text so you can add links, bold text, or italic text."
+                "<strong>Icon</strong>  -  An optional image or logo displayed alongside the text. Works best with small icons or brand marks.",
+                "<strong>Icon Width</strong>  -  Sets the display width of the icon in pixels. The height scales automatically to maintain the aspect ratio.",
+                "<strong>Content</strong>  -  The text displayed in the marquee item. Supports rich text so you can add links, bold text, or italic text."
               ]
             }
           ]
@@ -2801,10 +2802,10 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Keep each item's text short — one phrase or a few words works best at marquee scale.",
+                "Keep each item's text short - one phrase or a few words works best at marquee scale.",
                 "Use icons to add visual variety and break up repeated text items.",
                 "Use the Auto direction for a subtle back-and-forth effect on pages where a looping ticker might feel too aggressive.",
-                "Adjust the Speed setting to match your store's overall pacing — slower speeds feel more premium, faster speeds feel more urgent.",
+                "Adjust the Speed setting to match your store's overall pacing  -  slower speeds feel more premium, faster speeds feel more urgent.",
                 "Add at least three to four item blocks so the strip looks full and the repetition feels natural."
               ]
             },
@@ -2813,11 +2814,11 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Write long sentences in the content field — text is truncated to 10 words and long copy looks cluttered in a ticker.",
-                "Use large or complex images as icons — small, simple marks at 32px or less work best.",
-                "Set the speed too fast — extremely rapid scrolling is hard to read and can feel distracting.",
-                "Leave item blocks empty — blank items create invisible gaps in the scrolling strip.",
-                "Add more than 20 blocks — the section has a maximum of 20 items."
+                "Write long sentences in the content field  -  text is truncated to 10 words and long copy looks cluttered in a ticker.",
+                "Use large or complex images as icons  -  small, simple marks at 32px or less work best.",
+                "Set the speed too fast  -  extremely rapid scrolling is hard to read and can feel distracting.",
+                "Leave item blocks empty  -  blank items create invisible gaps in the scrolling strip.",
+                "Add more than 20 blocks  -  the section has a maximum of 20 items."
               ]
             }
           ]
@@ -2920,7 +2921,10 @@
                 "<strong>Collection-Based Products:</strong> Automatically pulls products from a selected collection.",
                 "<strong>Manual Product Selection:</strong> Allows merchants to curate and display specific products.",
                 "<strong>Load More Functionality:</strong> Progressively reveals additional products without navigating away from the page.",
-                "<strong>View All Collection Link:</strong> Directs customers to the full collection page.",
+                "<strong>Load More Text:</strong> You can change the text displayed on this button to the format of your choice.",
+                "<strong>View All button:</strong> Directs customers to the full collection page.",
+                "<strong>View All Text:</strong> You can change the text displayed on this button to the format of your choice.",
+                "<strong>View All Link:</strong> If you want to take a specific collection, you need to provide the link here. <strong>NOTE: If there is no collection to select in this section, it can be linked.</strong>",
                 "<strong>Empty State Placeholders:</strong> Displays placeholder product cards when no products are available.",
                 "<strong>Theme Product Card Integration:</strong> Uses the shared product card component to maintain consistent styling across the theme."
               ]
@@ -2983,7 +2987,7 @@
           "contents": [
             {
               "type": "paragraph",
-              "content": "The Promotion Banner is a full-width media section designed to create high-impact visual experiences across your storefront. It supports both image and video backgrounds with independent desktop and mobile media controls across all video types — Shopify-hosted, external YouTube or Vimeo, and direct MP4 URLs. An optional scrolling marquee strip can be pinned to the bottom of the section with configurable text, speed, direction, and overlay style."
+              "content": "The Promotion Banner is a full-width media section designed to create high-impact visual experiences across your storefront. It supports both image and video backgrounds with independent desktop and mobile media controls across all video types  -  Shopify-hosted, external YouTube or Vimeo, and direct MP4 URLs. An optional scrolling marquee strip can be pinned to the bottom of the section with configurable text, speed, direction, and overlay style."
             }
           ]
         },
@@ -3040,7 +3044,7 @@
                     "<strong>Media Type:</strong> Choose between <em>Image</em> or <em>Video</em> as the background media.",
                     "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Only available when Media Type is set to Image.",
                     "<strong>Mobile Image:</strong> Upload a separate image for mobile. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
-                    "<strong>Video Type:</strong> Select the video source. Options: <em>Shopify</em>; <em>External</em> — YouTube or Vimeo; <em>Direct</em> — MP4 URL. Only available when Media Type is set to Video.",
+                    "<strong>Video Type:</strong> Select the video source. Options: <em>Shopify</em>; <em>External</em>  -  YouTube or Vimeo; <em>Direct</em>  -  MP4 URL. Only available when Media Type is set to Video.",
                     "<strong>Desktop Video (Shopify):</strong> Upload the desktop video via Shopify. Only available when Video Type is set to Shopify.",
                     "<strong>Mobile Video (Shopify):</strong> Upload a separate mobile video. If left blank, the desktop video is used as a fallback. Only available when Video Type is set to Shopify.",
                     "<strong>External Video URL (Desktop):</strong> Enter a YouTube or Vimeo URL for desktop. Supports standard URLs, short URLs, and YouTube Shorts. Only available when Video Type is set to External.",
@@ -3074,12 +3078,12 @@
                   "items": [
                     "<strong>Show Marquee:</strong> Enable or disable the scrolling marquee strip pinned to the bottom of the section.",
                     "<strong>Vertical Padding:</strong> Controls the top and bottom padding inside the marquee strip. Default: 8px.",
-                    "<strong>Overlay Style:</strong> Sets the background style behind the marquee. Options: <em>None</em> — transparent; <em>Solid</em> — flat color; <em>Gradient</em> — fades from solid at the bottom to transparent upward.",
+                    "<strong>Overlay Style:</strong> Sets the background style behind the marquee. Options: <em>None</em>  -  transparent; <em>Solid</em>  -  flat color; <em>Gradient</em>  -  fades from solid at the bottom to transparent upward.",
                     "<strong>Overlay Color:</strong> Sets the color used for the solid or gradient overlay. Only available when Overlay Style is not set to None.",
                     "<strong>Gradient Start Opacity:</strong> Controls the opacity at the bottom of the gradient. Range: 0–100%. Default: 85%.",
                     "<strong>Gradient End Opacity:</strong> Controls the opacity at the top of the gradient. Range: 0–100%. Default: 50%.",
                     "<strong>Text Color:</strong> Sets the color of the marquee text and separator characters.",
-                    "<strong>Direction:</strong> Controls the scroll direction. Options: <em>Left to Right</em>; <em>Right to Left</em>; <em>Both</em> — alternates direction.",
+                    "<strong>Direction:</strong> Controls the scroll direction. Options: <em>Left to Right</em>; <em>Right to Left</em>; <em>Both</em>  -  alternates direction.",
                     "<strong>Speed:</strong> Controls the scroll speed. A lower value scrolls faster; a higher value scrolls slower. Default: 400.",
                     "<strong>Item Gap:</strong> Sets the spacing between marquee items. Default: 8px."
                   ]
@@ -3338,7 +3342,7 @@
         },
         {
           "type": "subheading",
-          "content": "Display detailed product information with a fully configurable block-based layout — add, remove, and reorder content blocks to build the ideal product page experience."
+          "content": "Display detailed product information with a fully configurable block-based layout  -  add, remove, and reorder content blocks to build the ideal product page experience."
         },
         {
           "type": "video",
@@ -3420,7 +3424,7 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Image Layout:</strong> Controls how product images are displayed. <em>Layout 1</em> — default layout. <em>Layout 2</em> — alternative visual arrangement suited for modern or product-focused designs.",
+                    "<strong>Image Layout:</strong> Controls how product images are displayed. <em>Layout 1</em>  -  default layout. <em>Layout 2</em>  -  alternative visual arrangement suited for modern or product-focused designs.",
                     "<strong>Heading:</strong> Displays a custom heading above the featured product section. Default: Featured product.",
                     "<strong>Product Selector:</strong> Select the product that will be displayed in the section.",
                     "<strong>Cursor Text:</strong> Customize the text displayed when customers hover over the product image.",
@@ -3650,7 +3654,7 @@
                     "<strong>Color Variant Label:</strong> Customize the label displayed above the color variant selector. Default: Product Siblings.",
                     "<strong>Size Variant Label:</strong> Customize the label displayed above the size selector. Default: Product Size.",
                     "<strong>Other Variant Label:</strong> Customize the label for an additional product option such as Material or Style.",
-                    "<strong>Color Option Swatch Style:</strong> Choose how color variants are displayed. <em>Image</em> — displays each color using the associated product image. <em>Color</em> — displays each color as a colored swatch using the configured color value."
+                    "<strong>Color Option Swatch Style:</strong> Choose how color variants are displayed. <em>Image</em>  -  displays each color using the associated product image. <em>Color</em>  -  displays each color as a colored swatch using the configured color value."
                   ]
                 }
               ]
@@ -3776,7 +3780,7 @@
             },
             {
               "type": "paragraph",
-              "content": "Displays store pickup availability for the selected product. Customers can view the pickup location, estimated pickup time, and access additional store information via a drawer containing the store address, contact details, availability status, and a contact form."
+              "content": "Displays store pickup availability for the selected product. Customers can view the pickup location, estimated pickup time, and access additional store information via a drawer containing the store address, contact details, availability status."
             },
             {
               "type": "image-text",
@@ -3865,7 +3869,7 @@
                   "items": [
                     "<strong>Title:</strong> Defines the heading displayed for the collapsible tab. Default: Tab title. Examples: Description, Product Care, Shipping &amp; Returns, Materials, Warranty, FAQs.",
                     "<strong>Content:</strong> Adds the information displayed when the customer opens the tab. Supports headings, bold, italic, hyperlinks, ordered lists, and unordered lists.",
-                    "<strong>Page:</strong> Select an existing page from your store to display its content inside the collapsible drawer — useful for reusing content such as a Size Guide, Shipping Policy, or Warranty Information across multiple products.",
+                    "<strong>Page:</strong> Select an existing page from your store to display its content inside the collapsible drawer  -  useful for reusing content such as a Size Guide, Shipping Policy, or Warranty Information across multiple products.",
                     "<strong>Padding Top:</strong> Adds space above the collapsible tab block.",
                     "<strong>Padding Bottom:</strong> Adds space below the collapsible tab block."
                   ]
@@ -3945,7 +3949,7 @@
             },
             {
               "type": "paragraph",
-              "content": "Displays a dedicated link to a detailed product information page — useful for technical specifications, size charts, manuals, or detailed product guides."
+              "content": "Displays a dedicated link to a detailed product information page  -  useful for technical specifications, size charts, manuals, or detailed product guides."
             },
             {
               "type": "image-text",
@@ -4035,7 +4039,7 @@
             },
             {
               "type": "paragraph",
-              "content": "Each recommended product displays a product image, title, price (including sale price if applicable), discount badge (when available), quantity selector, and an Add to Cart button — allowing customers to purchase complementary products with just a few clicks. If no related products are assigned, the Upsell block will not appear on the product page."
+              "content": "Each recommended product displays a product image, title, price (including sale price if applicable), discount badge (when available), quantity selector, and an Add to Cart button  -  allowing customers to purchase complementary products with just a few clicks. If no related products are assigned, the Upsell block will not appear on the product page."
             }
           ]
         }
@@ -4231,7 +4235,7 @@
         },
         {
           "type": "subheading",
-          "content": "Let customers pick multiple products and earn automatic discounts at checkout — the more items they add, the bigger the discount they unlock."
+          "content": "Let customers pick multiple products and earn automatic discounts at checkout  -  the more items they add, the bigger the discount they unlock."
         },
         {
           "type": "image-text",
@@ -4240,7 +4244,7 @@
           "contents": [
             {
               "type": "paragraph",
-              "content": "The Bundle Builder section lets your customers pick multiple products and earn an automatic discount at checkout — the more items they add, the bigger the discount they unlock. Products are shown in a grid on the left, and a live sidebar on the right keeps track of what has been added, shows how close the customer is to the next discount level, and handles checkout."
+              "content": "The Bundle Builder section lets your customers pick multiple products and earn an automatic discount at checkout  -  the more items they add, the bigger the discount they unlock. Products are shown in a grid on the left, and a live sidebar on the right keeps track of what has been added, shows how close the customer is to the next discount level, and handles checkout."
             }
           ]
         },
@@ -4260,7 +4264,7 @@
             },
             {
               "type": "paragraph",
-              "content": "This section will not work correctly if you skip any of the three steps below. The theme cannot create or apply discounts on its own. It works by sending a discount code to Shopify's checkout page. If that code does not exist in your Shopify admin, or if the settings do not match, the customer will not receive any discount — even if the progress bar shows they have unlocked one."
+              "content": "This section will not work correctly if you skip any of the three steps below. The theme cannot create or apply discounts on its own. It works by sending a discount code to Shopify's checkout page. If that code does not exist in your Shopify admin, or if the settings do not match, the customer will not receive any discount  -  even if the progress bar shows they have unlocked one."
             }
           ]
         },
@@ -4328,7 +4332,7 @@
                     "<strong>Discount value:</strong> Enter the percentage (e.g. 20).",
                     "<strong>Applies to:</strong> Select your bundle collection.",
                     "<strong>Minimum quantity:</strong> Set the minimum number of items for this tier (e.g. 2).",
-                    "<strong>Usage limit:</strong> Set to unlimited — do <strong>NOT</strong> set it to one per customer.",
+                    "<strong>Usage limit:</strong> Set to unlimited  -  do <strong>NOT</strong> set it to one per customer.",
                     "<strong>Active dates:</strong> Set a start date and leave \"Set end date\" unchecked."
                   ]
                 }
@@ -4348,16 +4352,16 @@
                   "ordered": false,
                   "label": "Example Tiers",
                   "items": [
-                    "<strong>BUNDLE20</strong> — 20% off, minimum 2 items",
-                    "<strong>BUNDLE30</strong> — 30% off, minimum 3 items",
-                    "<strong>BUNDLE50</strong> — 50% off, minimum 5 items"
+                    "<strong>BUNDLE20</strong>  -  20% off, minimum 2 items",
+                    "<strong>BUNDLE30</strong>  -  30% off, minimum 3 items",
+                    "<strong>BUNDLE50</strong>  -  50% off, minimum 5 items"
                   ]
                 }
               ]
             },
             {
               "type": "paragraph",
-              "content": "These are just examples — use whatever codes and percentages you want. The same product can be added to the bundle twice only if it has a different variant (for example, a different size or color)."
+              "content": "These are just examples  -  use whatever codes and percentages you want. The same product can be added to the bundle twice only if it has a different variant (for example, a different size or color)."
             }
           ]
         },
@@ -4419,7 +4423,7 @@
                   "ordered": false,
                   "items": [
                     "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store. This controls the background color, text color, and borders across the whole section.",
-                    "<strong>Heading:</strong> An optional title shown above the bundle builder. Use it to introduce the offer — for example, \"Build Your Bundle &amp; Save\".",
+                    "<strong>Heading:</strong> An optional title shown above the bundle builder. Use it to introduce the offer  -  for example, \"Build Your Bundle &amp; Save\".",
                     "<strong>Bundle Title:</strong> The title shown inside the sidebar panel (the part that tracks what the customer has added). If you leave it blank, the space is hidden automatically.",
                     "<strong>Bundle Collection:</strong> Pick the collection you created in Step 1. Only products from this collection will appear in the bundle grid. If no collection is chosen, placeholder cards are shown instead so the layout does not look broken during setup.",
                     "<strong>Layout &amp; Spacing:</strong> Adjust the space around the section using the padding (inside space) and margin (outside space) controls. The section automatically reduces spacing on smaller screens, so you only need to set the desktop value."
@@ -4452,7 +4456,7 @@
                   "items": [
                     "<strong>Minimum Items:</strong> How many items a customer needs to add before this discount unlocks. The highest number you set across all your tiers also becomes the maximum number of items allowed in the bundle.",
                     "<strong>Discount Percent:</strong> The percentage discount the customer gets when they reach this tier. This number is shown on the progress bar in the sidebar.",
-                    "<strong>Discount Code:</strong> The exact discount code from your Shopify Admin (Step 2). This must match perfectly — same letters, same capitalisation."
+                    "<strong>Discount Code:</strong> The exact discount code from your Shopify Admin (Step 2). This must match perfectly  -  same letters, same capitalisation."
                   ]
                 }
               ]
@@ -4485,8 +4489,8 @@
                   "ordered": false,
                   "label": "A step can be in one of three states",
                   "items": [
-                    "<strong>Not yet reached:</strong> Grey circle — discount not unlocked yet.",
-                    "<strong>Currently active:</strong> Green circle — this discount is now applied.",
+                    "<strong>Not yet reached:</strong> Grey circle  -  discount not unlocked yet.",
+                    "<strong>Currently active:</strong> Green circle  -  this discount is now applied.",
                     "<strong>Passed:</strong> Green circle with a checkmark (on desktop) or a number (on mobile)."
                   ]
                 }
@@ -4509,7 +4513,7 @@
               "items": [
                 "Complete all three setup steps (collection, discount codes, theme tiers) before publishing the bundle section to customers.",
                 "After setup, do a test purchase for each tier to make sure the correct discount applies at checkout.",
-                "When creating the discount code in Shopify, set the usage limit to unlimited — the same code is sent to every customer via the checkout link, so a limited-use code will stop working after a few orders.",
+                "When creating the discount code in Shopify, set the usage limit to unlimited  -  the same code is sent to every customer via the checkout link, so a limited-use code will stop working after a few orders.",
                 "Keep the bundle title short so it does not get cut off on small phone screens.",
                 "Make each tier's discount noticeably bigger than the last (e.g. 20% &rarr; 30% &rarr; 50%) so customers are motivated to add more items."
               ]
@@ -4519,11 +4523,11 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Leave the Discount Code field empty in a tier block — if there is no code, nothing gets sent to checkout and the customer pays full price even if the progress bar shows a discount.",
-                "Set the Shopify discount to \"limit to one use per customer\" — since all customers share the same code, it will stop working for anyone after the first use.",
-                "Set an end date on the discount code in Shopify — if the code expires, the bundle will silently stop applying discounts at checkout.",
-                "Give two tier blocks the same minimum item count — only one will ever be active and the other is wasted.",
-                "Add unrelated products to the bundle collection — customers will see them in the grid and may add them expecting the bundle discount to apply."
+                "Leave the Discount Code field empty in a tier block  -  if there is no code, nothing gets sent to checkout and the customer pays full price even if the progress bar shows a discount.",
+                "Set the Shopify discount to \"limit to one use per customer\"  -  since all customers share the same code, it will stop working for anyone after the first use.",
+                "Set an end date on the discount code in Shopify  -  if the code expires, the bundle will silently stop applying discounts at checkout.",
+                "Give two tier blocks the same minimum item count  -  only one will ever be active and the other is wasted.",
+                "Add unrelated products to the bundle collection  -  customers will see them in the grid and may add them expecting the bundle discount to apply."
               ]
             }
           ]
@@ -4700,7 +4704,7 @@
         },
         {
           "type": "subheading",
-          "content": "Display your physical store details — address, opening hours, and contact information — alongside a large image, with expandable entries for up to three locations."
+          "content": "Display your physical store details  -  address, opening hours, and contact information  -  alongside a large image, with expandable entries for up to three locations."
         },
         {
           "type": "image-text",
@@ -4736,9 +4740,9 @@
                   "ordered": false,
                   "items": [
                     "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store design.",
-                    "<strong>Section Heading:</strong> An optional title shown above the section — for example, \"Find Us\" or \"Our Stores\". Leave it blank if you do not want a heading.",
+                    "<strong>Section Heading:</strong> An optional title shown above the section  -  for example, \"Find Us\" or \"Our Stores\". Leave it blank if you do not want a heading.",
                     "<strong>Section Image:</strong> Upload one large image that appears on the right side of the section on tablet and desktop. This is usually a photo of your store, team, or location. If no image is uploaded, a placeholder is shown automatically.",
-                    "<strong>Layout &amp; Spacing:</strong> Adjust the padding and margin to control the space around the section. You only need to set the desktop value — the section automatically reduces spacing on smaller screens."
+                    "<strong>Layout &amp; Spacing:</strong> Adjust the padding and margin to control the space around the section. You only need to set the desktop value  -  the section automatically reduces spacing on smaller screens."
                   ]
                 }
               ]
@@ -4766,7 +4770,7 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Location Title:</strong> The name of this store or location, shown as the clickable heading (e.g. \"New York Store\" or \"London Branch\"). Keep it short — it may get cut off on desktop if it is too long.",
+                    "<strong>Location Title:</strong> The name of this store or location, shown as the clickable heading (e.g. \"New York Store\" or \"London Branch\"). Keep it short  -  it may get cut off on desktop if it is too long.",
                     "<strong>Opening Hours:</strong> Type your store hours here. Press Enter to start a new line for each day or time range (e.g. Mon–Fri: 9am–6pm / Sat: 10am–5pm / Sun: Closed).",
                     "<strong>Address:</strong> Your store's full address. Press Enter to put each line on a separate row.",
                     "<strong>Phone Number:</strong> Your store's phone number. On mobile, customers can tap it to call directly.",
@@ -4803,16 +4807,16 @@
                   "ordered": false,
                   "label": "Examples",
                   "items": [
-                    "<strong>Free Returns</strong> — Return any item within 30 days",
-                    "<strong>Same-Day Pickup</strong> — Order before 2pm for same-day collection",
-                    "<strong>Open 7 Days</strong> — We're here every day of the week"
+                    "<strong>Free Returns</strong>  -  Return any item within 30 days",
+                    "<strong>Same-Day Pickup</strong>  -  Order before 2pm for same-day collection",
+                    "<strong>Open 7 Days</strong>  -  We're here every day of the week"
                   ]
                 }
               ]
             },
             {
               "type": "paragraph",
-              "content": "You can add up to 3 feature strips. Each one has a <strong>Title</strong> and a short <strong>Description</strong>. Keep both brief — long text gets cut off, especially on desktop."
+              "content": "You can add up to 3 feature strips. Each one has a <strong>Title</strong> and a short <strong>Description</strong>. Keep both brief  -  long text gets cut off, especially on desktop."
             }
           ]
         },
@@ -4829,7 +4833,7 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Upload a high-quality image that represents your store well — a storefront photo, interior shot, or team photo all work well.",
+                "Upload a high-quality image that represents your store well  -  a storefront photo, interior shot, or team photo all work well.",
                 "Keep location titles short so they do not get cut off on desktop.",
                 "Write opening hours clearly with one time range per line.",
                 "Use the feature strips for store-wide benefits that apply to all your locations.",
@@ -4841,10 +4845,10 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Add more than 3 location blocks — the section is designed to display a maximum of 3 stores cleanly.",
-                "Write long feature strip titles — they will be cut off on desktop.",
-                "Leave the section image empty in a live store — the placeholder looks unfinished to customers.",
-                "Use feature strips for location-specific information — they appear the same across all stores."
+                "Add more than 3 location blocks  -  the section is designed to display a maximum of 3 stores cleanly.",
+                "Write long feature strip titles  -  they will be cut off on desktop.",
+                "Leave the section image empty in a live store  -  the placeholder looks unfinished to customers.",
+                "Use feature strips for location-specific information  -  they appear the same across all stores."
               ]
             }
           ]
@@ -4956,7 +4960,7 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Overlay Style:</strong> Choose between <em>Solid</em> — flat color overlay; or <em>Gradient</em> — fades from solid at the bottom to transparent at the top.",
+                    "<strong>Overlay Style:</strong> Choose between <em>Solid</em>  -  flat color overlay; or <em>Gradient</em>  -  fades from solid at the bottom to transparent at the top.",
                     "<strong>Cover Overlay Color:</strong> Sets the overlay color applied to the cover image. Default: #1C1C1C.",
                     "<strong>Card Overlay Color:</strong> Sets the overlay color applied to each article card image. Default: #1C1C1C.",
                     "<strong>Gradient Start Opacity:</strong> Controls the opacity at the bottom of the gradient overlay. Range: 0–100%. Default: 85%.",
@@ -5058,7 +5062,7 @@
           "contents": [
             {
               "type": "paragraph",
-              "content": "The Socials Connect section displays a scrollable gallery of media cards — images or videos — typically used to showcase your social media feed or highlight visual content like Instagram posts, reels, or campaign clips. Each card can link anywhere on your site or to an external URL. On mobile, one card takes up most of the screen width at a time. On tablet, three cards are visible. On desktop, four cards are visible. Customers can drag to scroll through the cards, and the section can also auto-scroll automatically on a timer."
+              "content": "The Socials Connect section displays a scrollable gallery of media cards  -  images or videos  -  typically used to showcase your social media feed or highlight visual content like Instagram posts, reels, or campaign clips. Each card can link anywhere on your site or to an external URL. On mobile, one card takes up most of the screen width at a time. On tablet, three cards are visible. On desktop, four cards are visible. Customers can drag to scroll through the cards, and the section can also auto-scroll automatically on a timer."
             }
           ]
         },
@@ -5085,12 +5089,12 @@
                   "ordered": false,
                   "items": [
                     "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store.",
-                    "<strong>Section Heading:</strong> An optional title shown above the card gallery — for example, \"Follow Us on Instagram\" or \"Shop the Look\". Leave it blank to hide the heading.",
+                    "<strong>Section Heading:</strong> An optional title shown above the card gallery  -  for example, \"Follow Us on Instagram\" or \"Shop the Look\". Leave it blank to hide the heading.",
                     "<strong>Layout Direction:</strong> Choose whether the cards scroll left-to-right (default) or right-to-left. Right-to-left is useful for Arabic or Hebrew storefronts.",
                     "<strong>Card Border Radius:</strong> Controls how rounded the corners of each card are. Set to 0 for sharp corners, or increase it for a softer, rounded look. You can also override this per individual card in the block settings.",
                     "<strong>Shadow Color &amp; Shadow Opacity:</strong> A gradient shadow fades in at the bottom of each card, sitting behind the label and icon. You can change the color and how strong the shadow is. On desktop, the shadow only appears when a customer hovers over the card.",
                     "<strong>Label Text Color:</strong> Sets the color of the text label and icon shown at the bottom of each card.",
-                    "<strong>Layout &amp; Spacing:</strong> Controls padding and margin around the section. Only set the desktop value — the section scales it down automatically for laptop, tablet, and mobile."
+                    "<strong>Layout &amp; Spacing:</strong> Controls padding and margin around the section. Only set the desktop value  -  the section scales it down automatically for laptop, tablet, and mobile."
                   ]
                 }
               ]
@@ -5141,9 +5145,9 @@
                   "ordered": false,
                   "label": "Media Type",
                   "items": [
-                    "<strong>Image:</strong> Upload the image you want to display on this card. Use portrait-oriented images for best results — cards have a 3:4 aspect ratio.",
-                    "<strong>Video — Shopify-hosted:</strong> Upload a video directly through Shopify's file manager, or paste a direct video file URL (e.g. a .mp4 link). The video plays automatically, silently, and loops.",
-                    "<strong>Video — External:</strong> Paste a YouTube or Vimeo URL. The video is embedded as an iframe and plays muted and looped in the background."
+                    "<strong>Image:</strong> Upload the image you want to display on this card. Use portrait-oriented images for best results  -  cards have a 3:4 aspect ratio.",
+                    "<strong>Video  -  Shopify-hosted:</strong> Upload a video directly through Shopify's file manager, or paste a direct video file URL (e.g. a .mp4 link). The video plays automatically, silently, and loops.",
+                    "<strong>Video  -  External:</strong> Paste a YouTube or Vimeo URL. The video is embedded as an iframe and plays muted and looped in the background."
                   ]
                 }
               ]
@@ -5159,9 +5163,9 @@
                   "label": "Card Options",
                   "items": [
                     "<strong>Card Link:</strong> Paste any URL here to make the entire card clickable. This can be a product page, collection, external social media post, or any other link. Leave blank if you do not want the card to be clickable.",
-                    "<strong>Label:</strong> A short text shown at the bottom of the card — typically a social media handle (e.g. @yourbrand) or a short caption. Leave blank to hide it.",
+                    "<strong>Label:</strong> A short text shown at the bottom of the card  -  typically a social media handle (e.g. @yourbrand) or a short caption. Leave blank to hide it.",
                     "<strong>Font Size:</strong> Controls how large the label text appears. Range: 10–30px.",
-                    "<strong>Icon:</strong> Upload a small image to display alongside the label — usually a social media logo (e.g. the Instagram icon). If no icon is uploaded, a default Instagram icon is shown automatically.",
+                    "<strong>Icon:</strong> Upload a small image to display alongside the label  -  usually a social media logo (e.g. the Instagram icon). If no icon is uploaded, a default Instagram icon is shown automatically.",
                     "<strong>Icon Size:</strong> Controls the size of the icon in pixels. Range: 14–56px."
                   ]
                 }
@@ -5186,11 +5190,11 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Use portrait images (taller than wide) — the cards are a 3:4 ratio and portrait content fills them best.",
-                "Keep label text short — it truncates with an ellipsis if it overflows the card width.",
+                "Use portrait images (taller than wide)  -  the cards are a 3:4 ratio and portrait content fills them best.",
+                "Keep label text short  -  it truncates with an ellipsis if it overflows the card width.",
                 "Use a transparent-background PNG for the icon so it looks clean over any card image or video.",
                 "Enable auto scroll with a 4–6 second interval for a polished, hands-free browsing experience.",
-                "Link each card to the most relevant destination — a product, collection, or the social media post it came from."
+                "Link each card to the most relevant destination  -  a product, collection, or the social media post it came from."
               ]
             },
             {
@@ -5198,11 +5202,11 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Upload landscape (wide) images — they will be cropped top and bottom to fit the portrait card shape.",
-                "Use very long label text — it gets cut off on smaller cards.",
+                "Upload landscape (wide) images  -  they will be cropped top and bottom to fit the portrait card shape.",
+                "Use very long label text  -  it gets cut off on smaller cards.",
                 "Set the scroll interval too low (2–3 seconds) if your cards have labels customers need time to read.",
-                "Leave placeholder cards visible in a published store — always upload an image or video to every block.",
-                "Add more cards than you have good content for — 4 to 8 high-quality cards looks better than 20 mediocre ones."
+                "Leave placeholder cards visible in a published store  -  always upload an image or video to every block.",
+                "Add more cards than you have good content for  -  4 to 8 high-quality cards looks better than 20 mediocre ones."
               ]
             }
           ]
@@ -5345,7 +5349,7 @@
           "contents": [
             {
               "type": "paragraph",
-              "content": "The Hero Banner is a full-width media section designed for high-impact promotional experiences. It supports both image and video backgrounds with independent desktop and mobile media controls across all video types — Shopify-hosted, external YouTube or Vimeo, and direct MP4 URLs. An optional color overlay improves text readability, and the overlaid content area supports a subheading, heading, description, and call-to-action button with independent desktop and mobile alignment controls."
+              "content": "The Hero Banner is a full-width media section designed for high-impact promotional experiences. It supports both image and video backgrounds with independent desktop and mobile media controls across all video types  -  Shopify-hosted, external YouTube or Vimeo, and direct MP4 URLs. An optional color overlay improves text readability, and the overlaid content area supports a subheading, heading, description, and call-to-action button with independent desktop and mobile alignment controls."
             }
           ]
         },
@@ -5401,7 +5405,7 @@
                     "<strong>Media Type:</strong> Choose between <em>Image</em> or <em>Video</em> as the background media.",
                     "<strong>Desktop Image:</strong> Upload the image displayed on desktop devices. Recommended width: 2000px. Only available when Media Type is set to Image.",
                     "<strong>Mobile Image:</strong> Upload a separate image optimized for mobile devices. If left blank, the desktop image is used as a fallback. Only available when Media Type is set to Image.",
-                    "<strong>Video Type:</strong> Select the video source type. Options: <em>Shopify</em> — upload videos directly via Shopify; <em>External</em> — link to YouTube or Vimeo URLs; <em>Direct</em> — enter direct MP4 URLs. Only available when Media Type is set to Video.",
+                    "<strong>Video Type:</strong> Select the video source type. Options: <em>Shopify</em>  -  upload videos directly via Shopify; <em>External</em>  -  link to YouTube or Vimeo URLs; <em>Direct</em>  -  enter direct MP4 URLs. Only available when Media Type is set to Video.",
                     "<strong>Desktop Video (Shopify):</strong> Upload the desktop video via Shopify. Only available when Video Type is set to Shopify.",
                     "<strong>Mobile Video (Shopify):</strong> Upload a separate mobile video via Shopify. If left blank, the desktop video is used as a fallback. Only available when Video Type is set to Shopify.",
                     "<strong>External Video URL (Desktop):</strong> Enter a YouTube or Vimeo URL for desktop. Supports standard URLs, short URLs, and YouTube Shorts. Only available when Video Type is set to External.",
@@ -5438,7 +5442,7 @@
                   "label": "Layout",
                   "items": [
                     "<strong>Text Size:</strong> Controls the size of the heading and body text. Options: <em>Medium</em>; <em>Large</em>.",
-                    "<strong>Text Color:</strong> Sets the color of the overlaid text content. Options: <em>Light</em> — white text; <em>Dark</em> — dark text; <em>Inherit</em> — uses the active color scheme text color.",
+                    "<strong>Text Color:</strong> Sets the color of the overlaid text content. Options: <em>Light</em>  -  white text; <em>Dark</em>  -  dark text; <em>Inherit</em>  -  uses the active color scheme text color.",
                     "<strong>Content Alignment (Desktop):</strong> Controls the horizontal alignment of the content block on desktop. Options: Left, Center, Right.",
                     "<strong>Content Alignment (Mobile):</strong> Controls the horizontal alignment of the content block on mobile. Options: Left, Center, Right.",
                     "<strong>Move Content Below Media on Mobile:</strong> When enabled, the text content is displayed below the background media on mobile instead of overlaid on top of it."
@@ -5612,7 +5616,7 @@
               "label": "Heading Block",
               "items": [
                 "<strong>Heading:</strong> Enter the main heading text.",
-                "<strong>Heading Size:</strong> Select the heading level. Options: <em>H1</em> — 48px; <em>H2</em> — 38px; <em>H3</em> — 30px. Default: H2."
+                "<strong>Heading Size:</strong> Select the heading level. Options: <em>H1</em>  -  48px; <em>H2</em>  -  38px; <em>H3</em>  -  30px. Default: H2."
               ]
             },
             {
@@ -5662,7 +5666,7 @@
                 "Add excessive body text that makes the section feel overwhelming.",
                 "Use H1 heading size unless the section is the primary heading of the page.",
                 "Leave the button block without a destination URL.",
-                "Use all four blocks when only a subset is needed — add only what serves the content.",
+                "Use all four blocks when only a subset is needed  -  add only what serves the content.",
                 "Use right alignment for primary content sections as it reduces readability."
               ]
             }
@@ -5747,7 +5751,7 @@
                   "label": "Content",
                   "items": [
                     "<strong>Image:</strong> Upload the image displayed in the image column.",
-                    "<strong>Layout:</strong> Controls the position of the image relative to the text content. Options: <em>Image Left</em> — image on the left, text on the right; <em>Image Right</em> — image on the right, text on the left. Default: Image Right.",
+                    "<strong>Layout:</strong> Controls the position of the image relative to the text content. Options: <em>Image Left</em>  -  image on the left, text on the right; <em>Image Right</em>  -  image on the right, text on the left. Default: Image Right.",
                     "<strong>Content Alignment:</strong> Controls the horizontal alignment of the text content. Options: Left, Center, Right. Default: Center.",
                     "<strong>Content Heading:</strong> Enter the heading displayed in the text content area.",
                     "<strong>Text:</strong> Add rich text body content supporting formatting such as bold, italic, lists, and links.",
@@ -6002,9 +6006,9 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Color Scheme</strong> — Sets the background and text colors for the section. Pick a scheme that works with the image you are using and the surrounding sections.",
-                    "<strong>Padding Top / Padding Bottom</strong> — Controls the space inside the section above and below the content.",
-                    "<strong>Margin Top / Margin Bottom</strong> — Controls the space outside the section, separating it from the sections above and below it on the page."
+                    "<strong>Color Scheme</strong>  -  Sets the background and text colors for the section. Pick a scheme that works with the image you are using and the surrounding sections.",
+                    "<strong>Padding Top / Padding Bottom</strong>  -  Controls the space inside the section above and below the content.",
+                    "<strong>Margin Top / Margin Bottom</strong>  -  Controls the space outside the section, separating it from the sections above and below it on the page."
                   ]
                 }
               ]
@@ -6023,7 +6027,7 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Banner Image</strong> — The large image that fills the right half of the section. Use a high-quality lifestyle or product photo that represents what you want customers to explore. If you leave this empty, a placeholder graphic appears so the layout stays intact in the editor."
+                "<strong>Banner Image</strong>  -  The large image that fills the right half of the section. Use a high-quality lifestyle or product photo that represents what you want customers to explore. If you leave this empty, a placeholder graphic appears so the layout stays intact in the editor."
               ]
             }
           ]
@@ -6040,12 +6044,12 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Sub-badge Text</strong> — A small line of uppercase text shown above the main heading. Use it as a category label or a short descriptor — for example \"Curated Brands\" or \"New Arrivals\". This field is optional; if you leave it blank it simply does not appear.",
-                "<strong>Main Heading</strong> — The large headline on the left side of the section. This is the most prominent piece of text so make it count — something short and punchy works best, like \"Different styles. One movement\" or \"Built for every run\".",
-                "<strong>Heading HTML Tag</strong> — Controls whether the heading is treated as an H1, H2, or H3 by the page. This is mainly relevant for SEO. If this is the main heading on the page, use H1. If there is already a page title above it, use H2. Leave it at H2 if you are not sure.",
-                "<strong>Paragraph Body Text</strong> — A short supporting paragraph below the main heading. Use this to add a little more context or personality — for example \"From street to lifestyle, explore collections that move with you.\" Keep it to one or two sentences.",
-                "<strong>Button Label</strong> — The text on the call-to-action button. The default is \"View collections\". Change it to match where the button links — for example \"Shop now\", \"Explore all\", or \"Browse the range\".",
-                "<strong>Button URL</strong> — Where the button takes customers. By default it links to your all-products collection. You can point it to any page, collection, or external URL."
+                "<strong>Sub-badge Text</strong>  -  A small line of uppercase text shown above the main heading. Use it as a category label or a short descriptor  -  for example \"Curated Brands\" or \"New Arrivals\". This field is optional; if you leave it blank it simply does not appear.",
+                "<strong>Main Heading</strong>  -  The large headline on the left side of the section. This is the most prominent piece of text so make it count  -  something short and punchy works best, like \"Different styles. One movement\" or \"Built for every run\".",
+                "<strong>Heading HTML Tag</strong>  -  Controls whether the heading is treated as an H1, H2, or H3 by the page. This is mainly relevant for SEO. If this is the main heading on the page, use H1. If there is already a page title above it, use H2. Leave it at H2 if you are not sure.",
+                "<strong>Paragraph Body Text</strong>  -  A short supporting paragraph below the main heading. Use this to add a little more context or personality  -  for example \"From street to lifestyle, explore collections that move with you.\" Keep it to one or two sentences.",
+                "<strong>Button Label</strong>  -  The text on the call-to-action button. The default is \"View collections\". Change it to match where the button links  -  for example \"Shop now\", \"Explore all\", or \"Browse the range\".",
+                "<strong>Button URL</strong>  -  Where the button takes customers. By default it links to your all-products collection. You can point it to any page, collection, or external URL."
               ]
             },
             {
@@ -6067,9 +6071,9 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Choose a banner image that has strong visual contrast with the text on the left. Since the text sits on a separate background panel, the image does not need a dark overlay — but make sure it looks good next to the content color scheme you have chosen.",
+                "Choose a banner image that has strong visual contrast with the text on the left. Since the text sits on a separate background panel, the image does not need a dark overlay  -  but make sure it looks good next to the content color scheme you have chosen.",
                 "Keep the Main Heading short. Two to four words across two lines looks the most impactful.",
-                "Use the Sub-badge Text to give customers immediate context — tell them what category or brand story they are about to explore.",
+                "Use the Sub-badge Text to give customers immediate context  -  tell them what category or brand story they are about to explore.",
                 "Link the button to something specific rather than the homepage. A collection page or a curated landing page converts better than a generic destination."
               ]
             },
@@ -6078,9 +6082,9 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Leave the Button Label filled in but the Button URL empty — the button will not appear and customers have no way to act on the section.",
-                "Write a long paragraph in the Body Text field — this section is designed for a short punchy message, not detailed descriptions. Keep it to two sentences at most.",
-                "Use a very light or washed-out image — the right column is large and a low-contrast image will make the whole section feel flat."
+                "Leave the Button Label filled in but the Button URL empty  -  the button will not appear and customers have no way to act on the section.",
+                "Write a long paragraph in the Body Text field  -  this section is designed for a short punchy message, not detailed descriptions. Keep it to two sentences at most.",
+                "Use a very light or washed-out image  -  the right column is large and a low-contrast image will make the whole section feel flat."
               ]
             }
           ]
@@ -6098,7 +6102,7 @@
         },
         {
           "type": "subheading",
-          "content": "Display a list of frequently asked questions in an accordion layout — one open at a time, with numbered indexes and animated open/close icons."
+          "content": "Display a list of frequently asked questions in an accordion layout  -  one open at a time, with numbered indexes and animated open/close icons."
         },
         {
           "type": "image-text",
@@ -6107,7 +6111,7 @@
           "contents": [
             {
               "type": "paragraph",
-              "content": "The FAQ section displays a list of frequently asked questions in an accordion layout. Each question can be expanded to reveal its answer. Only one question is open at a time — when a customer opens a new one, the previous one closes automatically. Each FAQ item shows a numbered index on the left (e.g. 01, 02), the question in the middle, and a plus/cross icon on the right that animates when opened or closed. The answer text sits directly below the question, aligned to the same column."
+              "content": "The FAQ section displays a list of frequently asked questions in an accordion layout. Each question can be expanded to reveal its answer. Only one question is open at a time  -  when a customer opens a new one, the previous one closes automatically. Each FAQ item shows a numbered index on the left (e.g. 01, 02), the question in the middle, and a plus/cross icon on the right that animates when opened or closed. The answer text sits directly below the question, aligned to the same column."
             }
           ]
         },
@@ -6163,7 +6167,7 @@
                   "type": "list",
                   "ordered": false,
                   "items": [
-                    "<strong>Question:</strong> The question text shown in the trigger row. Keep it short and clear — one line is ideal.",
+                    "<strong>Question:</strong> The question text shown in the trigger row. Keep it short and clear  -  one line is ideal.",
                     "<strong>Answer:</strong> The answer that appears when the question is expanded. Supports rich text, so you can use bold, italic, links, and lists inside the answer if needed."
                   ]
                 }
@@ -6188,11 +6192,11 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Write questions the way a real customer would ask them — short, conversational, direct.",
+                "Write questions the way a real customer would ask them  -  short, conversational, direct.",
                 "Keep answers concise. If an answer needs several paragraphs, consider whether it belongs in a dedicated page instead.",
                 "Enable \"Keep open first FAQ by default\" to surface your most important question immediately on page load.",
                 "Order questions from most common to least common so customers find answers quickly.",
-                "Use the rich text editor in the Answer field for links — for example, linking \"contact us\" to your contact page inside an answer."
+                "Use the rich text editor in the Answer field for links  -  for example, linking \"contact us\" to your contact page inside an answer."
               ]
             },
             {
@@ -6200,9 +6204,9 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Add more than 10–12 items in a single FAQ section — long lists become hard to scan. Split into multiple sections or pages if needed.",
-                "Use very long question text — it wraps awkwardly on mobile and breaks the single-line trigger layout.",
-                "Leave the Answer field empty on a published item — an empty accordion panel looks broken to customers.",
+                "Add more than 10–12 items in a single FAQ section  -  long lists become hard to scan. Split into multiple sections or pages if needed.",
+                "Use very long question text  -  it wraps awkwardly on mobile and breaks the single-line trigger layout.",
+                "Leave the Answer field empty on a published item  -  an empty accordion panel looks broken to customers.",
                 "Use the FAQ section as a substitute for detailed policy pages (returns, shipping, privacy). Link to those pages from within the answers instead."
               ]
             }
@@ -6222,7 +6226,7 @@
         },
         {
           "type": "subheading",
-          "content": "Grow your subscriber list and promote offers with a customizable email signup popup — control when it appears, what customers see, and what happens after they subscribe."
+          "content": "Grow your subscriber list and promote offers with a customizable email signup popup  -  control when it appears, what customers see, and what happens after they subscribe."
         },
         {
           "type": "image-text",
@@ -6254,9 +6258,9 @@
                   "items": [
                     "<strong>Color Scheme:</strong> Select the color scheme used throughout the popup. Choose a scheme that provides strong contrast between text, buttons, and backgrounds for better readability.",
                     "<strong>Close Button Color:</strong> Controls the color of the popup close (×) icon. Use a color that remains visible against the popup background.",
-                    "<strong>Popup Layout:</strong> Choose how the newsletter popup is displayed. <em>Layout 1</em> — a large centered popup that can include a store logo, promotional image, heading, description, email signup form, and no-spam message. Best for promotional campaigns and visual marketing. <em>Layout 2</em> — a compact popup displayed in the bottom-right corner of the screen with a heading, description, email signup form, and subscribe button. Best for a less intrusive signup experience.",
+                    "<strong>Popup Layout:</strong> Choose how the newsletter popup is displayed. <em>Layout 1</em>  -  a large centered popup that can include a store logo, promotional image, heading, description, email signup form, and no-spam message. Best for promotional campaigns and visual marketing. <em>Layout 2</em>  -  a compact popup displayed in the bottom-right corner of the screen with a heading, description, email signup form, and subscribe button. Best for a less intrusive signup experience.",
                     "<strong>Popup Frequency:</strong> Controls how often visitors see the popup. Options: Once per session, Once per day, Once per week, Once per month.",
-                    "<strong>Popup Image:</strong> Select an image to display inside the popup — for example, a product promotion, seasonal campaign, or lifestyle photo. Only available when Popup Layout is set to Layout 1."
+                    "<strong>Popup Image:</strong> Select an image to display inside the popup  -  for example, a product promotion, seasonal campaign, or lifestyle photo. Only available when Popup Layout is set to Layout 1."
                   ]
                 }
               ]
@@ -6317,7 +6321,7 @@
                 "<strong>Success Subtext:</strong> Sets the supporting message displayed below the success heading. Example: Thanks for joining. Use this code at checkout. Only available when Show Discount is enabled.",
                 "<strong>Discount Code:</strong> Sets the coupon code displayed to subscribers. Customers can copy it using the built-in Copy button. Leave blank to hide the discount code.",
                 "<strong>Success Button Text:</strong> Sets the text displayed on the success action button. Example: Start shopping. Only available when Show Discount is enabled.",
-                "<strong>Success Button Link:</strong> Sets the destination URL for the success action button — for example, a homepage, collection, sale page, or custom URL. Only available when Show Discount is enabled."
+                "<strong>Success Button Link:</strong> Sets the destination URL for the success action button  -  for example, a homepage, collection, sale page, or custom URL. Only available when Show Discount is enabled."
               ]
             }
           ]
@@ -6359,7 +6363,7 @@
     },
     {
       "type": "subheading",
-      "content": "Display detailed product information with a fully configurable block-based layout — add, remove, and reorder content blocks to build the ideal product page experience."
+      "content": "Display detailed product information with a fully configurable block-based layout  -  add, remove, and reorder content blocks to build the ideal product page experience."
     },
     {
       "type": "video",
@@ -6441,7 +6445,7 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Image Layout:</strong> Controls how product images are displayed. <em>Layout 1</em> — default layout. <em>Layout 2</em> — alternative visual arrangement suited for modern or product-focused designs.",
+                "<strong>Image Layout:</strong> Controls how product images are displayed. <em>Layout 1</em>  -  default layout. <em>Layout 2</em>  -  alternative visual arrangement suited for modern or product-focused designs.",
                 "<strong>Heading:</strong> Displays a custom heading above the Product section. Default: Product.",
                 "<strong>Cursor Text:</strong> Customize the text displayed when customers hover over the product image.",
                 "<strong>Size Guide:</strong> Display a size guide link alongside product options.",
@@ -6670,7 +6674,7 @@
                 "<strong>Color Variant Label:</strong> Customize the label displayed above the color variant selector. Default: Product Siblings.",
                 "<strong>Size Variant Label:</strong> Customize the label displayed above the size selector. Default: Product Size.",
                 "<strong>Other Variant Label:</strong> Customize the label for an additional product option such as Material or Style.",
-                "<strong>Color Option Swatch Style:</strong> Choose how color variants are displayed. <em>Image</em> — displays each color using the associated product image. <em>Color</em> — displays each color as a colored swatch using the configured color value."
+                "<strong>Color Option Swatch Style:</strong> Choose how color variants are displayed. <em>Image</em>  -  displays each color using the associated product image. <em>Color</em>  -  displays each color as a colored swatch using the configured color value."
               ]
             }
           ]
@@ -6885,7 +6889,7 @@
               "items": [
                 "<strong>Title:</strong> Defines the heading displayed for the collapsible tab. Default: Tab title. Examples: Description, Product Care, Shipping &amp; Returns, Materials, Warranty, FAQs.",
                 "<strong>Content:</strong> Adds the information displayed when the customer opens the tab. Supports headings, bold, italic, hyperlinks, ordered lists, and unordered lists.",
-                "<strong>Page:</strong> Select an existing page from your store to display its content inside the collapsible drawer — useful for reusing content such as a Size Guide, Shipping Policy, or Warranty Information across multiple products.",
+                "<strong>Page:</strong> Select an existing page from your store to display its content inside the collapsible drawer  -  useful for reusing content such as a Size Guide, Shipping Policy, or Warranty Information across multiple products.",
                 "<strong>Padding Top:</strong> Adds space above the collapsible tab block.",
                 "<strong>Padding Bottom:</strong> Adds space below the collapsible tab block."
               ]
@@ -7030,7 +7034,7 @@
         },
         {
           "type": "paragraph",
-          "content": "Each recommended product displays a product image, title, price (including sale price if applicable), discount badge (when available), quantity selector, and an Add to Cart button — allowing customers to purchase complementary products with just a few clicks. If no related products are assigned, the Upsell block will not appear on the product page."
+          "content": "Each recommended product displays a product image, title, price (including sale price if applicable), discount badge (when available), quantity selector, and an Add to Cart button  -  allowing customers to purchase complementary products with just a few clicks. If no related products are assigned, the Upsell block will not appear on the product page."
         }
       ]
     }
@@ -7047,7 +7051,7 @@
         },
         {
           "type": "subheading",
-          "content": "Add custom content and promotional information to individual products using metafields — badges, marquee text, countdown timers, discount codes, and upsell links."
+          "content": "Add custom content and promotional information to individual products using metafields  -  badges, marquee text, countdown timers, discount codes, and upsell links."
         },
         {
           "contents": [
@@ -7171,7 +7175,7 @@
               "items": [
                 "<strong>Namespace and key:</strong> custom.upsell",
                 "<strong>Type:</strong> List, Product",
-                "<strong>Use Cases:</strong> \"Goes great with\" — select an existing product from your catalog to create the upsell relationship.",
+                "<strong>Use Cases:</strong> \"Goes great with\"  -  select an existing product from your catalog to create the upsell relationship.",
                 "<strong>Note:</strong> Select an existing product from your catalog to create the upsell relationship."
               ]
             }
@@ -7305,8 +7309,8 @@
               "items": [
                 "<strong>Show Availability:</strong> Shows or hides the Availability filter, which lets customers filter by In Stock or Out of Stock.",
                 "<strong>Show Price:</strong> Shows or hides the Price filter. When visible, customers can drag a slider or type a min and max price to narrow down results.",
-                "<strong>Show Other Filters:</strong> Shows or hides everything else — things like Size, Category, Material, or any other filters configured in the Search &amp; Discovery app.",
-                "<strong>Hidden Filters:</strong> If you want to hide a specific filter without turning off the whole group, type its exact name here. Separate multiple names with a comma — for example: Brand, Color. The names must match exactly what appears in your Search &amp; Discovery app."
+                "<strong>Show Other Filters:</strong> Shows or hides everything else  -  things like Size, Category, Material, or any other filters configured in the Search &amp; Discovery app.",
+                "<strong>Hidden Filters:</strong> If you want to hide a specific filter without turning off the whole group, type its exact name here. Separate multiple names with a comma  -  for example: Brand, Color. The names must match exactly what appears in your Search &amp; Discovery app."
               ]
             }
           ]
@@ -7405,8 +7409,8 @@
           "items": [
             "Use the Hidden Filters field to tidy up the filter drawer if you have filters that are not relevant to a particular collection.",
             "Keep the Sort Label short so it fits neatly inside the drawer header.",
-            "Test the filter drawer on mobile before publishing — the panel takes up the full screen on smaller devices.",
-            "If you want more control over which filters appear and how they are ordered, you can optionally install the Shopify Search &amp; Discovery app — but the filters work perfectly without it."
+            "Test the filter drawer on mobile before publishing  -  the panel takes up the full screen on smaller devices.",
+            "If you want more control over which filters appear and how they are ordered, you can optionally install the Shopify Search &amp; Discovery app  -  but the filters work perfectly without it."
           ]
         },
         {
@@ -7414,8 +7418,8 @@
           "ordered": false,
           "label": "Don't",
           "items": [
-            "Turn off Show Others if you have custom filters like Size or Material set up — they will disappear from the drawer entirely.",
-            "Leave the Hidden Filters field with trailing spaces or wrong capitalisation — the name must match exactly what appears in the filter drawer.",
+            "Turn off Show Others if you have custom filters like Size or Material set up  -  they will disappear from the drawer entirely.",
+            "Leave the Hidden Filters field with trailing spaces or wrong capitalisation  -  the name must match exactly what appears in the filter drawer.",
             "Set Products Per Page too high if your product cards have videos or large images, as it may slow down the page on mobile."
           ]
         }
@@ -7434,7 +7438,7 @@
     },
     {
       "type": "subheading",
-      "content": "The Cart Page is where your customers review what they have added before checking out. It shows each product with its image, name, selected options, and price. Customers can change quantities, remove items, apply a discount code, add a note to their order, and proceed to checkout — all from one place."
+      "content": "The Cart Page is where your customers review what they have added before checking out. It shows each product with its image, name, selected options, and price. Customers can change quantities, remove items, apply a discount code, add a note to their order, and proceed to checkout  -  all from one place."
     },
     {
       "type": "image",
@@ -7463,8 +7467,8 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Color Scheme</strong> — Choose a color scheme that matches the rest of your store. This controls the background, text, and border colors across the entire cart page.",
-            "<strong>Padding Top / Padding Bottom</strong> — Controls the space above and below the cart section. You only need to set the desktop value; the theme handles the rest automatically."
+            "<strong>Color Scheme</strong>  -  Choose a color scheme that matches the rest of your store. This controls the background, text, and border colors across the entire cart page.",
+            "<strong>Padding Top / Padding Bottom</strong>  -  Controls the space above and below the cart section. You only need to set the desktop value; the theme handles the rest automatically."
           ]
         },
         {
@@ -7488,8 +7492,8 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Enable Gift Box</strong> — Turns on a gift upsell button inside the order summary. When a customer clicks it, a pre-selected product is added to their order.",
-            "<strong>Gift Product</strong> — The product that appears as the gift offer. Only set this after turning on Enable Gift Box. Make sure the product you pick is in stock, otherwise the button will not appear."
+            "<strong>Enable Gift Box</strong>  -  Turns on a gift upsell button inside the order summary. When a customer clicks it, a pre-selected product is added to their order.",
+            "<strong>Gift Product</strong>  -  The product that appears as the gift offer. Only set this after turning on Enable Gift Box. Make sure the product you pick is in stock, otherwise the button will not appear."
           ]
         }
       ]
@@ -7506,11 +7510,11 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Adjust quantities</strong> — Customers can increase or decrease the quantity of any item directly from the cart.",
-            "<strong>Remove items</strong> — Each item has a remove button. Removing an item updates the cart immediately.",
-            "<strong>Add a note</strong> — An optional note field lets customers leave a message for your store. The note is attached to the order and visible in your Shopify Admin.",
-            "<strong>Apply a discount code</strong> — Customers can enter a discount code and apply it directly from the cart. If the code is valid it is shown as a tag they can remove. Multiple codes can be applied at once.",
-            "<strong>Proceed to checkout</strong> — The checkout button takes customers to Shopify's checkout with their cart and any discount codes already applied."
+            "<strong>Adjust quantities</strong>  -  Customers can increase or decrease the quantity of any item directly from the cart.",
+            "<strong>Remove items</strong>  -  Each item has a remove button. Removing an item updates the cart immediately.",
+            "<strong>Add a note</strong>  -  An optional note field lets customers leave a message for your store. The note is attached to the order and visible in your Shopify Admin.",
+            "<strong>Apply a discount code</strong>  -  Customers can enter a discount code and apply it directly from the cart. If the code is valid it is shown as a tag they can remove. Multiple codes can be applied at once.",
+            "<strong>Proceed to checkout</strong>  -  The checkout button takes customers to Shopify's checkout with their cart and any discount codes already applied."
           ]
         }
       ]
@@ -7564,7 +7568,7 @@
         },
         {
           "type": "paragraph",
-          "content": "The Cart Drawer is a slide-in panel that opens from the right side of the screen when a customer clicks the cart icon. It gives customers a quick look at their cart without leaving the page they are on. It has the same features as the Cart Page — quantity controls, discount codes, a note field, and checkout — but in a compact panel so shopping is not interrupted."
+          "content": "The Cart Drawer is a slide-in panel that opens from the right side of the screen when a customer clicks the cart icon. It gives customers a quick look at their cart without leaving the page they are on. It has the same features as the Cart Page  -  quantity controls, discount codes, a note field, and checkout  -  but in a compact panel so shopping is not interrupted."
         },
         {
           "type": "image",
@@ -7615,12 +7619,12 @@
               "type": "list",
               "ordered": false,
               "items": [
-                "<strong>Adjust quantities</strong> — Same as the Cart Page. Customers can increase or decrease quantities directly inside the drawer.",
-                "<strong>Remove items</strong> — The trash icon next to each item removes it from the cart.",
-                "<strong>Add a note</strong> — An expandable section lets customers type a note for your store. Clicking Save sends the note without closing the drawer.",
-                "<strong>Apply a discount code</strong> — Customers can enter and apply discount codes from inside the drawer. Applied codes show as removable tags. Multiple codes are supported.",
-                "<strong>View cart</strong> — A button at the bottom of the drawer takes customers to the full Cart Page.",
-                "<strong>Checkout</strong> — The checkout button submits the cart and takes customers to Shopify's checkout. Any active discount codes go with them automatically."
+                "<strong>Adjust quantities</strong>  -  Same as the Cart Page. Customers can increase or decrease quantities directly inside the drawer.",
+                "<strong>Remove items</strong>  -  The trash icon next to each item removes it from the cart.",
+                "<strong>Add a note</strong>  -  An expandable section lets customers type a note for your store. Clicking Save sends the note without closing the drawer.",
+                "<strong>Apply a discount code</strong>  -  Customers can enter and apply discount codes from inside the drawer. Applied codes show as removable tags. Multiple codes are supported.",
+                "<strong>View cart</strong>  -  A button at the bottom of the drawer takes customers to the full Cart Page.",
+                "<strong>Checkout</strong>  -  The checkout button submits the cart and takes customers to Shopify's checkout. Any active discount codes go with them automatically."
               ]
             }
           ]
@@ -7663,7 +7667,7 @@
         },
         {
           "type": "paragraph",
-          "content": "No extra setup is needed — it reads the setting you have already configured there."
+          "content": "No extra setup is needed  -  it reads the setting you have already configured there."
         },
         {
           "type": "image",
@@ -7734,7 +7738,7 @@
         },
         {
           "type": "paragraph",
-          "content": "The cart drawer is built with accessibility in mind. When the drawer opens, keyboard focus moves into it automatically and is trapped inside — Tab and Shift+Tab cycle through the drawer's interactive elements without reaching the page behind it. When the drawer closes, focus returns to the element that opened it (usually the cart icon). Screen readers are notified of cart updates through a live region that announces the new item count whenever it changes."
+          "content": "The cart drawer is built with accessibility in mind. When the drawer opens, keyboard focus moves into it automatically and is trapped inside  -  Tab and Shift+Tab cycle through the drawer's interactive elements without reaching the page behind it. When the drawer closes, focus returns to the element that opened it (usually the cart icon). Screen readers are notified of cart updates through a live region that announces the new item count whenever it changes."
         }
       ]
     }
@@ -7751,7 +7755,7 @@
         },
         {
           "type": "subheading",
-          "content": "Show matching products, articles, and pages after a customer search — with a refineable search bar, filter drawer, recent searches, and empty state handling."
+          "content": "Show matching products, articles, and pages after a customer search  -  with a refineable search bar, filter drawer, recent searches, and empty state handling."
         },
         {
           "type": "image-text",
@@ -7790,7 +7794,7 @@
                     "<strong>Show Availability:</strong> Shows or hides the Availability filter, which lets customers narrow results to in-stock items only.",
                     "<strong>Show Price Range:</strong> Shows or hides the Price filter. Customers can drag a slider or type a min and max value to filter by price.",
                     "<strong>Show Other Filters:</strong> Shows or hides any additional filters based on your product data, such as Color, Size, or Category.",
-                    "<strong>Hidden Filter Names:</strong> If you want to hide a specific filter without turning off the whole group, type its exact name here. Separate multiple names with a comma — for example: Color, Size. The name must match exactly what appears in the filter drawer."
+                    "<strong>Hidden Filter Names:</strong> If you want to hide a specific filter without turning off the whole group, type its exact name here. Separate multiple names with a comma  -  for example: Color, Size. The name must match exactly what appears in the filter drawer."
                   ]
                 }
               ]
@@ -7889,7 +7893,7 @@
               "contents": [
                 {
                   "type": "paragraph",
-                  "content": "The Filter &amp; Sort button appears in the toolbar above the results once a search has been performed. It opens the same side panel filter drawer as the Collection Page, with the same filter types — availability, price slider, color swatches, and checkbox filters. Active filters appear as removable tags in the toolbar."
+                  "content": "The Filter &amp; Sort button appears in the toolbar above the results once a search has been performed. It opens the same side panel filter drawer as the Collection Page, with the same filter types  -  availability, price slider, color swatches, and checkbox filters. Active filters appear as removable tags in the toolbar."
                 }
               ]
             }
@@ -7901,7 +7905,7 @@
             {
               "type": "heading",
               "level": 2,
-              "content": "Theme Settings — What Gets Searched"
+              "content": "Theme Settings  -  What Gets Searched"
             },
             {
               "type": "image-text",
@@ -7950,9 +7954,9 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Keep Products Per Page at a reasonable number — too many results on one page can slow things down, especially on mobile.",
+                "Keep Products Per Page at a reasonable number  -  too many results on one page can slow things down, especially on mobile.",
                 "Test a search with no results to make sure the empty state message reads naturally for your store.",
-                "Use the Hidden Filter Names field to remove any filter groups that do not apply to your product catalogue — for example, if you do not sell by size, hide the Size filter."
+                "Use the Hidden Filter Names field to remove any filter groups that do not apply to your product catalogue  -  for example, if you do not sell by size, hide the Size filter."
               ]
             },
             {
@@ -7960,8 +7964,8 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Turn off Show Sort Options and Show Other Filters at the same time unless you have very few products — customers on a search page usually want to narrow things down quickly.",
-                "Leave the Sort Label blank — the filter drawer will still work but the section heading will be empty."
+                "Turn off Show Sort Options and Show Other Filters at the same time unless you have very few products  -  customers on a search page usually want to narrow things down quickly.",
+                "Leave the Sort Label blank  -  the filter drawer will still work but the section heading will be empty."
               ]
             }
           ]
@@ -7979,7 +7983,7 @@
         },
         {
           "type": "subheading",
-          "content": "Built-in gift card support — customers can buy for themselves or send to someone else with a personal message and scheduled delivery date."
+          "content": "Built-in gift card support  -  customers can buy for themselves or send to someone else with a personal message and scheduled delivery date."
         },
         {
           "type": "image-text",
@@ -8002,7 +8006,7 @@
             },
             {
               "type": "paragraph",
-              "content": "Before anything shows up on your store, you need to create a gift card product in your Shopify Admin. The theme reads this product automatically — there are no extra theme settings to configure for the gift card product page itself."
+              "content": "Before anything shows up on your store, you need to create a gift card product in your Shopify Admin. The theme reads this product automatically  -  there are no extra theme settings to configure for the gift card product page itself."
             },
             {
               "type": "image-text",
@@ -8015,9 +8019,9 @@
                   "items": [
                     "Go to <strong>Shopify Admin</strong> &rarr; <strong>Products</strong>.",
                     "Click <strong>Add product</strong>.",
-                    "Under the product type, select <strong>Gift card</strong> — this is a special product type in Shopify.",
+                    "Under the product type, select <strong>Gift card</strong>  -  this is a special product type in Shopify.",
                     "Set the title, description, and images as you would any other product.",
-                    "Add variants for each denomination you want to offer — for example $10, $50, $100, $300.",
+                    "Add variants for each denomination you want to offer  -  for example $10, $50, $100, $300.",
                     "Save the product and make sure it is set to <strong>Active</strong>."
                   ]
                 }
@@ -8039,7 +8043,7 @@
             },
             {
               "type": "paragraph",
-              "content": "When a customer visits the gift card product page, it looks and works like any other product page in the theme. The main difference is that it includes an optional recipient form for sending the card as a gift. The gift card variants appear as selectable options — for example $10.00, $50.00, $100.00, and $300.00."
+              "content": "When a customer visits the gift card product page, it looks and works like any other product page in the theme. The main difference is that it includes an optional recipient form for sending the card as a gift. The gift card variants appear as selectable options  -  for example $10.00, $50.00, $100.00, and $300.00."
             },
             {
               "type": "image-text",
@@ -8126,9 +8130,9 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Add a clear, attractive image to your gift card product — it appears on the product page and is the first thing customers see.",
+                "Add a clear, attractive image to your gift card product  -  it appears on the product page and is the first thing customers see.",
                 "Offer a range of denominations so customers can choose an amount that suits them. Common options are a low, mid, and high value.",
-                "Test the gifting flow yourself before publishing — buy a gift card, send it to your own email, and confirm the recipient page looks correct.",
+                "Test the gifting flow yourself before publishing  -  buy a gift card, send it to your own email, and confirm the recipient page looks correct.",
                 "Keep your gift card product title short and descriptive, such as \"Store Gift Card\" or \"Premium Gift Card\", since the title appears on the recipient's gift card page."
               ]
             },
@@ -8137,9 +8141,9 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Set a gift card product as a Draft — customers will not be able to find or purchase it.",
+                "Set a gift card product as a Draft  -  customers will not be able to find or purchase it.",
                 "Add the gift card to a collection that also contains regular products if you want to keep the shopping experience clean. Consider a separate \"Gift Cards\" collection.",
-                "Worry about the recipient form fields being submitted empty — Name, Message, and Send On are all optional. Only the Recipient Email is required when the \"send as a gift\" checkbox is ticked."
+                "Worry about the recipient form fields being submitted empty  -  Name, Message, and Send On are all optional. Only the Recipient Email is required when the \"send as a gift\" checkbox is ticked."
               ]
             }
           ]
@@ -8166,7 +8170,7 @@
           "contents": [
             {
               "type": "paragraph",
-              "content": "The 404 page appears when a customer tries to visit a URL that does not exist in your store — for example a deleted product, a mistyped link, or an old URL that no longer works. Instead of showing a plain error message, this theme gives you a fully designed two-column layout with an image on the left and your message and button on the right. Everything on this page is editable from the Theme Editor."
+              "content": "The 404 page appears when a customer tries to visit a URL that does not exist in your store  -  for example a deleted product, a mistyped link, or an old URL that no longer works. Instead of showing a plain error message, this theme gives you a fully designed two-column layout with an image on the left and your message and button on the right. Everything on this page is editable from the Theme Editor."
             }
           ]
         },
@@ -8198,7 +8202,7 @@
                   "ordered": false,
                   "label": "Image",
                   "items": [
-                    "<strong>Image:</strong> The image that fills the left half of the page. Use something visually interesting that fits your brand — a product photo, a lifestyle shot, or a branded illustration all work well here. If left empty, the theme shows a placeholder graphic automatically. Upload a high-resolution image for the best result — a portrait or square image works better than a very wide one."
+                    "<strong>Image:</strong> The image that fills the left half of the page. Use something visually interesting that fits your brand  -  a product photo, a lifestyle shot, or a branded illustration all work well here. If left empty, the theme shows a placeholder graphic automatically. Upload a high-resolution image for the best result  -  a portrait or square image works better than a very wide one."
                   ]
                 },
                 {
@@ -8231,8 +8235,8 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Use a striking product or brand image on the left side — the 404 page is a chance to keep customers engaged even when something has gone wrong.",
-                "Point the button to a useful destination — your all-products collection or a popular category page is often more helpful than the homepage.",
+                "Use a striking product or brand image on the left side  -  the 404 page is a chance to keep customers engaged even when something has gone wrong.",
+                "Point the button to a useful destination  -  your all-products collection or a popular category page is often more helpful than the homepage.",
                 "Keep the Top Heading message short, friendly, and honest. Customers appreciate clarity over clever phrasing when they are lost."
               ]
             },
@@ -8241,9 +8245,9 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Leave the button link empty — it defaults to the homepage, which is fine, but if you have a better destination for lost customers, set it explicitly.",
-                "Use a very wide landscape image — the image column is tall and portrait-oriented, so wide images will be cropped heavily on the top and bottom.",
-                "Turn off the status code if your store targets customers who are likely to share or troubleshoot broken links — the 404 number helps them identify the issue quickly."
+                "Leave the button link empty  -  it defaults to the homepage, which is fine, but if you have a better destination for lost customers, set it explicitly.",
+                "Use a very wide landscape image  -  the image column is tall and portrait-oriented, so wide images will be cropped heavily on the top and bottom.",
+                "Turn off the status code if your store targets customers who are likely to share or troubleshoot broken links  -  the 404 number helps them identify the issue quickly."
               ]
             }
           ]
@@ -8297,10 +8301,10 @@
                   "ordered": false,
                   "items": [
                     "<strong>Color Scheme:</strong> Choose a color scheme that matches the rest of your store.",
-                    "<strong>Section Heading:</strong> The title shown above the collection cards — for example \"Some of our collections\" or \"Keep exploring\".",
+                    "<strong>Section Heading:</strong> The title shown above the collection cards  -  for example \"Some of our collections\" or \"Keep exploring\".",
                     "<strong>Button Label:</strong> The text shown on the button below the collection cards. Default: \"View collections\".",
                     "<strong>Button Link:</strong> Where the button takes the customer when clicked. Default: your all-products page. You can change this to any page, collection, or custom URL.",
-                    "<strong>Layout &amp; Spacing:</strong> Controls the padding and margin around the section. Only set the desktop value — the section scales it down automatically for smaller screens."
+                    "<strong>Layout &amp; Spacing:</strong> Controls the padding and margin around the section. Only set the desktop value  -  the section scales it down automatically for smaller screens."
                   ]
                 }
               ]
@@ -8373,9 +8377,9 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Add a featured image to each collection in Shopify Admin so the cards look polished — placeholder illustrations look unfinished on a live store.",
+                "Add a featured image to each collection in Shopify Admin so the cards look polished  -  placeholder illustrations look unfinished on a live store.",
                 "Use collections that are popular or relevant to what most customers are looking for.",
-                "Keep the section heading short and reassuring — customers are on a broken page, so a message like \"Here's what you might be looking for\" works better than a generic title.",
+                "Keep the section heading short and reassuring  -  customers are on a broken page, so a message like \"Here's what you might be looking for\" works better than a generic title.",
                 "Set the button link to your most relevant browse destination, whether that is all products, a specific category, or a sale collection."
               ]
             },
@@ -8384,10 +8388,10 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Add collections with very few products — a count of (01) or (02) can feel sparse and underwhelming.",
+                "Add collections with very few products  -  a count of (01) or (02) can feel sparse and underwhelming.",
                 "Leave the button label as the default if it does not match your store's tone.",
-                "Use more than 4 blocks — the grid layout is built for exactly 4 cards and adding more is not supported.",
-                "Leave this section off your 404 page entirely — a helpful 404 page significantly reduces the chance customers leave your store after hitting a broken link."
+                "Use more than 4 blocks  -  the grid layout is built for exactly 4 cards and adding more is not supported.",
+                "Leave this section off your 404 page entirely  -  a helpful 404 page significantly reduces the chance customers leave your store after hitting a broken link."
               ]
             }
           ]
@@ -8405,7 +8409,7 @@
         },
         {
           "type": "subheading",
-          "content": "A fully branded page for visitors when your store is password protected — with an email waitlist signup, a password entry modal, and editable headings and button labels."
+          "content": "A fully branded page for visitors when your store is password protected  -  with an email waitlist signup, a password entry modal, and editable headings and button labels."
         },
         {
           "type": "image-text",
@@ -8414,7 +8418,7 @@
           "contents": [
             {
               "type": "paragraph",
-              "content": "The Password Page is what visitors see when your store is password protected — typically when your store is still under development or has not yet launched. Instead of showing a blank screen or a generic Shopify lock page, this theme gives you a fully branded page where visitors can sign up to be notified when you open, and where you or your team can enter a password to access the store."
+              "content": "The Password Page is what visitors see when your store is password protected  -  typically when your store is still under development or has not yet launched. Instead of showing a blank screen or a generic Shopify lock page, this theme gives you a fully branded page where visitors can sign up to be notified when you open, and where you or your team can enter a password to access the store."
             }
           ]
         },
@@ -8458,8 +8462,8 @@
                   "label": "Main Page Content",
                   "items": [
                     "<strong>Color Scheme:</strong> Sets the background and text colors for the password page. Pick a scheme that matches your brand.",
-                    "<strong>Heading:</strong> The large text displayed at the center of the page. Use something that sets the right tone — for example \"Opening soon!\" or \"We're getting ready\". If you have set a password message in Shopify Admin under Online Store &rarr; Preferences, that message will show here instead.",
-                    "<strong>Subheading:</strong> A shorter line of supporting text shown below the heading — for example \"Be the first one to know when we open!\" or \"Sign up below and we will let you know the moment we go live.\"",
+                    "<strong>Heading:</strong> The large text displayed at the center of the page. Use something that sets the right tone  -  for example \"Opening soon!\" or \"We're getting ready\". If you have set a password message in Shopify Admin under Online Store &rarr; Preferences, that message will show here instead.",
+                    "<strong>Subheading:</strong> A shorter line of supporting text shown below the heading  -  for example \"Be the first one to know when we open!\" or \"Sign up below and we will let you know the moment we go live.\"",
                     "<strong>Subscribe Button Label:</strong> The text on the button next to the email input field. Default: \"Subscribe\"."
                   ]
                 }
@@ -8536,9 +8540,9 @@
               "ordered": false,
               "label": "Do",
               "items": [
-                "Set a clear, friendly heading that tells visitors the store is coming soon — leaving them guessing creates a poor first impression.",
+                "Set a clear, friendly heading that tells visitors the store is coming soon  -  leaving them guessing creates a poor first impression.",
                 "Use the subheading to encourage email sign-ups. The email list you build on the password page is valuable for your launch announcement.",
-                "Keep your storefront password private — only share it with people who genuinely need access, such as team members or a client reviewing the build.",
+                "Keep your storefront password private  -  only share it with people who genuinely need access, such as team members or a client reviewing the build.",
                 "Test the email subscription form before your launch to make sure sign-ups are coming through to your Customers list in Shopify Admin."
               ]
             },
@@ -8547,9 +8551,9 @@
               "ordered": false,
               "label": "Don't",
               "items": [
-                "Forget to disable password protection before launching — go to Shopify Admin &rarr; Online Store &rarr; Preferences and turn it off when you are ready to go live.",
-                "Leave the heading as the default if your store has a specific name or theme — a personalised message feels much more intentional.",
-                "Use the storefront password as your Shopify Admin password — they are separate and should be kept that way."
+                "Forget to disable password protection before launching  -  go to Shopify Admin &rarr; Online Store &rarr; Preferences and turn it off when you are ready to go live.",
+                "Leave the heading as the default if your store has a specific name or theme  -  a personalised message feels much more intentional.",
+                "Use the storefront password as your Shopify Admin password  -  they are separate and should be kept that way."
               ]
             }
           ]
