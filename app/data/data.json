@@ -805,7 +805,7 @@
                 },
                 {
                   "type": "paragraph",
-                  "content": "Badges are displayed based on specific conditions. If a product has a compare-at price, a discount badge will be shown. If the product is new, a <strong>New</strong> badge will appear. If the product is out of stock, an <strong>Out of Stock</strong> badge will be displayed. For any other custom badges, you must use a metafield, where you can define your own custom text."
+                  "content": "Badges are displayed based on specific conditions. If a product has a compare-at price, a discount badge will be shown. If the product is new, a <strong>New</strong> badge will appear. If the product is out of stock, an <strong>Out of Stock</strong> badge will be displayed. For any other custom badges, you must use a metafield, where you can define your own custom text. See the <a href=\"/product&metafields/metafields\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Metafields</a>."
                 },
                 {
                   "type": "list",
@@ -870,7 +870,7 @@
                 },
                 {
                   "type": "paragraph",
-                  "content": "Enable this to show product cards in a scrolling marquee. The text comes from the product's Marquee metafield. If the metafield is empty, the marquee won't display any content."
+                  "content": "Enable this to show product cards in a scrolling marquee. The text comes from the product's Marquee metafield. If the metafield is empty, the marquee won't display any content. See the <a href=\"/product&metafields/metafields\" class=\"font-medium text-emerald-600 underline underline-offset-2 decoration-emerald-300 hover:text-emerald-700 hover:decoration-emerald-500 dark:text-emerald-400 dark:decoration-emerald-600 dark:hover:text-emerald-300 dark:hover:decoration-emerald-400 transition-colors duration-150\">Metafields</a>."
                 },
                 {
                   "type": "list",
@@ -3726,12 +3726,66 @@
             },
             {
               "type": "paragraph",
-              "content": "Displays expandable sections that help organize product information without overwhelming the product page. Customers click a tab title to open a side drawer containing additional content. Common uses include product descriptions, care instructions, shipping information, warranty details, and FAQs."
+              "content": "The Collapsible Tab block displays expandable sections that help organize product information without overwhelming the product page. Customers can click a tab title to open a side drawer containing additional content."
             },
             {
-              "type": "image-text",
-              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-19.png",
-              "orientation": "landscape",
+              "type": "paragraph",
+              "content": "Common uses include product descriptions, care instructions, shipping information, warranty details, FAQs, and other supplementary product information."
+            },
+            {
+              "type": "heading",
+              "level": 3,
+              "content": "Settings"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Title:</strong> Defines the heading displayed for the collapsible tab on the product page. (Default: Tab title)"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Use Case",
+              "items": [
+                "Description",
+                "Product Care",
+                "Shipping &amp; Returns",
+                "Materials",
+                "Warranty",
+                "FAQs"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Content:</strong> Adds the information displayed when the customer opens the collapsible tab."
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "The rich text editor supports",
+              "items": [
+                "Headings",
+                "Bold text",
+                "Italic text",
+                "Hyperlinks",
+                "Ordered lists",
+                "Unordered lists"
+              ]
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Use Case",
+              "items": [
+                "Use this field to provide detailed product information, care instructions, shipping policies, warranty details, or other supporting content."
+              ]
+            },
+            {
               "contents": [
                 {
                   "type": "list",
@@ -3747,21 +3801,145 @@
               ]
             },
             {
-              "type": "image-text",
-              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-24.png",
-              "orientation": "landscape",
-              "contents": [
-                {
-                  "type": "paragraph",
-                  "content": "Select an existing page from your store to display its content inside the collapsible drawer. This option is useful for reusing content across multiple products, such as a Size Guide, Shipping Policy, Return Policy, Warranty Information, or Product Care Guide."
-                }
+              "type": "heading",
+              "level": 3,
+              "content": "Bind the Product Description to Collapsible Tab"
+            },
+            {
+              "type": "paragraph",
+              "content": "Display each product's description dynamically by connecting the Description collapsible tab to the product description field."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Open the Theme Editor and select the collapsible tab."
               ]
             },
             {
               "type": "image-text",
-              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-25.png",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-19.png",
               "orientation": "landscape",
               "contents": []
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "start": 2,
+              "items": [
+                "In the Content field, click the Dynamic Source (database) icon."
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-20.png",
+              "orientation": "landscape",
+              "contents": []
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "start": 3,
+              "items": [
+                "Select Current Block → Page."
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-21.png",
+              "orientation": "landscape",
+              "contents": []
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "start": 4,
+              "items": [
+                "From the available sources, choose Section → Product."
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-22.png",
+              "orientation": "landscape",
+              "contents": []
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "start": 5,
+              "items": [
+                "Select Description from the product fields."
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-23.png",
+              "orientation": "landscape",
+              "contents": []
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "start": 6,
+              "items": [
+                "Save your changes."
+              ]
+            },
+            {
+              "type": "image-text",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-24.png",
+              "orientation": "landscape",
+              "contents": []
+            },
+            {
+              "type": "image-text",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/product-25.png",
+              "orientation": "landscape",
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "content": "Page"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Select an existing page from your store to display its content inside the collapsible drawer. If a page is selected, its content will be displayed when customers open the tab."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "label": "Use Case",
+                  "items": [
+                    "Size Guide",
+                    "Shipping Policy",
+                    "Return Policy",
+                    "Warranty Information",
+                    "Product Care Guide"
+                  ]
+                }
+              ]
+            },
+            {
+              "contents": [
+                {
+                  "type": "heading",
+                  "level": 3,
+                  "content": "Padding"
+                },
+                {
+                  "type": "paragraph",
+                  "content": "Controls the spacing around the Collapsible Tab block."
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "<strong>Top Padding:</strong> Adds space above the block.",
+                    "<strong>Bottom Padding:</strong> Adds space below the block."
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6114,32 +6292,44 @@
           ]
         },
         {
-          "type": "section",
-          "contents": [
-            {
-              "type": "heading",
-              "level": 2,
-              "content": "Popup Settings"
-            },
-            {
-              "type": "image-text",
-              "url": "https://s3.zenexcloud.com/nextvence/rico/images/newsletter-popup-2.png",
-              "orientation": "landscape",
-              "contents": [
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "items": [
-                    "<strong>Color Scheme:</strong> Select the color scheme used throughout the popup. Choose a scheme that provides strong contrast between text, buttons, and backgrounds for better readability.",
-                    "<strong>Close Button Color:</strong> Controls the color of the popup close (×) icon. Use a color that remains visible against the popup background.",
-                    "<strong>Popup Layout:</strong> Choose how the newsletter popup is displayed. <em>Layout 1</em>  -  a large centered popup that can include a store logo, promotional image, heading, description, email signup form, and no-spam message. Best for promotional campaigns and visual marketing. <em>Layout 2</em>  -  a compact popup displayed in the bottom-right corner of the screen with a heading, description, email signup form, and subscribe button. Best for a less intrusive signup experience.",
-                    "<strong>Popup Frequency:</strong> Controls how often visitors see the popup. Options: Once per session, Once per day, Once per week, Once per month.",
-                    "<strong>Popup Image:</strong> Select an image to display inside the popup  -  for example, a product promotion, seasonal campaign, or lifestyle photo. Only available when Popup Layout is set to Layout 1."
-                  ]
-                }
-              ]
-            }
+  "type": "section",
+  "contents": [
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "Popup Settings"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "<strong>Color Scheme:</strong> Select the color scheme used throughout the popup. Choose a scheme that provides strong contrast between text, buttons, and backgrounds for better readability.",
+        "<strong>Close Button Color:</strong> Controls the color of the popup close (×) icon. Use a color that remains visible against the popup background."
+      ]
+    },
+    {
+      "type": "image-text",
+      "url": "https://s3.zenexcloud.com/nextvence/rico/images/newsletter-popup-2.png",
+      "orientation": "landscape",
+      "contents": [
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Popup Layout:</strong> Choose how the newsletter popup is displayed. <em>Layout 1</em>  -  a large centered popup that can include a store logo, promotional image, heading, description, email signup form, and no-spam message. Best for promotional campaigns and visual marketing. <em>Layout 2</em>  -  a compact popup displayed in the bottom-right corner of the screen with a heading, description, email signup form, and subscribe button. Best for a less intrusive signup experience.",
+            "<strong>Popup Frequency:</strong> Controls how often visitors see the popup. Options: Once per session, Once per day, Once per week, Once per month.",
+            "<strong>Popup Image:</strong> Select an image to display inside the popup  -  for example, a product promotion, seasonal campaign, or lifestyle photo. Only available when Popup Layout is set to Layout 1."
           ]
+        }
+      ]
+    },
+    {
+      "type": "image-text",
+      "url": "https://s3.zenexcloud.com/nextvence/rico/images/newsletter-popup-3.png",
+      "orientation": "landscape",
+      "contents": []
+    }
+  ]
         },
         {
           "type": "section",
@@ -6154,22 +6344,15 @@
               "content": "These settings control the content displayed before a customer subscribes."
             },
             {
-              "type": "image-text",
-              "url": "https://s3.zenexcloud.com/nextvence/rico/images/newsletter-popup-3.png",
-              "orientation": "landscape",
-              "contents": [
-                {
-                  "type": "list",
-                  "ordered": false,
-                  "items": [
-                    "<strong>Heading:</strong> Sets the main title displayed in the popup. Example: BE THE FIRST TO KNOW.",
-                    "<strong>Heading Width:</strong> Controls the maximum width of the heading text. Range: 100px–400px. Useful for controlling line breaks in longer headings. Only available in Layout 1.",
-                    "<strong>Subtext:</strong> Sets the supporting text displayed below the heading. Example: New drops, exclusive offers, and style inspiration straight to your inbox.",
-                    "<strong>Email Placeholder:</strong> Sets the placeholder text displayed inside the email input field. Example: Type your email.",
-                    "<strong>No Spam Text:</strong> Displays a reassurance message below the signup button. Example: No spam. Unsubscribe anytime. Only available in Layout 1.",
-                    "<strong>Button Text:</strong> Sets the text displayed on the newsletter signup button. Example: Join now."
-                  ]
-                }
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Heading:</strong> Sets the main title displayed in the popup. Example: BE THE FIRST TO KNOW.",
+                "<strong>Heading Width:</strong> Controls the maximum width of the heading text. Range: 100px–400px. Useful for controlling line breaks in longer headings. Only available in Layout 1.",
+                "<strong>Subtext:</strong> Sets the supporting text displayed below the heading. Example: New drops, exclusive offers, and style inspiration straight to your inbox.",
+                "<strong>Email Placeholder:</strong> Sets the placeholder text displayed inside the email input field. Example: Type your email.",
+                "<strong>No Spam Text:</strong> Displays a reassurance message below the signup button. Example: No spam. Unsubscribe anytime. Only available in Layout 1.",
+                "<strong>Button Text:</strong> Sets the text displayed on the newsletter signup button. Example: Join now."
               ]
             }
           ]
@@ -6185,6 +6368,12 @@
             {
               "type": "paragraph",
               "content": "Configure the experience shown after a customer successfully subscribes."
+            },
+            
+            {
+              "type": "image-text",
+              "url": "https://s3.zenexcloud.com/nextvence/rico/images/newsletter-popup-4.png",
+              "orientation": "landscape"
             },
             {
               "type": "list",
@@ -6750,12 +6939,66 @@
         },
         {
           "type": "paragraph",
-          "content": "Displays expandable sections that help organize product information without overwhelming the product page. Customers click a tab title to open a side drawer containing additional content. Common uses include product descriptions, care instructions, shipping information, warranty details, and FAQs."
+          "content": "The Collapsible Tab block displays expandable sections that help organize product information without overwhelming the product page. Customers can click a tab title to open a side drawer containing additional content."
         },
         {
-          "type": "image-text",
-          "url": "https://s3.zenexcloud.com/nextvence/rico/images/product-19.png",
-          "orientation": "landscape",
+          "type": "paragraph",
+          "content": "Common uses include product descriptions, care instructions, shipping information, warranty details, FAQs, and other supplementary product information."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "content": "Settings"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Title:</strong> Defines the heading displayed for the collapsible tab on the product page. (Default: Tab title)"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Use Case",
+          "items": [
+            "Description",
+            "Product Care",
+            "Shipping &amp; Returns",
+            "Materials",
+            "Warranty",
+            "FAQs"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Content:</strong> Adds the information displayed when the customer opens the collapsible tab."
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "The rich text editor supports",
+          "items": [
+            "Headings",
+            "Bold text",
+            "Italic text",
+            "Hyperlinks",
+            "Ordered lists",
+            "Unordered lists"
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "label": "Use Case",
+          "items": [
+            "Use this field to provide detailed product information, care instructions, shipping policies, warranty details, or other supporting content."
+          ]
+        },
+        {
           "contents": [
             {
               "type": "list",
@@ -6771,21 +7014,145 @@
           ]
         },
         {
-          "type": "image-text",
-          "url": "https://s3.zenexcloud.com/nextvence/rico/images/product-24.png",
-          "orientation": "landscape",
-          "contents": [
-            {
-              "type": "paragraph",
-              "content": "Select an existing page from your store to display its content inside the collapsible drawer. This option is useful for reusing content across multiple products, such as a Size Guide, Shipping Policy, Return Policy, Warranty Information, or Product Care Guide."
-            }
+          "type": "heading",
+          "level": 3,
+          "content": "Bind the Product Description to Collapsible Tab"
+        },
+        {
+          "type": "paragraph",
+          "content": "Display each product's description dynamically by connecting the Description collapsible tab to the product description field."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Open the Theme Editor and select the collapsible tab."
           ]
+        },
+        {
+          "type": "image-text",
+          "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-19.png",
+          "orientation": "landscape",
+          "contents": []
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "start": 2,
+          "items": [
+            "In the Content field, click the Dynamic Source (database) icon."
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-20.png",
+          "orientation": "landscape",
+          "contents": []
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "start": 3,
+          "items": [
+            "Select Current Block → Page."
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-21.png",
+          "orientation": "landscape",
+          "contents": []
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "start": 4,
+          "items": [
+            "From the available sources, choose Section → Product."
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-22.png",
+          "orientation": "landscape",
+          "contents": []
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "start": 5,
+          "items": [
+            "Select Description from the product fields."
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-23.png",
+          "orientation": "landscape",
+          "contents": []
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "start": 6,
+          "items": [
+            "Save your changes."
+          ]
+        },
+        {
+          "type": "image-text",
+          "url": "https://s3.zenexcloud.com/nextvence/rico/images/featured-product-24.png",
+          "orientation": "landscape",
+          "contents": []
         },
         {
           "type": "image-text",
           "url": "https://s3.zenexcloud.com/nextvence/rico/images/product-25.png",
           "orientation": "landscape",
-          "content":[]
+          "contents": [
+            {
+              "type": "heading",
+              "level": 3,
+              "content": "Page"
+            },
+            {
+              "type": "paragraph",
+              "content": "Select an existing page from your store to display its content inside the collapsible drawer. If a page is selected, its content will be displayed when customers open the tab."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "label": "Use Case",
+              "items": [
+                "Size Guide",
+                "Shipping Policy",
+                "Return Policy",
+                "Warranty Information",
+                "Product Care Guide"
+              ]
+            }
+          ]
+        },
+        {
+          "contents": [
+            {
+              "type": "heading",
+              "level": 3,
+              "content": "Padding"
+            },
+            {
+              "type": "paragraph",
+              "content": "Controls the spacing around the Collapsible Tab block."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "<strong>Top Padding:</strong> Adds space above the block.",
+                "<strong>Bottom Padding:</strong> Adds space below the block."
+              ]
+            }
+          ]
         }
       ]
     },
