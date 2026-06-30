@@ -4,7 +4,7 @@ export const sectionLabels: Record<string, string> = {
   "Install Theme": "Getting Started",
   "Logo and Favicon": "Theme Settings",
   "Announcement Bar": "Header & Footer",
-  "Featured Collection": "Sections",
+  "Breakdown": "Sections",
   "Collection Page":"Pages",
   "Product Page":"Product & Metafields"
 };  
